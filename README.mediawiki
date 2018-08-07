@@ -3,7 +3,7 @@
 This guide is intended to describe the best practices for <b>FIWARE Platform Development</b>, particularly for those projects which deal with the development of a GEi or accompanying module. There are three kinds of guidelines included:
 
 * MUST Guidelines. They are mandatory and your GEi project must conform to that.
- 
+
 * SHOULD Guidelines. They are not mandatory but <b>highly recommended</b> if you want to have a mature development process. 
 
 * MAY Guidelines. They are nice to have.
