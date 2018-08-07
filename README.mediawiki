@@ -264,4 +264,4 @@ Apart from the presence on the credits file, different recognitions can be given
 
 == Support ==
 
-Should you have any doubt please contact José Manuel Cantera.
+Should you have any doubt please contact fiware-help@lists.fiware.org.
