@@ -1,6 +1,6 @@
-= FIWARE Platform (GEi) Development Guidelines = 
+= FIWARE Platform Development Guidelines = 
 
-This guide is intended to describe the best practices for <b>FIWARE Platform Development</b>, particularly for those projects which deal with the development of a GEi or accompanying module. There are three kinds of guidelines included:
+This guide is intended to describe the best practices for <b>FIWARE Platform Development</b>, particularly for those projects which deal with the development of a GE or accompanying module. There are three kinds of guidelines included:
 
 * MUST Guidelines. They are mandatory and your GEi project must conform to that.
 
