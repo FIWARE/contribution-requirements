@@ -1,2 +1,0 @@
-# developmentGuidelines
-FIWARE Development Guidelines
