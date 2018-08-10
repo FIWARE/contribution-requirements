@@ -147,8 +147,7 @@ To avoid documentation inconsistencies, <b>development related</b> documents MUS
 
 * <b>Developers oriented</b> documentation MUST be included as part of the Github content. 
 * <b>MarkDown</b> (.md) is the recommended format for document files. Restructured Text (reST) might be used as well. 
-* Additional developer oriented documentation (advanced topics) MUST be present in a '/doc' folder at the root of your repository
-(or in an specific documentation repository associated to the GE).
+* Additional developer oriented documentation (advanced topics) MUST be present in a '/doc' folder at the root of your repository (or in an specific documentation repository associated to the GE).
 It is noteworthy that <i>you MUST use markdown format if you want to benefit from automatic documentation generation systems (readthedocs)</i>.
 * Code and documentation MUST be synced. To this aim, every <b>Pull Request</b> with any impact in existing documentation SHOULD include any related <b>documentation changes</b>.
 * <b>Inconsistencies</b> or lacks of documentation SHOULD be detected in Code Reviews and QA phases, opening <b>bugs</b> when necessary.
@@ -166,8 +165,7 @@ More specifically, the referred README SHOULD include:
 
 * Simple GE/Service <b>Description</b> and purpose - 
 ** The first paragraph should be an <b>elevator pitch</b> about the purpose of the repository (Since this is displayed on GitHub on mobile) 
-** Include direct <b> Readthedocs</b> links to the <b>User Guide</b>, <b>Admin Guide</b> in a subsequent introductory paragraph
-(To allow users to navigate directly between code and documentation )
+** Include direct <b> Readthedocs</b> links to the <b>User Guide</b>, <b>Admin Guide</b> in a subsequent introductory paragraph (To allow users to navigate directly between code and documentation )
 ** Include information about testbed environments if available
 
 * Then add a <b>Table of Contents</b> to make navigation through the rest of the document easier
@@ -270,15 +268,14 @@ A work item is a good candidate to become a <i>welcome contribution</i> if:
 * It is not time-sensitive or blocking
 * It has clear steps to reproduce
 * It is well understood
- 
+
 <i>Welcome contribution work items</i> <b>MUST</b> have <b><i>a mentor assigned</i></b> (who will typically be a member of the regular GE staff). The Mentor's role includes:
 
 * She will ensure that the right contributor is assigned. 
 * She understands how it can be done and will provide guidance on the best way to approach the problem. 
 * She will answer questions, review changes, and make the process as easy as possible by <b>reacting promptly</b>. 
 * She will make sure that a task is progressing. If nothing is heard from a contributor for a reasonable period of time the mentor might unassign the task. 
-* After a successful contribution, she recognizes the contributor and propose new work items to be accomplished, as now a mentor
-should have a good sense of the contributor's capabilities.
+* After a successful contribution, she recognizes the contributor and propose new work items to be accomplished, as now a mentor should have a good sense of the contributor's capabilities.
 
 The public backlog <b>MUST</b> provide a mechanism to allow assignment of work items to external contributors.
 Contributors who already come with a <i>proposed patch</i> <b>MUST</b> be given preference.
@@ -314,8 +311,7 @@ The public <b>backlog organization</b> for <i>Welcome Contributions</i> <b>SHOUL
 ** <b>Entry</b>. Entry level work items are typically low complexity tasks such as those which have to do with simple (one liner) bug fixing.
 It includes an extremely narrow scope, clear hardware and platform requirements, and prompt reviewer followup.
 They are aimed at making a new contributor familiar with the development environment and workflow. 
-** <b>Intermediate</b>. These are less trivial tasks and are focused on actually providing a solution to an issue identified.
-Few if any of these will be good starting points for new contributors. Actually, they are aimed at those contributors who have completed successfully
+** <b>Intermediate</b>. These are less trivial tasks and are focused on actually providing a solution to an issue identified. Few if any of these will be good starting points for new contributors. Actually, they are aimed at those contributors who have completed successfully
 at least one or two entry level work items. 
 ** <b>Advanced</b>. These are work items which difficulty is high or that have been brought up as important issues by the priority-triage processes.
 Previous experience in the project will be a must in order to be commissioned to the task.
