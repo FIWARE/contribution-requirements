@@ -1,7 +1,9 @@
 = FIWARE Platform Development Guidelines = 
 
-This guide is intended to describe the best practices for <b>FIWARE Platform Development</b>, particularly for those projects which deal
-with the development of a GE or accompanying module.
+This guide is intended to describe the recommended practices for <b>FIWARE Platform Development</b>, particularly for those projects which deal
+with the development of a GE or accompanying module. 
+
+
 There are three kinds of guidelines included:
 
 * MUST Guidelines. They are mandatory and your GE project must conform to that.
@@ -41,6 +43,10 @@ If that is not the case please read one of the many tutorials available on the I
 
 * Project repositories MUST include information badges as per the following [[project_badges.mediawiki|Guidelines]].
 
+== Checklist for GE Owners ==
+
+See [[GE_checklist.mediawiki|GE Checklist]]
+
 == Development Guidelines ==
 
 See [[development.mediawiki|Development Guidelines]]
@@ -51,4 +57,4 @@ See [[external_contributions.mediawiki|External Contributions Guidelines]]
 
 == Support ==
 
-Should you have any doubt please contact fiware-help@lists.fiware.org.
+Should you have any doubt please contact [mailto:fiware-help@lists.fiware.org mailto:fiware-help@lists.fiware.org].
