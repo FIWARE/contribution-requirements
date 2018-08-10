@@ -21,7 +21,7 @@ If that is not the case please read one of the many tutorials available on the I
 * The repository's README.md file MUST include: 
 ** the following sentence: <i>'This project is part of FIWARE'</i>. 
 ** a link to fiware.org. 
-** a link to  https://www.fiware.org/developers/catalogue/
+** a link to  https://catalogue.fiware.org
 
 * A Tracking system MUST be used in order to <b>manage the development work</b>. Such tracking system MUST include at least all the bugs/known issues of your component. 
 
