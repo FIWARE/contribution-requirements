@@ -70,8 +70,9 @@ Before landing new code the continuous integration system MAY be run in a tempor
 Nonetheless, in the event of continous integration <b>errors</b> the (offending) code MUST be <b>backed out</b> or a fix should be provided urgently. Use git revert for the former. 
 
 [https://travis-ci.org/ Travis-Ci] MAY be your <b>continuous integration system</b> as it is super-easy to integrate it with Github.
-Jenkins is another popular tool which has the advantage of being able to run on different OS. 
+Jenkins is another popular tool which has the advantage of being able to run on different OS.
 
+Unit tests coverage MAY be provided using open source tools like [https://coveralls.io/ coveralls]. See an example in [https://github.com/Wirecloud/wirecloud https://github.com/Wirecloud/wirecloud]
 
 You MUST include <b>Travis badges</b> (or other badges) in your README.md file. Travis badges can be used to report the current status of your build, (it should be green!).
 
