@@ -31,8 +31,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 * <b>Code and documentation</b> MUST be <b>synced</b>. A recommended practice (SHOULD) is that every Pull Request with a direct impact on documentation include documentation changes as well. 
 
-* To guarantee that documentation is of high quality, development related <b>documents</b> MUST be <b>peer-reviewed and QA verified</b>.
-See [[development.mediawiki#Documentation|Documentation Guidelines]] for the best documentation practices. 
+* To guarantee that documentation is of high quality, development related <b>documents</b> MUST be <b>peer-reviewed and QA verified</b>. See [[development.mediawiki#Documentation|Documentation Guidelines]] for the best documentation practices. 
 
 * Should you want to benefit from automatic documentation generation systems, namely, readthedocs, you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
 
