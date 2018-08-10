@@ -16,8 +16,7 @@ If that is not the case please read one of the many tutorials available on the I
 == Summary of MUST Guidelines ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
-* Github MUST be used during the <b>whole development lifecycle</b>. See [[#Development_Lifecycle]] which describes a set of best practices
-for collaborative open source development.
+* Github MUST be used during the <b>whole development lifecycle</b>. See [[#Development_Lifecycle]] which describes a set of best practices for collaborative open source development.
 
 * The repository's README.md file MUST include: 
 ** the following sentence: <i>'This project is part of FIWARE'</i>. 
@@ -30,17 +29,15 @@ for collaborative open source development.
 
 * Developers oriented <b>documentation</b> MUST be included as part of the <b>Github content</b>. 
 
-* <b>Code and documentation</b> MUST be <b>synced</b>. A recommended practice (SHOULD) is that every Pull Request with a direct impact on
-documentation include documentation changes as well. 
+* <b>Code and documentation</b> MUST be <b>synced</b>. A recommended practice (SHOULD) is that every Pull Request with a direct impact on documentation include documentation changes as well. 
 
 * To guarantee that documentation is of high quality, development related <b>documents</b> MUST be <b>peer-reviewed and QA verified</b>.
 See [[#Documentation]] for the best documentation practices. 
 
-* Should you want to benefit from FIWARE automatic documentation generation systems you
-<b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown]
+* Should you want to benefit from FIWARE automatic documentation generation systems you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown]
 for documentation.
 
-* API Specifications <SHOULD> be provided in [OpenAPI](https://github.com/OAI/OpenAPI-Specification), a.k.a. Swagger, format. 
+* API Specifications <SHOULD> be provided in [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format. 
 
 * Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository.
 They MUST be consistent with those reflected in the [https://catalogue-server.fiware.org/ FIWARE Catalogue].
@@ -54,8 +51,7 @@ They MUST be consistent with those reflected in the [https://catalogue-server.fi
 === SCM Tool ===
 
 * The SCM Tool MUST be [https://github.com Github.com]. Accompanying tools or plugins that integrate well with Github (ex. Gerrit) MAY be used. 
-* Github MUST be used during the <b>whole development lifecycle</b>. What that actually means is that you MUST use Github in your everyday development
-tasks and not as a mere code snapshot repository. See below. 
+* Github MUST be used during the <b>whole development lifecycle</b>.  
 * The name of the Github Repository MAY be <i>'fiware' + '-' + "Code Name of your GE"</i>. Example: <code>fiware-orion</code>. Nonetheless,the repository's README.md file <b>MUST</b> include: 
 ** the following sentence: <i>'This project is part of FIWARE'</i>. 
 ** a hyperlink to fiware.org. 
@@ -329,7 +325,7 @@ Previous experience in the project will be a must in order to be commissioned to
 Apart from the presence on the credits file, different recognitions can be given to external contributors.
 Some ideas, coming from the Mozilla Community can be found at [https://cbt.etherpad.mozilla.org/WaystoRecognize?].
 The greater recognition that can be made to a contributor is promotion to the 'active contributor' role
-(see [[https://docs.google.com/document/d/1nFJLMNtkHA3NNS1EoBTUPkiB62gAlM8ZNcyOvZCFZrU/edit?usp=sharing]]).
+(see [[https://docs.google.com/spreadsheets/d/183li2rrkTM4fPpgYWUc3czL5pB9MdbyFJXnCXE3-Mjo/edit?usp=sharing]]).
 These decision <b>MUST</b> be made by the GE owners taking into account the number, quality and sustainability in time of the contributions provided.
 
 == Support ==
