@@ -5,7 +5,7 @@ This page summarizes Guidelines for providing Docker Containers for FIWARE GEs. 
 There are three kinds of guidelines included:
 
 * MUST Guidelines. They are mandatory and your GE project must conform to that.
- 
+
 * SHOULD Guidelines. They are not mandatory but <b>highly recommended</b>. 
 
 * MAY Guidelines. They are nice to have.

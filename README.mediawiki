@@ -34,8 +34,7 @@ If that is not the case please read one of the many tutorials available on the I
 * To guarantee that documentation is of high quality, development related <b>documents</b> MUST be <b>peer-reviewed and QA verified</b>.
 See [[#Documentation]] for the best documentation practices. 
 
-* Should you want to benefit from FIWARE automatic documentation generation systems you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown]
-for documentation.
+* Should you want to benefit from automatic documentation generation systems, namely, readthedocs, you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
 
 * API Specifications <SHOULD> be provided in [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format. 
 
