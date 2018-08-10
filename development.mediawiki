@@ -163,9 +163,9 @@ Each code release SHOULD be properly <b>tagged</b> in your Github repository.
 
 Each component should always show a consistent view in the “Releases” and “Tags” tabs at GitHub.com. Examples:
 
-* https://github.com/telefonicaid/fiware-orion/releases
+* https://github.com/fiware/context.Orion/releases
 
-* https://github.com/telefonicaid/fiware-orion/tags
+* https://github.com/fiware/context.Orion/tags
 
 The release notes SHOULD include links for downloading the source code. 
 
@@ -188,9 +188,9 @@ They MUST be consistent with those reflected in the [http://catalogue-server.fiw
 
 Each FIWARE GE <b>MUST</b> be associated to an Stackoverflow tag. Such tag could be specific for a GE or default to a chapter generic tag, for instance <fiware-iot>. 
 
-Stackoverflow tags SHOULD be of the form [fiware-<GE codename>]. Example fiware-orion.
+Stackoverflow tags SHOULD be of the form ''fiware-<GE codename>''. Example fiware-orion.
 Creating new tags requires Stackoverflow Karma. You MAY ask someone from the FIWARE community with enough Karma to create tags for your GE.
-Otherwise you can use the [https://ask.fiware.org<b>FIWARE Q&A</b>] platform. 
+Otherwise you can use the [https://ask.fiware.org FIWARE Q&A] platform. 
 
 * ''Exception to the rule:'' In the case the GE is associated to an existing tag (e.g. the tag was created before that GE joined FIWARE),
 it could be used instead of the usual fiware-XXXX as an exception, as long as the two following conditions occur:
