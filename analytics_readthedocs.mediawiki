@@ -57,7 +57,7 @@ From the property section, you simply should select '''User Management''' on the
 
 If everything was successful, you should view a page like: 
 
-[[File:images/Fiware_community_added.png|900px]]
+[[File:images/Fiware_community_added.png]]
 
 === Set up Read the Docs === 
 
