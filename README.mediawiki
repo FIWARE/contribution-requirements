@@ -39,7 +39,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 * Support <b>responsiveness</b> is a MUST. If a feature is not implemented / not available / buggy, an alternative <b>workaround</b> MUST be provided.
 
-* Project repositories MUST include information badges as per the following [https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Project_Badges Guidelines].
+* Project repositories MUST include information badges as per the following [[Guidelines project_badges.mediawiki]].
 
 == Development Guidelines ==
 

@@ -1,0 +1,21 @@
+== Checklist for publishing new FIWARE Enablers ==
+
+This checklist is intended to inform new FIWARE GE owners of the steps that have to be taken in order to publish a new FIWARE GE:
+
+* New entry in the [https://catalogue.fiware.org FIWARE Catalogue] under the corresponding Chapter (Ask FF Staff). See also [[Working_with_the_FIWARE_catalogue]]
+* Github project mirrored to [https://github.com/fiware FIWARE's Github Account] (Ask FF staff to configure the mirroring)
+* Mirroring Github Webhook properly configured. See [[Configuring_webhook_in_Github_repository]].
+* Readthedocs portal available and styled using the FIWARE CSS. See [https://fiware-orion.readthedocs.org https://fiware-orion.readthedocs.org] as an example. 
+* See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference on how to configure readthedocs for automatic documentation generation. 
+* Analytics should be configured for the readthedocs portal as described by [[Configure_Google_Analytics_for_RTD]]
+* Docker image is available in [https://hub.docker.com/Dockerhub FIWARE's Dockerhub account]
+* FIWARE Development (Must) Guidelines are met. See [[Developer_Guidelines]]
+* The GE is registered in [https://jira.fiware.org Jira] as a component under the corresponding chapter and in the HELP-DESK (support) project (Ask FF Staff)
+* A Stackoverflow tag for the component is registered (Ask FF Staff)
+* A public instance is deployed in the FIWARE Lab (Ask FF Staff)
+* Roadmap is available at [[Current_Supported_Features_and_Roadmap_in_FIWARE]] (Ask FF Staff)
+* Release schedule is aligned with [[Releases_and_Sprints_numbering,_with_mapping_to_calendar_dates]]
+* Tutorial content is available in the [https://fiwaretourguide.readthedocs.org FIWARE Tour Guide]. See also [[TourGuide_Contributions]]
+* Consider adding educational content on the [https://edu.fiware.org FIWARE Academy]. See also [[Working_with_the_FIWARE_Academy]]
+* (Should) Provide some automatic unit tests in your github project using Open Source tool like coveralls. See an example in [https://github.com/Wirecloud/wirecloud https://github.com/Wirecloud/wirecloud]
+* Provide the corresponding information in order to see your component reflected in the monitoring tool [https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0 FIWARE - TSC Enablers Dashboard] (Ask FF Staff)
