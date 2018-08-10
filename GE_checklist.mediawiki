@@ -11,7 +11,7 @@ Any doubt or request to the FIWARE Foundation shall be made by sending an email 
 * See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference on how to configure readthedocs for automatic documentation generation. 
 * Analytics should be configured for the readthedocs portal as described by [[Configure_Google_Analytics_for_RTD]]
 * Docker image is available in [https://hub.docker.com/Dockerhub FIWARE's Dockerhub account]
-* FIWARE Development (Must) Guidelines are met. See [[development.mediawiki]]
+* FIWARE Development (Must) Guidelines are met. See [[development.mediawiki|Development Guidelines]]
 * The GE is registered in [https://jira.fiware.org Jira] as a component under the corresponding chapter and in the HELP-DESK (support) project (Ask FF Staff)
 * A Stackoverflow tag for the component is registered (Ask FF Staff)
 * A public instance is deployed in the FIWARE Lab (Ask FF Staff)
