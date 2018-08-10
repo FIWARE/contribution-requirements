@@ -5,11 +5,10 @@ This checklist is intended to inform new FIWARE GE owners of the steps that have
 Any doubt or request to the FIWARE Foundation shall be made by sending an email to [mailto:fiware-help@lists.fiware.org]
 
 * New entry in the [https://catalogue-server.fiware.org FIWARE Catalogue] under the corresponding Chapter agreed at TSC Level. See also [https://wiki.fiware.org/Working_with_the_FIWARE_catalogue]
-* Github project mirrored to [https://github.com/fiware FIWARE's Github Account].(Ask FF  to configure the mirroring)
+* Github project mirrored to [https://github.com/fiware FIWARE's Github Account]. (Ask FF  to configure the mirroring)
 * Mirroring Github Webhook properly configured. See [[Configuring_webhook_in_Github_repository]].
 * Readthedocs portal available and styled using the FIWARE CSS. See [https://fiware-orion.readthedocs.org https://fiware-orion.readthedocs.org] as an example. 
-* See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference
-on how to configure readthedocs for automatic documentation generation. 
+* See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference on how to configure readthedocs for automatic documentation generation. 
 * Analytics should be configured for the readthedocs portal as described by [[Configure_Google_Analytics_for_RTD]]
 * Docker image is available in [https://hub.docker.com/Dockerhub FIWARE's Dockerhub account]
 * FIWARE Development (Must) Guidelines are met. See [development.mediawiki]
@@ -17,8 +16,8 @@ on how to configure readthedocs for automatic documentation generation.
 * A Stackoverflow tag for the component is registered (Ask FF Staff)
 * A public instance is deployed in the FIWARE Lab (Ask FF Staff)
 * Roadmap is available at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE] (Ask FF Staff)
-* Release schedule is aligned with [https://wiki.fiware.org/Releases_and_Sprints_numbering,_with_mapping_to_calendar_dates]]
+* Release schedule is aligned with [https://wiki.fiware.org/Releases_and_Sprints_numbering,_with_mapping_to_calendar_dates]
 * A tutorial is provided (See some examples at [http://fiware-tutorials.readthedocs.io/en/latest/])
-* Consider adding educational content on the [https://edu.fiware.org FIWARE Academy]. See also [[https://wiki.fiware.org/Working_with_the_FIWARE_Academy]]
+* Consider adding educational content on the [https://edu.fiware.org FIWARE Academy]. See also [https://wiki.fiware.org/Working_with_the_FIWARE_Academy]
 * Provide the corresponding information in order to see your component reflected in the monitoring tool [https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0 FIWARE - TSC Enablers Dashboard] (Ask FF Staff)
 

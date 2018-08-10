@@ -35,10 +35,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 * Should you want to benefit from automatic documentation generation systems, namely, readthedocs, you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
 
-* API Specifications <SHOULD> be provided in [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format. 
-
-* Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository.
-They MUST be consistent with those reflected in the [https://catalogue-server.fiware.org/ FIWARE Catalogue].
+* API Specifications <SHOULD> be provided in [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format. Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository. They MUST be consistent with those reflected in the [https://catalogue-server.fiware.org/ FIWARE Catalogue].
 
 * Support <b>responsiveness</b> is a MUST. If a feature is not implemented / not available / buggy, an alternative <b>workaround</b> MUST be provided.
 
