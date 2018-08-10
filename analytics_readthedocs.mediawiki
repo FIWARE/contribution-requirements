@@ -7,7 +7,7 @@ Google Analytics properties allow to track web-pages visits and other informatio
 
 ==== Create new property without having a Google Analytics account ====
 If you don’t have a Google Analytics account, you can create one on http://analytics.google.com, a Google account is required. Once logged in with your Google account, you will see a page similar to this :
-[[File:Sign_up_analytics.png|900px]]
+[[File:images/Sign_up_analytics.png|900px]]
 
 
 You need to click on Sign up.
@@ -19,7 +19,7 @@ You will directly land on the account creation page. In this page you will also 
 *''' Website URL''': The URL of the Read the Docs generated site.
 * '''Industry Category''': The category of the project.
 * '''Reporting Time Zone''': The Time Zone that will be used in the generated reports.
-[[File:New_account.png|900px|]]
+[[File:images/New_account.png|900px|]]
 
 
 Once all the information is provided, you should click '''Get Tracking ID'''.
@@ -27,13 +27,13 @@ Once all the information is provided, you should click '''Get Tracking ID'''.
 
 After the creation of the property, it is ready to use. Google Analytics have some examples of how the property can  be used but we will use the Tracking ID directly. '''Annotate the Tracking ID''' because it will be used later.
 
-[[File:Tracking_id.png|900px]]
+[[File:images/Tracking_id.png|900px]]
 
 ==== Create new property having a Google Analytics account ====
 
 If you already have a Google Analytics account, from the''' Admin''' section, with the desired account  selected, you should select “'''Create new property'''” in the column named '''PROPERTY'''.
 
-[[File:New_property.png|900px]]
+[[File:images/New_property.png|900px]]
 
 On the '''Create new entity''' page you should fill the required information:
 * '''Website Name''': The name of the page that you are going to monitor.
@@ -41,14 +41,14 @@ On the '''Create new entity''' page you should fill the required information:
 * '''Industry Category''': The category of the project.
 * '''Reporting Time Zone''': The Time Zone that will be used in the generated reports.
 
-[[File:New_property_data.png|900px]]
+[[File:images/New_property_data.png|900px]]
 
 Once all the information is provided, you should click '''Get Tracking ID'''.
 
 
 After the creation of the property, it is ready to use. Google Analytics have some examples of how the property can  be used but we will use the Tracking ID directly.''' Annotate the Tracking ID''' because it will be used later.
 
-[[File:Tracking_id.png|900px]]
+[[File:images/Tracking_id.png|900px]]
 
 
 === Provide access to fiware.community account ===
@@ -57,7 +57,7 @@ From the property section, you simply should select '''User Management''' on the
 
 If everything was successful, you should view a page like: 
 
-[[File:Fiware_community_added.png|900px]]
+[[File:images/Fiware_community_added.png|900px]]
 
 === Set up Read the Docs === 
 
