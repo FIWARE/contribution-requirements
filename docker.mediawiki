@@ -1,0 +1,53 @@
+= Guidelines for GE Dockerization (Containerization) = 
+
+This page summarizes Guidelines for providing Docker Containers for FIWARE GEs. [https://docs.docker.com/engine/understanding-docker/ Click here] for an introduction to Docker.
+
+There are three kinds of guidelines included:
+
+* MUST Guidelines. They are mandatory and your GE project must conform to that.
+ 
+* SHOULD Guidelines. They are not mandatory but <b>highly recommended</b>. 
+
+* MAY Guidelines. They are nice to have.
+
+== Guidelines == 
+
+* At least one Dockerfile (hereby named as 'reference Dockerfile'), intended to GE users, <b>MUST</b> be provided. The base image (Ubuntu, CentOS, etc.) for such a Dockerfile might depend on each GE. 
+
+* Hacker-oriented Dockerfiles (intended to GE developers) <b>MAY</b> be provided as well. 
+
+* Each Docker container <b>MUST</b> define the following tags (present at [https://hub.docker.com/ Dockerhub]):
+** 'latest':  It will correspond to the latest stable release of the GE. 
+** 'develop': It will correspond to the latest build (latest code snapshot) of the GE. It might not be stable. 
+** '<release n>': one tag per relevant and active stable release. The name of the tag will correspond to the name assigned to the release in Github. 
+
+* The reference Dockerfile <b>MUST</b> be present under the 'docker' folder of the GE repository 
+
+* Should your GE depend on other components (Databases, etc.) you <b>MUST</b> provide a <b>docker-compose.yml</b> file that will allow to instantiate the GE together with its dependencies. 
+
+* A <b>README.md</b> <b>MUST</b> be provided under the docker folder. Such a README <b>MUST</b> give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
+
+* A GE's Docker <b>MUST</b> be published at least under the 'fiware' account on DockerHub (if possible, please avoid the term 'fiware'
+in your repository name, as the username already contains it).<br>
+The GE owner will be responsible for publication and maintenance operations. The publication method will be through the 'Automatic Build Procedure'
+which allows to link a Github repository to a Dockerhub one (and keep them in sync). In order to get access to that account and proceed
+with the publication, please get in touch with the FIWARE team at [mailto:fiware-help@lists.fiware.org]. </br>
+
+* Dockerfiles and Dockerhub repositories <b>MUST</b> be linked from the FIWARE Catalogue according to the Guidelines defined by the FIWARE Catalogue [http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Creating_instances]. 
+
+* GE Documentation <b>MUST</b> have Docker references (preferably through a link to the formerly mentioned README file)
+
+* Docker containers <b>MUST</b> be tested before being published to the community. Error in Docker materials of a GE will be considered as critical and <b>MUST</b> be fixed immediately. 
+
+* Dockerfiles <b>SHOULD</b> follow best practices as described [https://docs.docker.com/articles/dockerfile_best-practices/ here]
+
+== Examples == 
+
+[https://github.com/telefonicaid/fiware-orion/tree/develop/docker Github Repository]
+
+[https://registry.hub.docker.com/u/fiware/orion/ Docker Hub repository]
+
+
+== Support ==
+
+Should you have any question please send an email to [mailto:fiware-help@lists.fiware.org]
