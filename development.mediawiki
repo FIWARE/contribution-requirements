@@ -10,8 +10,7 @@
 ** a hyperlink to catalogue-server.fiware.org (to the section corresponding to the particular GE). (if the GE has already an entry in the catalogue).
 * When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
 
-* Every repository in Github SHOULD have at least one branch corresponding to the main development line,<br/>
-usually named 'master', and a certain number of additional branches/tags corresponding to releases.
+* Every repository in Github SHOULD have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.
 <br/>Please note that if you need to do bug fixing over previous releases you will implement such a fix over the corresponding branch
 and later you will uplift the code to the master branch, using <code>git cherry-pick</code>.
 
