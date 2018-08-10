@@ -16,7 +16,7 @@ If that is not the case please read one of the many tutorials available on the I
 == Summary of MUST Guidelines ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
-* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle]] which describes a set of best practices for collaborative open source development.
+* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle]] which describes a set of best practices for collaborative open source development.
 
 * The repository's README.md file MUST include: 
 ** the following sentence: <i>'This project is part of FIWARE'</i>. 
