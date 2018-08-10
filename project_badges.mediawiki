@@ -51,7 +51,7 @@ Should you have any doubt please check http://github.com/telefonicaid/fiware-ori
 
 TO BE CONFIRMED:
 
-[[File:Color-strip.png]]
+[[File:images/Color-strip.png]]
 
 The following standard FIWARE Colors and badges and ReadtheDocs CSS should be used the various  types of documentation produced
 
