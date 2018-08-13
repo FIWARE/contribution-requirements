@@ -13,10 +13,11 @@ GE's repository README.md file '''must''' include:
 * a link to fiware.org.
 * a link to https://catalogue.fiware.org
 * the [[project_badges.mediawiki|project badges]] which are stated as mandatory
+* what major.minor release of FIWARE each release of their product is compatible with
 
 == Ecosystem Support and Quality Requirements ==
 
-The Community behind each GE (owner, other caretakers) should commit to bring support to requests submitted through
+The Community behind each GE (owner, other caretakers) '''should''' commit to bring support to requests submitted through
 standard [mailto:fiware-help@lists.fiware.org FIWARE Help Desk channel] and QA testings executed by QA Lab team.
 
 The following assessments will be conducted:
@@ -27,8 +28,8 @@ The following assessments will be conducted:
 Results of assessments lead to QA label assignment based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema].
 QA labels of a given FIWARE GE will be always associated to a minor release of FIWARE. In the event of not meeting minimal QA requirements:
 
-* Yellow card reprimand will be issued when overall QA label is '''B''' or lower,
-* Red card reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE
+* ''Yellow card'' {{unicode|U+1F54E}} reprimand will be issued when overall QA label is '''B''' or lower,
+* ''Red card'' {{unicode|U+1F54E}} reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE
 
 == Licensing Requirements ==
 
@@ -60,15 +61,12 @@ Proposed approach for roadmap: just web page on FIWARE website describing what w
 Rules for numbering FIWARE releases:
 
 * Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
-* Minor release number: to be incremented with relevant milestones agreed at TSC level. FIWARE Summits by default. 
-Additional ones can be added if strictly needed and agreed at TSC level
+* Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level
 
 Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
 
 GE owners should:
 
-* document in README.md what major.minor release of FIWARE each release of their product is compatible with
-* Create a tag '<product release number>_FIWARE<major>.<minor>' to be attached to the corresponding docker images,
-where FIWARE<major>.<minor> is the release of FIWARE that docker image is compatible with (there can be several tags like that)
+* Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
-* ”compatibility” with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing
+* ”compatibility” with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing. 
