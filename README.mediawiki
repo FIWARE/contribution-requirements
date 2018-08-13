@@ -17,7 +17,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 == Summary of MUST Guidelines ==
 
-* All the [[GE_Requirements.mediawiki|GE General Requirements]] MUST be met. 
+* All the [[GE_Requirements.mediawiki|GE General Requirements]] '''MUST''' be met. 
 
 * A Tracking system MUST be used in order to <b>manage the development work</b>. Such tracking system MUST include at least all the bugs/known issues of your component. 
 
@@ -29,7 +29,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 * To guarantee that documentation is of high quality, development related <b>documents</b> MUST be <b>peer-reviewed and QA verified</b>. See [[development.mediawiki#Documentation|Documentation Guidelines]] for the best documentation practices. 
 
-* Should you want to benefit from automatic documentation generation systems, namely, readthedocs, you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
+* Should you want to benefit from automatic documentation generation systems, namely, [https://readthedocs.org readthedocs], you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
 
 * API Specifications MUST be provided. Preferred format is [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format.
 
