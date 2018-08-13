@@ -51,11 +51,11 @@ QA labels of a given FIWARE GE will always be associated to a minor release of F
 
 When using a copyleft open source license IPR Management rules have to be clearly stated:
 
-** There should be at least one organization which can exercise IPRs on the whole software.
-** It is acceptable that such organization is the original contributor (aka “Owner”).
-** There shall be a commitment to transfer to FIWARE Foundation the IPRs in case product is not longer supported.
-** An explanation document '''must''' visible at first level of README.md, allowing contributions from third parties.
-** There '''must''' be a statement ensuring that applications build on top will not get contaminated. Statement currently requested in the FIWARE Catalogue should be ok:
+* There should be at least one organization which can exercise IPRs on the whole software.
+* It is acceptable that such organization is the original contributor (aka “Owner”).
+* There shall be a commitment to transfer to FIWARE Foundation the IPRs in case product is not longer supported.
+* An explanation document '''must''' visible at first level of README.md, allowing contributions from third parties.
+* There '''must''' be a statement ensuring that applications build on top will not get contaminated. Statement currently requested in the FIWARE Catalogue should be ok:
 
 ''
 Please note that software derived as a result of modifying the source code of the 
