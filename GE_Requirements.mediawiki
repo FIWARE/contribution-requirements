@@ -1,6 +1,6 @@
 == General Requirements ==
 
-A FIWARE GE must Fit well in the architecture of a “Powered by FIWARE” solution:
+A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solution:
 
 * integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD). 
 * Producing context information, and/or Processing context information.
@@ -14,13 +14,12 @@ The Community behind each GE (owner, other caretakers) should commit to:
 
 * bring support to requests submitted through standard [mailto:fiware-help@lists.fiware.org FIWARE Help Desk channel] and QA testings planned by QA Lab team.
 
-The following assessments will be performed:
+The following assessments will be conducted:
 
 * Assessment on support, to be performed by automated monitoring tools defined by the FIWARE Foundation.
 * Assessment on functionality, (sw and documentation), non-functional requirements, etc. to be performed by the QA Lab team.
 
 Results of assessments lead to QA label assignment based on QA labeling schema. QA labels of a given FIWARE GE will be always associated to a minor release of FIWARE.
-
 In the event of not meeting QA requirements:
 
 * Yellow card reprimand will be issued when overall QA label is '''B''' or lower,
@@ -61,8 +60,7 @@ work is planned as a result of FIWARE Roadmap meetings.
 
 Rules for numbering FIWARE releases:
 
-* Major release number: to be increased by decision at TSC level, typically linked with major achievement (e.g., support
-to NGSI-LD)
+* Major release number: to be increased by decision at TSC level, typically linked with major achievement (e.g., support to NGSI-LD)
 
 * Minor release number: to be incremented with relevant milestones agreed at TSC level. FIWARE Summits by default
 these kind of milestones, additional ones can be added if strictly needed and agreed at TSC level
