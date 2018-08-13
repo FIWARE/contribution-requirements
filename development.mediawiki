@@ -77,7 +77,7 @@ You MUST include <b>Travis badges</b> (or other badges) in your README.md file. 
 
 A Tracking system MUST be used in order to <b>manage the development work</b>. Such tracking system MUST include at least all the bugs/known issues of your component. 
 
-The Tracking system SHOULD be <b>public</b>. You MAY use the FIWARE Jira as a <b>public tracking tool</b>.
+The Tracking system SHOULD be <b>public</b>. You MAY use the [https://jira.fiware.org FIWARE Jira] as a <b>public tracking tool</b>.
 
 When a commit is actually solving a bug/issue there MUST be a <b>cross-reference</b> between the commit message and the corresponding bug/issue in the Tracking System.  
 
@@ -92,6 +92,8 @@ If you want to <b>create community</b> around your component you should be open 
 On the other hand code authored by external contributors should not break the basic design principles of your component. Be prepared for trade-offs.
 
 == Documentation ==
+
+Apart from meeting the [[GE_Requirements.mediawiki#Documentation_Requirements|General Documentation Requirements]] the following guidelines apply. 
 
 To avoid documentation inconsistencies, <b>development related</b> documents MUST be handled in the same way than Source Code, this implies:
 
@@ -109,8 +111,6 @@ To avoid documentation inconsistencies, <b>development related</b> documents MUS
 ** How to get access to the advanced API and Documentation topics
 
 More specifically, the referred README SHOULD include:
-
-* Start with a series of <b>Project Badges</b> according to the [https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Project_Badges Specification]
 
 * Simple GE/Service <b>Description</b> and purpose - 
 ** The first paragraph should be an <b>elevator pitch</b> about the purpose of the repository (Since this is displayed on GitHub on mobile) 
@@ -157,6 +157,8 @@ So it is mandatory to <b>document every config param</b>, its available options 
 
 == Software Releases (source code) ==
 
+Apart from meeting the general [[GE_Requirements.mediawiki#Releases|Release Requirements]] the following guidelines apply.  
+
 Each code release SHOULD be properly <b>tagged</b> in your Github repository. 
 
 Each component should always show a consistent view in the “Releases” and “Tags” tabs at GitHub.com. Examples:
@@ -174,13 +176,15 @@ i.e. the list of changes regarding the previous version, including (if possible)
 
 GEs <b>MUST</b> provide Docker containers according to [[Docker|Docker Guidelines]]. 
 
-
 == Additional Repository Content ==
 
 Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository.
 They MUST be consistent with those reflected in the [http://catalogue-server.fiware.org FIWARE Catalogue].
 
 == Developer Support ==
+
+Apart from meeting the general [[GE_Requirements.mediawiki#Ecosystem_Support_and_Quality_Requirements|Ecosystem Support and Quality Requirements]] the following guidelines
+apply.  
 
 [http://stackoverflow.com Stackoverflow] SHOULD be used for thorough technical questions. Educate your users to <b>tag</b> their questions properly in Stackoverflow. 
 
