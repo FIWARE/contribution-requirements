@@ -61,10 +61,10 @@ work is planned as a result of FIWARE Roadmap meetings.
 
 Rules for numbering FIWARE releases:
 
-Major release number: to be increased by decision at TSC level, typically linked with major achievement (e.g., support
+* Major release number: to be increased by decision at TSC level, typically linked with major achievement (e.g., support
 to NGSI-LD)
 
-Minor release number: to be incremented with relevant milestones agreed at TSC level. FIWARE Summits by default
+* Minor release number: to be incremented with relevant milestones agreed at TSC level. FIWARE Summits by default
 these kind of milestones, additional ones can be added if strictly needed and agreed at TSC level
 
 Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of
@@ -74,13 +74,10 @@ Version numbering of GEs in
 
 GE owners should:
 
-document in README.md what major.minor release of FIWARE each release of their product is compatible with
-
-Create a tag <product release number>_FIWARE<major>.<minor> to be attached to the corresponding docker
+* document in README.md what major.minor release of FIWARE each release of their product is compatible with
+* Create a tag <product release number>_FIWARE<major>.<minor> to be attached to the corresponding docker
 images, where FIWARE<major>.<minor> is the release of FIWARE that docker image is compatible with (there can
 be several tags like that)
-
-Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
-
-”compatibility” with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE
+* Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
+* ”compatibility” with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE
 owner commits to do the relevant testing
