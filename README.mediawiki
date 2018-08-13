@@ -17,13 +17,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 == Summary of MUST Guidelines ==
 
-* The SCM Tool MUST be [https://github.com Github.com]. 
-* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle]] which describes a set of best practices for collaborative open source development.
-
-* The repository's README.md file MUST include: 
-** the following sentence: <i>'This project is part of FIWARE'</i>. 
-** a link to fiware.org. 
-** a link to  https://catalogue.fiware.org
+* All the [[GE_Requirements.mediawiki|GE General Requirements]] MUST be met. 
 
 * A Tracking system MUST be used in order to <b>manage the development work</b>. Such tracking system MUST include at least all the bugs/known issues of your component. 
 
@@ -37,15 +31,7 @@ If that is not the case please read one of the many tutorials available on the I
 
 * Should you want to benefit from automatic documentation generation systems, namely, readthedocs, you <b>MUST</b> use [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet markdown] for documentation.
 
-* API Specifications <SHOULD> be provided in [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format. Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository. They MUST be consistent with those reflected in the [https://catalogue-server.fiware.org/ FIWARE Catalogue].
-
-* Support <b>responsiveness</b> is a MUST. If a feature is not implemented / not available / buggy, an alternative <b>workaround</b> MUST be provided.
-
-* Project repositories MUST include information badges as per the following [[project_badges.mediawiki|Guidelines]].
-
-== Checklist for GE Owners ==
-
-See [[GE_checklist.mediawiki|GE Checklist]]
+* API Specifications MUST be provided. Preferred format is [https://github.com/OAI/OpenAPI-Specification OpenAPI], a.k.a. Swagger, format.
 
 == Development Guidelines ==
 

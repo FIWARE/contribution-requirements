@@ -5,15 +5,21 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 * integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD). 
 * Producing context information, and/or Processing context information.
 
+== Publication Requirements ==
+
+* The SCM Tool MUST be [https://github.com Github.com]. 
+* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle]] which describes a set of best practices for collaborative open source development.
+* * See [[GE_checklist.mediawiki|GE Publication Checklist]] for a list of tasks to be done in order to publish a new GE.
+
 == Documentation Requirements ==
 
 GE's repository README.md file '''must''' include:
 
 * the following sentence: 'This project is part of FIWARE'.
 * a link to fiware.org.
-* a link to https://catalogue.fiware.org
-* the [[project_badges.mediawiki|project badges]] which are stated as mandatory
-* what major.minor release of FIWARE each release of their product is compatible with
+* a link to https://catalogue.fiware.org.
+* the [[project_badges.mediawiki|project badges]] which are stated as mandatory.
+* what major.minor release of FIWARE each release of their product is compatible with.
 
 == Ecosystem Support and Quality Requirements ==
 
@@ -28,8 +34,8 @@ The following assessments will be conducted:
 Results of assessments lead to QA label assignment based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema].
 QA labels of a given FIWARE GE will be always associated to a minor release of FIWARE. In the event of not meeting minimal QA requirements:
 
-* ''Yellow card'' {{unicode|U+1F54E}} reprimand will be issued when overall QA label is '''B''' or lower,
-* ''Red card'' {{unicode|U+1F54E}} reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE
+* ''Yellow card'' reprimand will be issued when overall QA label is '''B''' or lower.
+* ''Red card'' reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE.
 
 == Licensing Requirements ==
 
@@ -69,4 +75,4 @@ GE owners should:
 
 * Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
-* ”compatibility” with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing. 
+* "compatibility" with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing. 
