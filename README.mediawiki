@@ -17,7 +17,9 @@ If that is not the case please read one of the many tutorials available on the I
 
 == Summary of MUST Guidelines ==
 
-* All the [[GE_Requirements.mediawiki|GE General Requirements]] '''MUST''' be met. 
+* All the [[GE_Requirements.mediawiki|GE General Requirements]] '''MUST''' be met.
+
+* The steps described by the [[GE_Checklist.mediawiki|GE Publication Checklist]] '''MUST''' be followed. 
 
 * A Tracking system MUST be used in order to <b>manage the development work</b>. Such tracking system MUST include at least all the bugs/known issues of your component. 
 
