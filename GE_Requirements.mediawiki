@@ -5,6 +5,16 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 * integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD). 
 * Producing context information, and/or Processing context information.
 
+== Development Lifecycle Requirements ==
+
+* Direct commits or self-commits to the master branch are not allowed. All contributions to master MUST come in the form of a Pull Request.
+* Pull Requests MUST include not only code changes but also test changes and documentation changes.
+* Pull Requests MUST be public and open during a reasonable period of time so that the community can check it and contribute if necessary
+* Pull Requests need to be approved (using the standard Github function or a 'LGTM' comment) by all the reviewers involved, i.e. all people that gave their feedback on it.
+* Pull Request approval MUST be issued by a thrid party. Nobody can auto-merge their contributions.
+* Before merging an open Pull Request Travis status MUST be green. 
+
+
 == Publication Requirements ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
@@ -54,14 +64,6 @@ considered a derivative work of the product. Software that merely uses or aggreg
 an otherwise unmodified version of existing software is not considered a derivative work.
 ''
 
-== Roadmap ==
-
-Representatives of the GE community '''MUST''' attend F2F roadmap meetings to take place at FIWARE Summits
-(not overlapping with agenda, day or day and a half before the Summit)
-
-Proposed approach for roadmap: just web page on FIWARE website describing what work is planned as a result of FIWARE Roadmap meetings.
-
-
 == Releases ==
 
 Rules for numbering FIWARE releases:
@@ -75,4 +77,12 @@ GE owners '''SHOULD''':
 
 * Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
-* "compatibility" with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing. 
+* "compatibility" with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing.
+
+== Roadmap ==
+
+Representatives of the GE community '''MUST''' attend F2F roadmap meetings to take place at FIWARE Summits
+(not overlapping with agenda, day or day and a half before the Summit)
+
+Proposed approach for roadmap: just web page on FIWARE website describing what work is planned as a result of FIWARE Roadmap meetings.
+

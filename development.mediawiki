@@ -16,6 +16,8 @@ and later you will uplift the code to the master branch, using <code>git cherry-
 
 == Development Lifecycle ==
 
+Apart from the minimal, mandatory lifecycle described by the [[GE_Requirements.mediawiki#Development_Lifecycle|GE Requirements]] the following guidelines also apply.
+
 The development lifecycle of a GE SHOULD be as follows: 
 
 1. When developing a new feature / bug try to <b>divide the work</b> into smaller parts.
@@ -85,7 +87,7 @@ When users report a new <b>bug</b>, it SHOULD be given an <b>estimation</b> of w
 If the bug is consider minor or a very edge case and it will not be resolved,
 it SHOULD be marked as 'WontFix' and closed. This decision MUST be <b>communicated</b> to the reporter together with a suggested workaround. 
 
-The <b>roadmap</b> of your component SHOULD be <b>public</b>.
+The <b>roadmap</b> of your component SHOULD be <b>public</b>. Please check the [[GE_Requirements.mediawiki#Roadmap|General Roadmap Requirements]]
 
 Be prepared for <b>external contributions</b>. When someone makes a Pull Request be responsive and consider carefully the proposal made.
 If you want to <b>create community</b> around your component you should be open minded.
@@ -179,6 +181,7 @@ GEs <b>MUST</b> provide Docker containers according to [[Docker|Docker Guideline
 == Additional Repository Content ==
 
 Files describing the <b>Licensing and Contribution Policy</b> MUST be included in the repository.
+Please check the [[GE_Requirements.mediawiki#Licensing_Requirements|General GE Licensing Requirements]]. 
 They MUST be consistent with those reflected in the [http://catalogue-server.fiware.org FIWARE Catalogue].
 
 == Developer Support ==
