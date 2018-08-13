@@ -1,6 +1,8 @@
 == General Requirements ==
 
-Fit well in the architecture of a “Powered by FIWARE” solution - integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD)
+A FIWARE GE must Fit well in the architecture of a “Powered by FIWARE” solution - integrate well with architectures where context management
+is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD)
+
 Producing context information, and/or Processing context information
 
 == Documentation Requirements ==
@@ -9,7 +11,8 @@ Producing context information, and/or Processing context information
 
 == Ecosystem Support and QA Testing ==
 
-The Community behind each GE (owner, other caretakers) should commit to bring support to requests submitted through standard FIWARE Help Desk channel and QA testings planned by QA Lab team:
+The Community behind each GE (owner, other caretakers) should commit to bring support to requests submitted
+through standard [mailto:fiware-help@lists.fiware.org|FIWARE Help Desk channel] and QA testings planned by QA Lab team:
 
 * Assessment on support to be performed by automated monitoring tools defined by the FIWARE Foundation.
 * Assessment on functionality (sw and documentation), non-functional requirements, etc to be performed by the QA Lab team.
