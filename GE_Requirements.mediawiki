@@ -9,11 +9,11 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
 * Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle]] which describes a set of best practices for collaborative open source development.
-* * See [[GE_checklist.mediawiki|GE Publication Checklist]] for a list of tasks to be done in order to publish a new GE.
+* See [[GE_checklist.mediawiki|GE Publication Checklist]] for a list of tasks to be done in order to publish a new GE.
 
 == Documentation Requirements ==
 
-GE's repository README.md file '''must''' include:
+GE's repository README.md file '''MUST''' include:
 
 * the following sentence: 'This project is part of FIWARE'.
 * a link to fiware.org.
@@ -23,7 +23,7 @@ GE's repository README.md file '''must''' include:
 
 == Ecosystem Support and Quality Requirements ==
 
-The Community behind each GE (owner, other caretakers) '''should''' commit to bring support to requests submitted through
+The Community behind each GE (owner, other caretakers) '''SHOULD''' commit to bring support to requests submitted through
 standard [mailto:fiware-help@lists.fiware.org FIWARE Help Desk channel] and QA testings executed by QA Lab team.
 
 The following assessments will be conducted:
@@ -32,7 +32,7 @@ The following assessments will be conducted:
 * Assessment on functionality, (sw and documentation), non-functional requirements, etc. to be performed by the QA Lab team.
 
 Results of assessments lead to QA label assignment based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema].
-QA labels of a given FIWARE GE will be always associated to a minor release of FIWARE. In the event of not meeting minimal QA requirements:
+QA labels of a given FIWARE GE will always be associated to a minor release of FIWARE. In the event of not meeting minimal QA requirements:
 
 * ''Yellow card'' reprimand will be issued when overall QA label is '''B''' or lower.
 * ''Red card'' reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE.
@@ -56,7 +56,7 @@ an otherwise unmodified version of existing software is not considered a derivat
 
 == Roadmap ==
 
-Representatives of the GE community '''must''' attend F2F roadmap meetings to take place at FIWARE Summits
+Representatives of the GE community '''MUST''' attend F2F roadmap meetings to take place at FIWARE Summits
 (not overlapping with agenda, day or day and a half before the Summit)
 
 Proposed approach for roadmap: just web page on FIWARE website describing what work is planned as a result of FIWARE Roadmap meetings.
@@ -71,7 +71,7 @@ Rules for numbering FIWARE releases:
 
 Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
 
-GE owners should:
+GE owners '''SHOULD''':
 
 * Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
