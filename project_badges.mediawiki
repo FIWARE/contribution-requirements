@@ -25,7 +25,7 @@ Github repositories `README.md` '''SHOULD''' include additional badges to displa
   Example: `https://travis-ci.org/Fiware/dataModels`
 * [[File:https://coveralls.io/repos/github/jason-fox/com.here.validate.svrl/badge.svg?branch=master]] -  ''Coveralls'' or equivalent Coverage tools 
   Example: `https://img.shields.io/coveralls/github/jekyll/jekyll.svg`
-* [[File:https://snyk.io/test/github/zaproxy/zap-api-java/badge.svg]](https://snyk.io/test/github/zaproxy/zap-api-java) - ''Sync'' or equivalent security tools for known vulnerabilities
+* [[File:https://snyk.io/test/github/zaproxy/zap-api-java/badge.svg]] - ''Sync'' or equivalent security tools for known vulnerabilities
    Example: `https://snyk.io/test/github/zaproxy/zap-api-java`
 
 
