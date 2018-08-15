@@ -11,6 +11,7 @@
 * When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
 
 * Every repository in Github SHOULD have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.
+* Every repository in Github SHOULD comply with the  Github recommended community standards checklist - e.g. https://github.com/telefonicaid/fiware-orion/community
 
 == Development Lifecycle ==
 
@@ -90,6 +91,19 @@ The <b>roadmap</b> of your component SHOULD be <b>public</b>. Please check the [
 Be prepared for <b>external contributions</b>. When someone makes a Pull Request be responsive and consider carefully the proposal made.
 If you want to <b>create community</b> around your component you should be open minded.
 On the other hand code authored by external contributors should not break the basic design principles of your component. Be prepared for trade-offs.
+
+
+== Code Quality ==
+
+Project repositories '''SHOULD''' automate coding formatting and run code linters/style checkers
+as part of the CI testing process where possible - e.g. Checkstyle, Lint4j, EsLint etc. A list of suitable tools can be found at: https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+
+To attract active support community, code  '''SHOULD''' regularly be upgraded to the latest LTS libraries and versions of dependencies - e.g. Java 8,9,10 rather than Java 1.4; ECMAScript 6 rather than ECMAScript 5 etc. Ideally such changes can also be applied automatically, but '''MUST''' be tested.
+
+Versions of dependent libraries with known vulnerabilities  '''SHOULD''' be upgraded
+
+You SHOULD include '''Synk badges'''  (or other badges) in your README.md file. Synk can be used to report the vulnerabilities of your build, (it should be green!).
+
 
 == Documentation ==
 
