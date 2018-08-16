@@ -57,6 +57,12 @@ The public <b>backlog organization</b> for <i>Welcome Contributions</i> <b>SHOUL
 ** <b>Intermediate</b>. These are less trivial tasks and are focused on actually providing a solution to an issue identified. Few if any of these will be good starting points for new contributors. Actually, they are aimed at those contributors who have completed successfully at least one or two entry level work items. 
 ** <b>Advanced</b>. These are work items which difficulty is high or that have been brought up as important issues by the priority-triage processes. Previous experience in the project will be a must in order to be commissioned to the task.
 
+
+* Repositories which are open to contributions Github SHOULD comply with the Github recommended community standards checklist by having a CONTRIBUTING.MD
+* Repositories which are open to contributions Github MAY require a pull request template
+* Repositories which are open to contributions Github SHOULD automate code formatting (e.g. Go fmt, prettier/Eslint for Nodejs, Jacobe or Checkstyle for Java etc.)
+
+
 == Recognitions ==
 
 Apart from the presence on the credits file, different recognitions can be given to external contributors.
