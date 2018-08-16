@@ -11,7 +11,7 @@
 * When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
 
 * Every repository in Github SHOULD have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.
-* Every repository in Github SHOULD comply with the  Github recommended community standards checklist - e.g. https://github.com/telefonicaid/fiware-orion/community
+* Every repository in Github SHOULD comply with the  Github recommended community standards checklist - e.g. https://github.com/Fiware/developmentGuidelines/community
 
 == Development Lifecycle ==
 
