@@ -12,6 +12,14 @@
 
 * Every repository in Github '''SHOULD''' have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.
 * Every repository in Github '''SHOULD''' comply with the  Github recommended community standards checklist - e.g. https://github.com/Fiware/developmentGuidelines/community
+* Every repository in Github '''SHOULD''' have a one line repository description  - the description '''SHOULD NOT''' be left blank
+* Where readthedocs docummentation exists for a repository in Github, the GitHub repository URL '''SHOULD'''  link back to the latest Readthedocs documentation - the URL '''SHOULD NOT''' be left blank
+* Every repository in Github '''SHOULD''' include a list of related topics including the following:
+** <code>fiware</code>
+** The name of the most frequently used related tag on Stack Overflow e.g. <code>fiware-orion</code>, <code>kurento</code>
+* Other relevant descriptive tags e.g. <code>contextual-data</code>, <code>iot-agent</code>, <code>security</code> etc. '''MAY''' be added.
+* When a Github repository is sample code related a Generic Enabler, it '''SHOULD''' also add the relevant Stack Overflow tag for that GE e.g. a python script generating context data for Orion should also include the <code>fiware-orion</code> tag.
+
 
 == Development Lifecycle ==
 
