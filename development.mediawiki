@@ -184,7 +184,7 @@ Running tests, contributing code & etc. '''SHOULD''' be linked directly from the
 '''SHOULD NOT''' be part of the ReadtheDocs Documentation - the justification is that many users of the
 software are not interested in contributing, but need to find user instructions alone without bloat in the text.
 
-Table-of-Contents listings '''MAY'' be added at the head of each file, but '''MUST''' come directly after the main <code>h1</code> header,
+Table-of-Contents listings '''MAY''' be added at the head of each file, but '''MUST''' come directly after the main <code>h1</code> header,
 and '''MUST NOT''' be preceded by <code>h2</code>  Table of Contents Header of their own. This means the ToC can be easily used 
 for navigation if reading the unstyled markdown files but easily  within the Readthedocs documentation itself and avoid
 duplication with the sidebar.
