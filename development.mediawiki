@@ -173,13 +173,13 @@ More specifically, the referred README '''SHOULD''' include:
 
 === Developer Oriented Documentation (ReadtheDocs) ===
 
-The name of the '''project''' on readthedocs '''SHOULD''' match the stackoveflow tag and docker image name, e.g. <code>fiware-orion</code> => <code>https://hub.docker.com/r/fiware/orion</code> => <code>https://fiware-orion.rtfd.io</code>.
+The name of the '''project''' on readthedocs '''SHOULD''' match the stackoverflow tag and docker image name, e.g. <code>fiware-orion</code> => <code>https://hub.docker.com/r/fiware/orion</code> => <code>https://fiware-orion.rtfd.io</code>.
 
 Admin access to each readthedocs documentation project '''MUST''' be granted to multiple accounts. This '''SHOULD''' include
 the current owner of the enabler, and '''MAY''' also be granted the <code>fiware</code> user account - this avoids 
 lock-out in case an individual administrator is unavailable.
 
-The Documentation '''title''' on readthedocs (i.e. the <code>site_name</code> within the <code>mkdocs.yml</code>) '''MUST''' reflect the name of the enabler. The title '''MAY''' match the stackoveflow tag or alternatively the <code>site_name</code> '''MAY''' consist of the enabler name wihout the 'fiware' prefix.
+The Documentation '''title''' on readthedocs (i.e. the <code>site_name</code> within the <code>mkdocs.yml</code>) '''MUST''' reflect the name of the enabler. The title '''MAY''' match the stackoverflow tag or alternatively the <code>site_name</code> '''MAY''' consist of the enabler name wihout the 'fiware' prefix.
 
 The basic format of the Developer Documentation should consist of the following sections in the following order
 
