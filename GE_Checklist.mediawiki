@@ -6,17 +6,15 @@ Any doubt or request to the FIWARE Foundation shall be made by sending an email 
 
 * New entry in the [https://catalogue-server.fiware.org FIWARE Catalogue] under the corresponding Chapter agreed at TSC Level. See also [https://wiki.fiware.org/Working_with_the_FIWARE_catalogue]
 * Mirroring Github Webhook properly configured. See [[repo_webhook.mediawiki]]  (Ask FF to configure the mirroring).
-* Readthedocs portal available and styled using the FIWARE CSS. See [https://fiware-orion.readthedocs.org https://fiware-orion.readthedocs.org] as an example. 
-* See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference on how to configure readthedocs for automatic documentation generation. 
-* Analytics should be configured for the readthedocs portal as described by [[analytics_readthedocs.mediawiki]]
+* ReadtheDocs portal available and styled using the FIWARE CSS. See [https://fiware-orion.readthedocs.org https://fiware-orion.readthedocs.org] as an example. 
+* See [https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml https://github.com/Fiware/context.Orion/blob/master/mkdocs.yml] as a reference on how to configure ReadtheDocs for automatic documentation generation. 
+* Analytics should be configured for the ReadtheDocs portal as described by [[analytics_readthedocs.mediawiki]]
 * Docker image is available in [https://hub.docker.com/Dockerhub FIWARE's Dockerhub account]
 * FIWARE Development (Must) Guidelines are met. See [[development.mediawiki|Development Guidelines]]
-* The GE is registered in [https://jira.fiware.org Jira] as a component under the corresponding chapter and in the HELP-DESK (support) project (Ask FF Staff)
 * A Stackoverflow tag for the component is registered (Ask FF Staff)
-* A public instance is deployed in the FIWARE Lab (Ask FF Staff)
-* Roadmap is available at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE] (Ask FF Staff)
+* A public instance may be deployed in the FIWARE Lab (Ask FF Staff)
+* Roadmap is available and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE] (Ask FF Staff)
 * Release schedule is aligned with [[GE_Requirements.mediawiki#Releases]]
 * A tutorial is provided (See some examples at [http://fiware-tutorials.readthedocs.io/en/latest/])
-* Consider adding educational content on the [https://edu.fiware.org FIWARE Academy]. See also [https://wiki.fiware.org/Working_with_the_FIWARE_Academy]
-* Provide the corresponding information in order to see your component reflected in the monitoring tool [https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0 FIWARE - TSC Enablers Dashboard] (Ask FF Staff)
+* Provide access to the corresponding information in order to see your component reflected in the monitoring tool [https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0 FIWARE - TSC Enablers Dashboard] (Ask FF Staff)
 
