@@ -35,8 +35,10 @@ SHOULD list could be rated as "good". The fulfillment of a high proportion of "*
 would result in an "excellent" rating.
 
 In an effort to maintain a commitment to continuous improvement, it should be noted that existing requirements will be
-periodically reviewed and guidelines may be re-rated to a higher category. At some point, an existing  "**SHOULD**"
-guideline may be re-rated as "**MUST**" for example.
+periodically reviewed, and guidelines may be re-rated to a higher category. At some point, an existing  "**SHOULD**"
+guideline may be re-rated as "**MUST**" for example. The owners of each enabler will be informed whenever a requirement
+is due to be added or modified, and there will be a grace period of at least one month before the stricter rating will
+be applied on assessments.
 
 
 
