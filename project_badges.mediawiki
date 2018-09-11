@@ -15,8 +15,10 @@ Github repositories `README.md` '''MUST''' include the following badges at the v
    Example:  `https://img.shields.io/readthedocs/fiware-orion.svg`
 *  [[File:https://img.shields.io/docker/pulls/fiware/orion.svg]]- ''Docker'' (pointer to the Docker container at the Docker Hub Repository)
   Example: `https://img.shields.io/docker/pulls/fiware/orion.svg`
-* [[File:https://img.shields.io/badge/support-sof-yellowgreen.svg]] -  ''Support'' (pointer to the support channel, stackoverflow, askbot, which can be used to get support). 
-  Example: `https://img.shields.io/badge/support-sof-yellowgreen.svg`
+* [[File:https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow]] -  ''Stack Overflow'' tag (pointer to the  stackoverflow support channel)
+  Example: `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
+* [[File:https://img.shields.io/badge/support-askbot-yellowgreen.svg]] -  ''Support'' (pointer to the support channel, askbot, which can be used to get support if Stackoverflow is not used) 
+  Example: `https://img.shields.io/badge/support-askbot-yellowgreen.svg`
 * [[File:https://img.shields.io/maintenance/yes/2019.svg]] - ''Maintenance'' - to show active support for a repository
    Example: `https://img.shields.io/maintenance/yes/2019.svg`
 
