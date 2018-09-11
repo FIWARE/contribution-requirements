@@ -9,14 +9,38 @@ with the development of a GE or accompanying module.
 
 There are three kinds of guidelines included:
 
-* MUST Guidelines. They are mandatory and your GE project must conform to that.
+* **MUST** Guidelines. They are mandatory and your GE project must conform to that.
 
-* SHOULD Guidelines. They are not mandatory but **highly recommended** if you want to have a mature development process.
+* **SHOULD** Guidelines. They are not mandatory but **highly recommended** if you want to have a mature development process.
 
-* MAY Guidelines. They are nice to have.
+* **MAY** Guidelines. They are useful good practise, currently nice to have, but are expected to be a sign of further good development process as the tools around them mature in the future
 
 The Guide assumes that the reader knows the basics of Github, Travis, test driven development and continous integration.
 If that is not the case please read one of the many tutorials available on the Internet.
+
+### Impact on Rating and Continuous Improvement
+
+To further clarify, all mature Generic Enablers **MUST** comply with all "**MUST**" requirements, failure to do so will
+result in a written warning and a requirement to comply within a given period of time. Mature Generic Enablers which
+make no effort to fulfill the gaps in their commitments, will be quarantined and will be removed from the list of Enablers.
+
+It is accepted that Incubated Enablers may not currently comply with all "**MUST**" requirements, but are expected to be working towards fulfilling them. All of the "**MUST**" requirements must be fulfilled before the incubation period is
+complete.
+
+In addition, all Generic Enablers are expected to continuously improve and strive to apply industry best practise by
+fulfilling as many "**SHOULD**" and "**MAY**" requirements as they can. The quality of each enabler will be checked
+against the guideline list, failure to apply guidelines will result in a lower quality rating - for example, an
+enabler fulfilling only 20% of the SHOULD list could be rated as "poor", whereas an enabler fulfilling all of the
+SHOULD list could be rated as "good". The fulfillment of a high proportion of "**MAY**" guidelines (where applicable)
+would result in an "excellent" rating.
+
+In an effort to maintain a commitment to continuous improvement, it should be noted that existing requirements will be
+periodically reviewed, and guidelines may be re-rated to a higher category. At some point, an existing  "**SHOULD**"
+guideline may be re-rated as "**MUST**" for example. The owners of each enabler will be informed whenever a requirement
+is due to be added or modified, and there will be a grace period of at least one month before the stricter rating will
+be applied on assessments.
+
+
 
 ## Summary of MUST Guidelines
 
