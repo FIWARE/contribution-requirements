@@ -27,16 +27,13 @@ which describes a set of best practices for collaborative open source developmen
 The README.md file of the GitHub repo, or several GitHub repos, associated to a FIWARE GE, '''MUST''' include an Introduction/About section at the beginning which includes:
 
 * the following paragraph clearly showing that the product has been labeled as a FIWARE GE and introducing FIWARE: 
-::'<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”.
-FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components
-to accelerate the development of Smart Solutions. You can find more info at the [https://deveopers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
+::'<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://deveopers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
 The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [https://catalogue.fiware.org FIWARE Catalogue]'
 ::
 * the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory
 * what major.minor release of FIWARE each release of the product is compatible with
 * links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of
 FIWARE is described (see sections on Releases and Roadmap below).
-
 
 == Documentation Requirements ==
 
