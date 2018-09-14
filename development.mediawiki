@@ -1,13 +1,11 @@
-= Development Guidelines =
+= Development Lifecycle Recommendations in FIWARE =
 
 == SCM Tool ==
 
 * The SCM Tool '''MUST''' be [https://github.com Github.com]. Accompanying tools or plugins that integrate well with Github (ex. Gerrit) '''MAY''' be used. 
 * Github '''MUST''' be used during the '''whole development lifecycle'''.  
-* The name of the Github Repository '''MAY''' be <i>'fiware' + '-' + "Code Name of your GE"</i>. Example: <code>fiware-orion</code>. Nonetheless,the repository's README.md file '''MUST''' include: 
-** the following sentence: <i>'This project is part of FIWARE'</i>. 
-** a hyperlink to fiware.org. 
-** a hyperlink to catalogue-server.fiware.org (to the section corresponding to the particular GE). (if the GE has already an entry in the catalogue).
+* The name of the Github Repository '''MAY''' be <i>'fiware' + '-' + "Code Name of your GE"</i>. Example: <code>fiware-orion</code>.
+* The Github Repository content '''MUST''' meet the [[GE_Requirements.mediawiki#Publication_Requirements|GE Publication Requirements]]
 * When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
 
 * Every repository in Github '''SHOULD''' have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.

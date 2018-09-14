@@ -1,4 +1,4 @@
-== Checklist for publishing new FIWARE Enablers ==
+== Checklist for publishing FIWARE Generic Enablers ==
 
 This checklist is intended to inform new FIWARE GE owners of the steps that have to be taken in order to publish a new FIWARE GE.
 
