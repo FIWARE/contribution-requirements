@@ -58,7 +58,7 @@ be applied on assessments.
 
 * To guarantee that documentation is of high quality, development related **documents** MUST be **peer-reviewed and QA verified**. See [Documentation Guidelines](development.mediawiki#Documentation) for the best documentation practices.
 
-* Should you want to benefit from automatic documentation generation systems, namely, [readthedocs](https://readthedocs.org), you **MUST** use [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for documentation.
+* Should you want to benefit from automatic documentation generation systems, namely, [readthedocs](https://readthedocs.org), you **MUST** use [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst) for documentation.
 
 * API Specifications MUST be provided. Preferred format is [OpenAPI](https://github.com/OAI/OpenAPI-Specification), a.k.a. Swagger, format.
 
