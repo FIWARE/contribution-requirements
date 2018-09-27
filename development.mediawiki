@@ -121,7 +121,9 @@ To avoid documentation inconsistencies, '''development related''' documents '''M
 
 * '''Developer oriented''' documentation '''MUST''' be included as part of the Github content. 
 * '''MarkDown''' (.md) is the recommended format for document files. Restructured Text (reST) might be used as well. 
-* Additional developer oriented documentation (advanced topics) '''MUST''' be present in a '/doc' folder at the root of your repository (or in an specific documentation repository associated to the GE). It is noteworthy that <i>you '''MUST''' use markdown format if you want to benefit from automatic documentation generation systems (readthedocs)</i>.
+* Additional developer oriented documentation (advanced topics) '''MUST''' be present in a '/doc' folder at the root of your repository (or in an specific documentation repository associated to the GE). It is noteworthy that <i>you '''MUST''' use an approved markup notation format if you want to benefit from automatic documentation generation systems (readthedocs)</i>.
+** [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet Markdown] is preferred for simple documents.
+** [https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst ReStructuredText] is an acceptable alternative for complex documentation.
 * Code and documentation '''MUST''' be synced. To this aim, every '''Pull Request''' with any impact in existing documentation '''SHOULD''' include any related '''documentation changes'''.
 * '''Inconsistencies''' or lacks of documentation '''SHOULD''' be detected in Code Reviews and QA phases, opening '''bugs''' when necessary.
 
