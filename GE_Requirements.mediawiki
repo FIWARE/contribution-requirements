@@ -99,10 +99,13 @@ software in order to fix a bug or incorporate enhancements IS considered a deriv
 Software that merely uses or aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
 ::
 
+Every enabler MUST be open to third party contributions. All offered contributions MUST be reviewed within a "reasonable" timeframe.
 
-Contributions from third parties MUST be accepted. There MUST be a document clearly describing the terms under which the IPR of contributions to the source code
+There MUST be a document (CONTRIBUTIONS guidelines) clearly describing the terms under which the IPR of contributions to the source code
 of the product will be managed. Such document MUST be made accessible in (or map to) a first-level section of the README.md file included
-in the associated GitHub repositories. When using a copyleft open source license, IPR Management rules for contributions MUST include clauses securing thathave to be clearly stated:
+in the associated GitHub repositories.
+
+When using a copyleft open source license, IPR Management rules for contributions MUST include clauses as follows:
 
 * There should be at least one organization which can exercise IPRs on the whole software.
 * There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software is not longer
