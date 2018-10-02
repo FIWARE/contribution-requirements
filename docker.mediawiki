@@ -23,7 +23,7 @@ There are three kinds of guidelines included:
 ** <code><release n></code>: one tag per relevant and active stable release. The name of the tag will correspond to the name assigned to the release in Github.
 ** <code>FIWARE_<release n></code>: one stable release every six months for all FIWARE components. This indicates GEs which will work together
 
-* The reference Dockerfile '''MUST''' be present under the 'docker' folder of the GE repository 
+* The reference Dockerfile '''MUST''' be present under the <code>docker</code> folder of the GE repository 
 
 * Should your GE depend on other components (Databases, etc.) you '''MUST''' provide a <code>docker-compose.yml</code> file that will allow to instantiate the GE together with its dependencies. 
 

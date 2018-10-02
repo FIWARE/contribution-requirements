@@ -13,7 +13,10 @@ Any doubt or request to the FIWARE Foundation shall be made by sending an email 
 * FIWARE Development (Must) Guidelines are met. See [[development.mediawiki|Development Guidelines]]
 * A Stackoverflow tag for the component is registered (Ask FF Staff)
 * A public instance may be deployed in the FIWARE Lab (Ask FF Staff)
-* Roadmap is available and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE] (Ask FF Staff)
+* Roadmap is available at one of the following:
+** Promoted on the git hub wiki and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE]
+** Promoted in a publicly available document on the web and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE]
+** Full text found within [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE]
 * Release schedule is aligned with [[GE_Requirements.mediawiki#Releases]]
 * A tutorial is provided (See some examples at [http://fiware-tutorials.readthedocs.io/en/latest/])
 * Provide access to the corresponding information in order to see your component reflected in the monitoring tool [https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0 FIWARE - TSC Enablers Dashboard] (Ask FF Staff)

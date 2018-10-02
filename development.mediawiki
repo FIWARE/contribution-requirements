@@ -267,5 +267,9 @@ Anyway, this is a workaround valid only in the case a tag synonym cannot be crea
 
 '''New releases''' of your components '''SHOULD''' be announced through different channels: FIWARE Blog, dedicated Twitter or similar channels, your own Blog ... 
 
-Support '''responsiveness''' is a '''MUST''' in case your enabler has an Web interface. If a feature is not implemented / not available, an alternative '''workaround''' '''MUST''' be provided.
-Afterwards it can be decided whether it is necessary / worth adding such a new feature to your backlog.
+To build and maintain the FIWARE community, it is essential that the team responsible for each product to openly engage with the wider development community,
+therefore responding to User Support requests in a timely manner is a '''MUST'''.
+
+* If an external developer has found an issue with existing functionality which cannot be fixed in a timely manner, a known issue '''MUST''' be added to the documentation.
+* If an external developer has found a fixable issue with existing functionality an alternative '''workaround''' '''MUST''' be provided, and the code patched as soon as possible.
+* If an external developer suggests support for a new feature is not implemented / not available, an alternative '''workaround''' '''SHOULD''' be provided where possible.
