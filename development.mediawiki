@@ -50,7 +50,7 @@ Nonetheless, every commit message '''MUST''' be descriptive of what feature or b
 5. Once a Pull Request is done, a '''code review''' will be performed. Find a competent reviewer that can perform a code review.
 There can be more than one reviewer but one of them '''SHOULD''' be a main developer or technical owner/architect of the project.
 Typically the reviewer will test the feature, review the code (style, robustness, structure, performance) and suggest some changes.
-The code review '''MUST''' be made using the code review facilities provided by Github. 
+The code review '''MUST''' be made using the code review facilities provided by Github.
 
 6. Try to address all the comments suggested by reviewers. If a comment is not going to be addressed a rationale '''SHOULD''' be provided.
 
@@ -58,7 +58,7 @@ The code review '''MUST''' be made using the code review facilities provided by 
 
 8. Land (merge) the new code. But before landing '''ensure that all tests are passing'''.
 Under certain conditions your Pull Request could not be directly landed (merged). In that case you would need to rebase your branch with the master branch,
-resolve all conflicts, push them and finally merge the new code in the master branch.
+resolve all conflicts, push them and finally merge the new code in the master branch. Nobody can auto-merge their contributions.
 
 9. If later you discover that new code is breaking something <i>do not hesitate to back out the culprit code</i>.
 That's the advantage of landing only one commit. Backing out code is as easy as <code>git revert <commit_hash></code> .
