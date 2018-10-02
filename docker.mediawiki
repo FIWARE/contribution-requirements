@@ -27,7 +27,7 @@ There are three kinds of guidelines included:
 
 * Should your GE depend on other components (Databases, etc.) you '''MUST''' provide a <code>docker-compose.yml</code> file that will allow to instantiate the GE together with its dependencies. 
 
-* A README.md '''MUST''' be provided under the 'docker' folder. Such a README '''MUST''' give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
+* A README.md '''MUST''' be provided under the <code>docker</code> folder. Such a README '''MUST''' give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
 * The README.md '''MUST''' list all available <code>ENV</code> variables that can be supplied to the Docker Image
 
 * If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets, the '''README.md''' '''MUST''' list all available <code>ENV</code> variables which have an equivalent <code>_FILE</code> that can be supplied by secrets.
