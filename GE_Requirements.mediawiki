@@ -9,7 +9,7 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 
 * Direct commits or self-commits to the master branch are not allowed. All contributions to master MUST come in the form of a Pull Request.
 * Pull Requests MUST include not only code changes but also test changes and documentation changes.
-* Pull Requests MUST be public and open during a reasonable period of time so that the community can check them and contribute if necessary
+* Pull Requests MUST be public and open during a reasonable period of time so that the community can check them and contribute if necessary.
 * Pull Requests need to be approved (using the standard Github function or a 'LGTM' comment) by all the reviewers involved, i.e. all people that gave their feedback on it.
 * Pull Request approval MUST be issued by a third party. Nobody can auto-merge their contributions.
 * Before merging an open Pull Request Travis status MUST be green. 
@@ -18,32 +18,27 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 == Publication Requirements ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
-* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle Recommendations in FIWARE]]
-which describes a set of best practices for collaborative open source development.
+* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle Recommendations in FIWARE]] which describes a set of best practices for collaborative open source development.
 * See [[GE_Checklist.mediawiki|Checklist for publishing FIWARE Generic Enablers]] for a list of tasks to be done in order to publish a new GE.
 
-== Requirements regarding reference to FIWARE ==
+== Documentation Requirements ==
+
+=== Requirements regarding reference to FIWARE ===
 
 The README.md file of the GitHub repo, or several GitHub repos, associated to a FIWARE GE, '''MUST''' include an Introduction/About section at the beginning which includes:
 
 * the following paragraph clearly showing that the product has been labeled as a FIWARE GE and introducing FIWARE: 
-::'<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://deveopers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
+::'<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://developers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
 The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [https://catalogue.fiware.org FIWARE Catalogue]'
 ::
-* the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory
-* what major.minor release of FIWARE each release of the product is compatible with.
-* links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of
-FIWARE is described (see sections on Releases and Roadmap below).
 
-== Documentation Requirements ==
+=== README.md Contents ===
 
 GE's repository README.md file '''MUST''' include:
 
-* the following sentence: 'This project is part of FIWARE'.
-* a link to fiware.org.
-* a link to https://catalogue.fiware.org.
-* the [[project_badges.mediawiki|project badges]] which are stated as mandatory.
-* what major.minor release of FIWARE each release of their product is compatible with.
+* the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory.
+* what major.minor release of FIWARE the product is compatible with.
+* links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of FIWARE is described (see sections on Releases and Roadmap below).
 * a section within the README displaying the GE ratings defined as follows:
 [[File:images/rating.png]]
 
@@ -81,9 +76,7 @@ QA labels of a given FIWARE GE will always be associated to a minor release of F
 == Licensing and IPR Management Requirements ==
 
 The source code of the product MUST be licensed under [https://opensource.org/licenses/alphabetical one of the well-recognized open source licenses approved by the Open Source Initiative].
-The open source license under which source code of the product is licensed MUST be clearly mentioned in a first-level section of the README.md file
-included in the main GitHub repository. When using a copyleft open source license, the following paragraph '''MUST''' be added in the section
-where the open source license is mentioned:
+The open source license under which source code of the product is licensed MUST be clearly mentioned in a first-level section of the README.md file included in the main GitHub repository. When using a copyleft open source license, the following paragraph '''MUST''' be added in the section where the open source license is mentioned:
 
 ::
 Please note that software derived as a result of modifying the source code of the <name-of-product>
@@ -93,15 +86,12 @@ Software that merely uses or aggregates (i.e. links to) an otherwise unmodified 
 
 Every enabler MUST be open to third party contributions. All offered contributions MUST be reviewed within a "reasonable" timeframe.
 
-There MUST be a document (CONTRIBUTIONS guidelines) clearly describing the terms under which the IPR of contributions to the source code
-of the product will be managed. Such document MUST be made accessible in (or map to) a first-level section of the README.md file included
-in the associated GitHub repositories.
+There MUST be a document (CONTRIBUTIONS guidelines) clearly describing the terms under which the IPR of contributions to the source code of the product will be managed. Such document MUST be made accessible in (or map to) a first-level section of the README.md file included in the associated GitHub repositories.
 
 When using a copyleft open source license, IPR Management rules for contributions MUST include clauses as follows:
 
 * There should be at least one organization which can exercise IPRs on the whole software.
-* There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software is not longer
-supported by the organization(s) that currently own(s) IPR on the whole software.
+* There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software is not longer supported by the organization(s) that currently own(s) IPR on the whole software.
 
 == Releases ==
 
@@ -117,7 +107,6 @@ The release note for each versioned release should include a list of the latest 
 ** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release."
 
 ** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release, except in the following cases: {a bullet lit follows with a detail of GE incompatibilities}".
-
 
 FIWARE GE owners '''SHOULD''':
 
