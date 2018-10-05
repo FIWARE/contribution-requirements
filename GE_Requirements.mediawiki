@@ -32,12 +32,6 @@ The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [ht
 ::
 * the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory
 * what major.minor release of FIWARE each release of the product is compatible with.
-* The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against as follows: 
-
-** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release."
-
-** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release, except in the following cases: {a bullet lit follows with a detail of GE incompatibilities}".
-
 * links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of
 FIWARE is described (see sections on Releases and Roadmap below).
 
@@ -50,9 +44,6 @@ GE's repository README.md file '''MUST''' include:
 * a link to https://catalogue.fiware.org.
 * the [[project_badges.mediawiki|project badges]] which are stated as mandatory.
 * what major.minor release of FIWARE each release of their product is compatible with.
-
-
-The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against.
 * a section within the README displaying the GE ratings defined as follows:
 [[File:images/rating.png]]
 
@@ -117,9 +108,16 @@ supported by the organization(s) that currently own(s) IPR on the whole software
 The following rules apply for numbering FIWARE releases:
 
 * Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
-* Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level
+* Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level.
 
 Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
+
+The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against as follows: 
+
+** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release."
+
+** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release, except in the following cases: {a bullet lit follows with a detail of GE incompatibilities}".
+
 
 FIWARE GE owners '''SHOULD''':
 
