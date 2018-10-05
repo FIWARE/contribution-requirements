@@ -14,7 +14,6 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 * Pull Request approval MUST be issued by a third party. Nobody can auto-merge their contributions.
 * Before merging an open Pull Request Travis status MUST be green. 
 
-
 == Publication Requirements ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
@@ -104,9 +103,9 @@ Major.minor numbering of FIWARE GEs in the Core Context Management chapter match
 
 The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against as follows: 
 
-** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release."
+** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release."
 
-** "This release of {component} [note that this text appears in a release note so "this" identifies the concerned version] is part of FIWARE release {FIWARE_ver}, and it is fully compatible with all other GE components in the same FIWARE release, except in the following cases: {a bullet lit follows with a detail of GE incompatibilities}".
+** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release, excepting: {a bullet lit follows with a detail of GE incompatibilities}".
 
 FIWARE GE owners '''SHOULD''':
 
@@ -114,7 +113,7 @@ FIWARE GE owners '''SHOULD''':
 where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
 
-"Compatibility" with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing.
+"Compatibility" with a release means compatibility with Core FIWARE GEs in that release, i.e. the FIWARE GE owner commits to do the relevant testing.
 
 == Roadmap ==
 
