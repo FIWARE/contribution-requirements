@@ -94,6 +94,8 @@ When using a copyleft open source license, IPR Management rules for contribution
 
 == Releases ==
 
+* Every release MUST have an associated Release Notes file. 
+
 The following rules apply for numbering FIWARE releases:
 
 * Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
