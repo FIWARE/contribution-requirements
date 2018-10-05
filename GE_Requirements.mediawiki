@@ -109,8 +109,7 @@ The release note for each versioned release should include a list of the latest 
 
 FIWARE GE owners '''SHOULD''':
 
-* Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images,
-where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
+* Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
 
 "Compatibility" with a release means compatibility with Core FIWARE GEs in that release, i.e. the FIWARE GE owner commits to do the relevant testing.
