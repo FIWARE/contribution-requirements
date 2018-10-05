@@ -36,7 +36,7 @@ The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [ht
 GE's repository README.md file '''MUST''' include:
 
 * the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory.
-* what major.minor release of FIWARE the product is compatible with.
+* a link to the Release Notes so that developers can check what <major>.<minor> FIWARE Release the product is compatible with (see [[#Releases|Releases]])
 * links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of FIWARE is described (see sections on Releases and Roadmap below).
 * a section within the README displaying the GE ratings defined as follows:
 [[File:images/rating.png]]
