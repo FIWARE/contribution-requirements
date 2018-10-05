@@ -89,7 +89,7 @@ When using a copyleft open source license, IPR Management rules for contribution
 
 == Releases ==
 
-* Every release MUST have an associated Release Notes file. 
+* Every release MUST have an associated Release Notes entry at the Github Releases section. See [[Example|https://github.com/telefonicaid/fiware-orion/releases]]
 
 The following rules apply for numbering FIWARE releases:
 
