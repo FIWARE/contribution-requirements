@@ -26,9 +26,9 @@ A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solut
 
 The README.md file of the GitHub repo, or several GitHub repos, associated to a FIWARE GE, '''MUST''' include an Introduction/About section at the beginning which includes:
 
-* the following paragraph clearly showing that the product has been labeled as a FIWARE GE and introducing FIWARE: 
-::'<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://developers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
-The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [https://catalogue.fiware.org FIWARE Catalogue]'
+* the following paragraph, introducing FIWARE, clearly showing that the product has been labeled as a FIWARE GE: 
+::<q><name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://developers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
+The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [https://catalogue.fiware.org FIWARE Catalogue]</q>
 ::
 
 === README.md Contents ===
@@ -66,8 +66,7 @@ The following assessments will be conducted:
 * Assessment on support, to be performed by automated monitoring tools defined by the FIWARE Foundation.
 * Assessment on functionality, (sw and documentation), non-functional requirements, etc. to be performed by the FIWARE QA Lab team.
 
-Results of these assessments lead to the assignment of a QA label based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema].
-QA labels of a given FIWARE GE will always be associated to a minor release of FIWARE. In the event of not meeting the minimal QA requirements:
+Results of these assessments lead to the assignment of a QA label based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema]. QA labels of a given FIWARE GE will always be associated to a minor release of FIWARE. In the event of not meeting the minimal QA requirements:
 
 * ''Yellow card'' reprimand will be issued when overall QA label is '''B''' or lower.
 * ''Red card'' reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE.
@@ -77,11 +76,13 @@ QA labels of a given FIWARE GE will always be associated to a minor release of F
 The source code of the product MUST be licensed under [https://opensource.org/licenses/alphabetical one of the well-recognized open source licenses approved by the Open Source Initiative].
 The open source license under which source code of the product is licensed MUST be clearly mentioned in a first-level section of the README.md file included in the main GitHub repository. When using a copyleft open source license, the following paragraph '''MUST''' be added in the section where the open source license is mentioned:
 
+<q>
 ::
 Please note that software derived as a result of modifying the source code of the <name-of-product>
 software in order to fix a bug or incorporate enhancements IS considered a derivative work of the product.
 Software that merely uses or aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
 ::
+</q>
 
 Every enabler MUST be open to third party contributions. All offered contributions MUST be reviewed within a "reasonable" timeframe.
 
@@ -100,8 +101,7 @@ The following rules apply for numbering FIWARE releases:
 
 * Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
 * Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level.
-
-Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
+* Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
 
 The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against as follows: 
 
