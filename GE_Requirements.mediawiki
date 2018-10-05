@@ -76,9 +76,7 @@ Results of these assessments lead to the assignment of a QA label based on [http
 The source code of the product MUST be licensed under [https://opensource.org/licenses/alphabetical one of the well-recognized open source licenses approved by the Open Source Initiative].
 The open source license under which source code of the product is licensed MUST be clearly mentioned in a first-level section of the README.md file included in the main GitHub repository. When using a copyleft open source license, the following paragraph '''MUST''' be added in the section where the open source license is mentioned:
 
-::Please note that software derived as a result of modifying the source code of the <name-of-product>
-software in order to fix a bug or incorporate enhancements IS considered a derivative work of the product.
-Software that merely uses or aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
+::Please note that software derived as a result of modifying the source code of the <name-of-product> software in order to fix a bug or incorporate enhancements IS considered a derivative work of the product. Software that merely uses or aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
 
 Every enabler MUST be open to third party contributions. All offered contributions MUST be reviewed within a "reasonable" timeframe.
 
