@@ -101,7 +101,7 @@ The release note for each versioned release should include a list of the latest 
 
 ** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release."
 
-** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release, excepting: {a bullet lit follows with a detail of GE incompatibilities}".
+** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release, excepting: {a bullet list follows with a detail of GE incompatibilities}".
 
 FIWARE GE owners '''SHOULD''':
 
