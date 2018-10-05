@@ -1,13 +1,11 @@
-= Development Guidelines =
+= Development Lifecycle Recommendations in FIWARE =
 
 == SCM Tool ==
 
 * The SCM Tool '''MUST''' be [https://github.com Github.com]. Accompanying tools or plugins that integrate well with Github (ex. Gerrit) '''MAY''' be used. 
 * Github '''MUST''' be used during the '''whole development lifecycle'''.  
-* The name of the Github Repository '''MAY''' be <i>'fiware' + '-' + "Code Name of your GE"</i>. Example: <code>fiware-orion</code>. Nonetheless,the repository's README.md file '''MUST''' include: 
-** the following sentence: <i>'This project is part of FIWARE'</i>. 
-** a hyperlink to fiware.org. 
-** a hyperlink to catalogue-server.fiware.org (to the section corresponding to the particular GE). (if the GE has already an entry in the catalogue).
+* The name of the Github Repository '''MAY''' be <i>'fiware' + '-' + "Code Name of your GE"</i>. Example: <code>fiware-orion</code>.
+* The Github Repository content '''MUST''' meet the [[GE_Requirements.mediawiki#Publication_Requirements|GE Publication Requirements]]
 * When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
 
 * Every repository in Github '''SHOULD''' have at least one branch corresponding to the main development line,usually named 'master', and a certain number of additional branches/tags corresponding to releases.
@@ -121,7 +119,9 @@ To avoid documentation inconsistencies, '''development related''' documents '''M
 
 * '''Developer oriented''' documentation '''MUST''' be included as part of the Github content. 
 * '''MarkDown''' (.md) is the recommended format for document files. Restructured Text (reST) might be used as well. 
-* Additional developer oriented documentation (advanced topics) '''MUST''' be present in a '/doc' folder at the root of your repository (or in an specific documentation repository associated to the GE). It is noteworthy that <i>you '''MUST''' use markdown format if you want to benefit from automatic documentation generation systems (readthedocs)</i>.
+* Additional developer oriented documentation (advanced topics) '''MUST''' be present in a '/doc' folder at the root of your repository (or in an specific documentation repository associated to the GE). It is noteworthy that <i>you '''MUST''' use an approved markup notation format if you want to benefit from automatic documentation generation systems (readthedocs)</i>.
+** [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet Markdown] is preferred for simple documents.
+** [https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst ReStructuredText] is an acceptable alternative for complex documentation.
 * Code and documentation '''MUST''' be synced. To this aim, every '''Pull Request''' with any impact in existing documentation '''SHOULD''' include any related '''documentation changes'''.
 * '''Inconsistencies''' or lacks of documentation '''SHOULD''' be detected in Code Reviews and QA phases, opening '''bugs''' when necessary.
 

@@ -2,34 +2,42 @@
 
 A FIWARE GE must fit well in the architecture of a “Powered by FIWARE” solution:
 
-* integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, next ETSI NGSI-LD). 
-* Producing context information, and/or Processing context information.
+* Integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, compliant with ETSI NGSI-LD in the future).
+* Be able to fit within one of the defined FIWARE chapters.
 
 == Development Lifecycle Requirements ==
 
 * Direct commits or self-commits to the master branch are not allowed. All contributions to master MUST come in the form of a Pull Request.
 * Pull Requests MUST include not only code changes but also test changes and documentation changes.
-* Pull Requests MUST be public and open during a reasonable period of time so that the community can check it and contribute if necessary
+* Pull Requests MUST be public and open during a reasonable period of time so that the community can check them and contribute if necessary.
 * Pull Requests need to be approved (using the standard Github function or a 'LGTM' comment) by all the reviewers involved, i.e. all people that gave their feedback on it.
-* Pull Request approval MUST be issued by a thrid party. Nobody can auto-merge their contributions.
+* Pull Request approval MUST be issued by a third party. Nobody can auto-merge their contributions.
 * Before merging an open Pull Request Travis status MUST be green. 
-
 
 == Publication Requirements ==
 
 * The SCM Tool MUST be [https://github.com Github.com]. 
-* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle]] which describes a set of best practices for collaborative open source development.
-* See [[GE_Checklist.mediawiki|GE Publication Checklist]] for a list of tasks to be done in order to publish a new GE.
+* Github MUST be used during the <b>whole development lifecycle</b>. See [[development.mediawiki#Development_Lifecycle|Development Lifecycle Recommendations in FIWARE]] which describes a set of best practices for collaborative open source development.
+* See [[GE_Checklist.mediawiki|Checklist for publishing FIWARE Generic Enablers]] for a list of tasks to be done in order to publish a new GE.
 
 == Documentation Requirements ==
 
+=== Requirements regarding reference to FIWARE ===
+
+The README.md file of the GitHub repo, or several GitHub repos, associated to a FIWARE GE, '''MUST''' include an Introduction/About section at the beginning which includes:
+
+* the following paragraph, introducing FIWARE, clearly showing that the product has been labeled as a FIWARE GE: 
+
+::<name of the product> is a FIWARE Generic Enabler. Therefore, it  can be integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated framework of open source platform components which can be assembled together with other third-party platform components to accelerate the development of Smart Solutions. You can find more info at the [https://developers.fiware.org FIWARE developers] website and the [https://fiware.org FIWARE] website.
+The complete list of FIWARE GEs and Incubated FIWARE GEs can be found at the [https://catalogue.fiware.org FIWARE Catalogue]
+
+=== README.md Contents ===
+
 GE's repository README.md file '''MUST''' include:
 
-* the following sentence: 'This project is part of FIWARE'.
-* a link to fiware.org.
-* a link to https://catalogue.fiware.org.
-* the [[project_badges.mediawiki|project badges]] which are stated as mandatory.
-* what major.minor release of FIWARE each release of their product is compatible with.
+* the [[project_badges.mediawiki|Project Badges]] which are stated as mandatory.
+* a link to the Release Notes so that developers can check what <major>.<minor> FIWARE Release the product is compatible with (see [[#Releases|Releases]])
+* links to proper places on the FIWARE website (or related repositories) where planned roadmap of the product with respect to future releases of FIWARE is described (see sections on Releases and Roadmap below).
 * a section within the README displaying the GE ratings defined as follows:
 [[File:images/rating.png]]
 
@@ -50,56 +58,61 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 == Ecosystem Support and Quality Requirements ==
 
-The Community behind each GE (owner, other caretakers) '''SHOULD''' commit to bring support to requests submitted through
+The Community behind each FIWARE GE (owner, other contributors) '''SHOULD''' bring support to requests submitted through
 standard [mailto:fiware-help@lists.fiware.org FIWARE Help Desk channel] and QA testings executed by QA Lab team.
 
 The following assessments will be conducted:
 
 * Assessment on support, to be performed by automated monitoring tools defined by the FIWARE Foundation.
-* Assessment on functionality, (sw and documentation), non-functional requirements, etc. to be performed by the QA Lab team.
+* Assessment on functionality, (sw and documentation), non-functional requirements, etc. to be performed by the FIWARE QA Lab team.
 
-Results of assessments lead to QA label assignment based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema].
-QA labels of a given FIWARE GE will always be associated to a minor release of FIWARE. In the event of not meeting minimal QA requirements:
+Results of these assessments lead to the assignment of a QA label based on [https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf FIWARE QA labeling schema]. QA labels of a given FIWARE GE will always be associated to a minor release of FIWARE. In the event of not meeting the minimal QA requirements:
 
 * ''Yellow card'' reprimand will be issued when overall QA label is '''B''' or lower.
 * ''Red card'' reprimand when overall QA label is '''C''' or lower or keeps being '''B''' in two consecutives minor releases of FIWARE.
 
-== Licensing Requirements ==
+== Licensing and IPR Management Requirements ==
 
-When using a copyleft open source license IPR Management rules have to be clearly stated:
+The source code of the product MUST be licensed under [https://opensource.org/licenses/alphabetical one of the well-recognized open source licenses approved by the Open Source Initiative].
+The open source license under which source code of the product is licensed MUST be clearly mentioned in a first-level section of the README.md file included in the main GitHub repository. When using a copyleft open source license, the following paragraph '''MUST''' be added in the section where the open source license is mentioned:
+
+::Please note that software derived as a result of modifying the source code of the <name-of-product> software in order to fix a bug or incorporate enhancements IS considered a derivative work of the product. Software that merely uses or aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
+
+Every enabler MUST be open to third party contributions. All offered contributions MUST be reviewed within a "reasonable" timeframe.
+
+There MUST be a document (CONTRIBUTIONS guidelines) clearly describing the terms under which the IPR of contributions to the source code of the product will be managed. Such document MUST be made accessible in (or map to) a first-level section of the README.md file included in the associated GitHub repositories.
+
+When using a copyleft open source license, IPR Management rules for contributions MUST include clauses as follows:
 
 * There should be at least one organization which can exercise IPRs on the whole software.
-* It is acceptable that such organization is the original contributor (aka “Owner”).
-* There shall be a commitment to transfer to FIWARE Foundation the IPRs in case product is not longer supported.
-* An explanation document '''must''' visible at first level of README.md, allowing contributions from third parties.
-* There '''must''' be a statement ensuring that applications build on top will not get contaminated. Statement currently requested in the FIWARE Catalogue should be ok:
-
-''
-Please note that software derived as a result of modifying the source code of the 
-'name-of-product' product software in order to fix a bug or incorporate enhancements is
-considered a derivative work of the product. Software that merely uses or aggregates (i.e. links to)
-an otherwise unmodified version of existing software is not considered a derivative work.
-''
+* There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software is not longer supported by the organization(s) that currently own(s) IPR on the whole software.
 
 == Releases ==
 
-Rules for numbering FIWARE releases:
+* Every release MUST have an associated Release Notes entry at the Github Releases section. See [[Example|https://github.com/telefonicaid/fiware-orion/releases]]
+
+The following rules apply for numbering FIWARE releases:
 
 * Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
-* Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level
+* Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level.
+* Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
 
-Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
+The release note for each versioned release should include a list of the latest version of interoperable enablers it has been tested against as follows: 
 
-GE owners '''SHOULD''':
+** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release."
+
+** "This release of {component} (please note that this text appears in a release note file so "this" identifies the concerned version) is part of FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE components pertaining to the same FIWARE release, excepting: {a bullet list follows with a detail of GE incompatibilities}".
+
+FIWARE GE owners '''SHOULD''':
 
 * Create a tag ''<product release number>_FIWARE<major>.<minor>'' to be attached to the corresponding docker images, where ''FIWARE<major>.<minor>'' is the release of FIWARE that docker image is compatible with (there can be several tags like that)
 * Notify the FIWARE Foundation whenever a new release of the FIWARE GE has been released.
-* "compatibility" with a release means compatibility with Core FIWARE GEs in that release: the FIWARE GE owner commits to do the relevant testing.
+
+"Compatibility" with a release means compatibility with Core FIWARE GEs in that release, i.e. the FIWARE GE owner commits to do the relevant testing.
 
 == Roadmap ==
 
 Representatives of the GE community '''MUST''' attend F2F roadmap meetings to take place at FIWARE Summits
-(not overlapping with agenda, day or day and a half before the Summit)
+(not overlapping with agenda, day or day and a half before the Summit or after the Congress part)
 
-Proposed approach for roadmap: just web page on FIWARE website describing what work is planned as a result of FIWARE Roadmap meetings.
-
+There will be a web page on the FIWARE website describing what work is planned as a result of these FIWARE Roadmap meetings.
