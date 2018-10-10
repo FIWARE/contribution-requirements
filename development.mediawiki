@@ -11,7 +11,7 @@
 * Every repository in Github '''SHOULD''' have at least one branch corresponding to the main development line, usually named 'master', and a certain number of additional branches/tags corresponding to releases.
 * Every repository in Github '''SHOULD''' comply with the  Github recommended community standards checklist - e.g. https://github.com/Fiware/developmentGuidelines/community
 * Every repository in Github '''SHOULD''' have a one line repository description  - the description '''SHOULD NOT''' be left blank
-* Where ReadtheDocs docummentation exists for a repository in Github, the GitHub repository URL '''SHOULD'''  link back to the latest Readthedocs documentation - the URL '''SHOULD NOT''' be left blank
+* Where ReadtheDocs documentation exists for a repository in Github, the GitHub repository URL '''SHOULD'''  link back to the latest ReadtheDocs documentation - the URL '''SHOULD NOT''' be left blank
 * Every repository in Github '''SHOULD''' include a list of related topics including the following:
 ** <code>fiware</code>
 ** The name of the most frequently used related tag on Stack Overflow e.g. <code>fiware-orion</code>, <code>kurento</code>
@@ -140,7 +140,7 @@ More specifically, the referred README '''SHOULD''' include:
 
 * Simple GE/Service '''Description''' and purpose - 
 ** The first paragraph '''SHOULD''' be an '''elevator pitch''' about the purpose of the repository (Since this is displayed on GitHub on mobile) 
-** Include direct ''' Readthedocs''' links to the '''User Guide''', '''Admin Guide''' in a subsequent introductory paragraph (To allow users to navigate directly between code and documentation )
+** Include direct ''' ReadtheDocs''' links to the '''User Guide''', '''Admin Guide''' in a subsequent introductory paragraph (To allow users to navigate directly between code and documentation )
 ** Include information about testbed environments if available
 
 * Then add a '''Table of Contents''' to make navigation through the rest of the document easier
@@ -199,7 +199,7 @@ if reading the unstyled markdown files on GitHub, but can be hidden using CSS wi
 ReadtheDocs documentation itself and avoid duplication with the sidebar Navigation.
 
 Markdown for ReadtheDocs '''MUST NOT''' use HTML rendering such as <code>a</code> tags as 
-the navigation will no longer work correctly in Readthedocs. 
+the navigation will no longer work correctly in ReadtheDocs. 
 
 Markdown for ReadtheDocs may use <code>h1...h6</code> HTML headers if necessary to suppress entries in the
 ReadtheDocs sidebar.
