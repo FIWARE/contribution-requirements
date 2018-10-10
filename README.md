@@ -58,7 +58,7 @@ be applied on assessments.
 
 * To guarantee that documentation is of high quality, development related **documents** MUST be **peer-reviewed and QA verified**. See [Documentation Guidelines](development.mediawiki#Documentation) for the best documentation practices.
 
-* Should you want to benefit from automatic documentation generation systems, namely, [readthedocs](https://readthedocs.org), you **MUST** use an approved markup notation
+* Should you want to benefit from automatic documentation generation systems, namely, [ReadtheDocs](https://readthedocs.org), you **MUST** use an approved markup notation
     * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is preferred for simple documents.
     * [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst) is an acceptable alternative for complex documentation.
 

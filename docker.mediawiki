@@ -23,18 +23,18 @@ There are three kinds of guidelines included:
 ** <code><release n></code>: one tag per relevant and active stable release. The name of the tag will correspond to the name assigned to the release in Github.
 ** <code>FIWARE_<release n></code>: one stable release every six months for all FIWARE components. This indicates GEs which will work together
 
-* The reference Dockerfile '''MUST''' be present under the 'docker' folder of the GE repository 
+* The reference Dockerfile '''MUST''' be present under the <code>docker</code> folder of the GE repository 
 
 * Should your GE depend on other components (Databases, etc.) you '''MUST''' provide a <code>docker-compose.yml</code> file that will allow to instantiate the GE together with its dependencies. 
 
-* A README.md '''MUST''' be provided under the docker folder. Such a README '''MUST''' give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
+* A README.md '''MUST''' be provided under the <code>docker</code> folder. Such a README '''MUST''' give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
 * The README.md '''MUST''' list all available <code>ENV</code> variables that can be supplied to the Docker Image
 
-* If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets The '''README.md''' '''MUST''' list all available <code>ENV</code> variables which have an equivalent <code>_FILE</code> that can be supplied by secrets.
+* If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets, the '''README.md''' '''MUST''' list all available <code>ENV</code> variables which have an equivalent <code>_FILE</code> that can be supplied by secrets.
 
 * It '''MUST''' be possible to supply sensitive information using the Docker Secrets mechanism as well as plain text variables for testing. Sensitive information (e.g. passwords) '''MUST NOT''' be passed in plain text - <code>ENV</code> variables alone. 
 
-* It '''SHOULD''' be possible to configure the GE config entirely through - <code>ENV</code> variables. Where this is not possible, the README.md '''MUST''' explain how to mount a volume to set the configuration
+* It '''SHOULD''' be possible to configure the GE config entirely through - <code>ENV</code> variables. Where this is not possible, the README.md '''MUST''' explain how to mount a volume to set the configuration.
 
 * Where configuration occurs via a `config` file, and the image cannot be driven by <code>ENV</code> variables, a sample `config` file '''MUST''' be supplied and injected as part of the Docker build. Dockerfiles '''MUST NOT''' copy default configuration directly from github.
 
@@ -48,7 +48,7 @@ with the publication, please get in touch with the FIWARE team at [mailto:fiware
 
 * The Github repository README  '''MUST''' have a Docker reference - this is a link on the mandatory Docker Pulls README badge
 
-* The Readthedocs GE Installation Documentation '''MUST''' include references to the Docker Hub image, and how to configure it.
+* The ReadtheDocs GE Installation Documentation '''MUST''' include references to the Docker Hub image, and how to configure it.
 
 * Docker containers '''MUST''' be tested before being published to the community. Error in Docker materials of a GE will be considered as critical and '''MUST''' be fixed immediately. 
 
