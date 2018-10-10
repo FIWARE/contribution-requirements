@@ -12,7 +12,7 @@ Any doubt or request to the FIWARE Foundation shall be made by sending an email 
 * Docker image is available in [https://hub.docker.com/Dockerhub FIWARE's Dockerhub account]
 * FIWARE Development (Must) Guidelines are met. See [[development.mediawiki|Development Guidelines]]
 * A Stackoverflow tag for the component is registered (Ask FF Staff)
-* A public instance may be deployed in the FIWARE Lab and maintained by the FF team (Ask FF Staff)
+* Where it is suitable to provide a global instance of a service, a public instance is deployed in the FIWARE Lab and maintained by the FF team (Ask FF Staff)
 * Roadmap is available at one of the following:
 ** Promoted on Github and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE]
 ** Promoted in a publicly available document on the web and linked at [https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE]
