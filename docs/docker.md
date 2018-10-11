@@ -18,16 +18,16 @@ There are three kinds of guidelines included:
 
 * Each Docker container **MUST** define the following tags (present at [Dockerhub](https://hub.docker.com/):
 
-    * `latest`: It will correspond to the latest build (latest code snapshot) of the GE. It might not be stable. 
-    * `stable`:  It will correspond to the latest stable release of the GE. 
-    * `<release n>`: one tag per relevant and active stable release. The name of the tag will correspond to the name assigned to the release in Github.
-    * `FIWARE_<release n>`: one stable release every six months for all FIWARE components. This indicates GEs which will work together
+     * `latest`: It will correspond to the latest build (latest code snapshot) of the GE. It might not be stable. 
+     * `stable`:  It will correspond to the latest stable release of the GE. 
+     * `<release n>`: one tag per relevant and active stable release. The name of the tag will correspond to the name assigned to the release in Github.
+     * `FIWARE_<release n>`: one stable release every six months for all FIWARE components. This indicates GEs which will work together
 
 * The reference Dockerfile **MUST** be present under the `docker` folder of the GE repository 
 
 * Should your GE depend on other components (Databases, etc.) you **MUST** provide a `docker-compose.yml` file that will allow to instantiate the GE together with its dependencies. 
 
-* A `README.md` **MUST** be provided under the `docker` folder. Such a `README.md` **MUST** give instructions about how to work with the corresponding Docker container. Please bear in mind that such a `README,md` will also be included as part of the Dockerhub documentation. 
+* A `README.md` **MUST** be provided under the `docker` folder. Such a `README.md` **MUST** give instructions about how to work with the corresponding Docker container. Please bear in mind that such a `README.md` will also be included as part of the Dockerhub documentation. 
 * The `README.md` **MUST** list all available `ENV` variables that can be supplied to the Docker Image
 
 * If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets, the `README.md` **MUST** list all available `ENV` variables which have an equivalent `_FILE` that can be supplied by secrets.

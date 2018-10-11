@@ -95,7 +95,7 @@ When using a copyleft open source license, IPR Management rules for contribution
 
 The following rules apply for numbering FIWARE releases:
 
-* Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD)
+* Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g., support to NGSI-LD).
 * Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be FIWARE Summits by default. Additional ones can be added if strictly needed and agreed at TSC level.
 * Major.minor numbering of FIWARE GEs in the Core Context Management chapter matches numbering of FIWARE release, i.e., they automatically increment as FIWARE releases evolve.
 

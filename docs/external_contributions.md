@@ -18,7 +18,7 @@ _Welcome contribution work items_ **MUST** have a mentor assigned (who will typi
 
 * She will ensure that the right contributor is assigned. 
 * She understands how it can be done and will provide guidance on the best way to approach the problem. 
-* She will answer questions, review changes, and make the process as easy as possible by **reacting promptly**. 
+* She will answer questions, review changes, and make the process as easy as possible by **reacting promptly**.
 * She will make sure that a task is progressing. If nothing is heard from a contributor for a reasonable period of time the mentor might unassign the task. 
 * After a successful contribution, she recognizes the contributor and propose new work items to be accomplished, as now a mentor should have a good sense of the contributor's capabilities.
 
