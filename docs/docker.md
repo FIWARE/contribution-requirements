@@ -27,10 +27,10 @@ There are three kinds of guidelines included:
 
 * Should your GE depend on other components (Databases, etc.) you **MUST** provide a `docker-compose.yml` file that will allow to instantiate the GE together with its dependencies. 
 
-* A `README.md` **MUST** be provided under the `docker` folder. Such a README **MUST** give instructions about how to work with the corresponding Docker container. Please bear in mind that such a README will also be included as part of the Dockerhub documentation. 
+* A `README.md` **MUST** be provided under the `docker` folder. Such a `README.md` **MUST** give instructions about how to work with the corresponding Docker container. Please bear in mind that such a `README,md` will also be included as part of the Dockerhub documentation. 
 * The `README.md` **MUST** list all available `ENV` variables that can be supplied to the Docker Image
 
-* If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets, the **`README.md`** **MUST** list all available `ENV` variables which have an equivalent `_FILE` that can be supplied by secrets.
+* If the Docker file hides sensitive information (e.g. passwords) using Docker Secrets, the `README.md` **MUST** list all available `ENV` variables which have an equivalent `_FILE` that can be supplied by secrets.
 
 * It **MUST** be possible to supply sensitive information using the Docker Secrets mechanism as well as plain text variables for testing. Sensitive information (e.g. passwords) **MUST NOT** be passed in plain text - `ENV` variables alone. 
 
@@ -47,7 +47,7 @@ with the publication, please get in touch with the FIWARE team at [fiware-help@l
 
 * Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE Catalogue according to the Guidelines defined by the  [FIWARE Catalogue](http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Creating_instances). 
 
-* The Github repository README  **MUST** have a Docker reference - this is a link on the mandatory Docker Pulls README badge
+* The Github repository `README.md`  **MUST** have a Docker reference - this is a link on the mandatory Docker Pulls `README.md` badge
 
 * The **ReadtheDocs** GE Installation Documentation **MUST** include references to the Docker Hub image, and how to configure it.
 

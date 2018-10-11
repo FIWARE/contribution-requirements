@@ -15,9 +15,9 @@ Github repositories `README.md` **MUST** include the following badges at the ver
    Example:  `https://img.shields.io/readthedocs/fiware-orion.svg`
 *  ![ ](https://img.shields.io/docker/pulls/fiware/orion.svg)- ''Docker'' (pointer to the Docker container at the Docker Hub Repository)
   Example: `https://img.shields.io/docker/pulls/fiware/orion.svg`
-* ![ ](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow) -  ''Stack Overflow'' tag (pointer to the  stackoverflow support channel)
+* ![ ](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow) -  ''Stack Overflow'' tag (pointer to the  Stack Overflow support channel)
   Example: `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
-* ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -  ''Support'' (pointer to the support channel, askbot, which can be used to get support if Stackoverflow is not used) 
+* ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -  ''Support'' (pointer to the support channel, askbot, which can be used to get support if Stack Overflow is not used) 
   Example: `https://img.shields.io/badge/support-askbot-yellowgreen.svg`
 * ![ ](https://img.shields.io/maintenance/yes/2019.svg) - ''Maintenance'' - to show active support for a repository
    Example: `https://img.shields.io/maintenance/yes/2019.svg`
@@ -32,7 +32,7 @@ Github repositories `README.md` **SHOULD** include additional badges to display 
    Example: `https://snyk.io/test/github/zaproxy/zap-api-java`
 
 
-The repository's README.md badges, where present, **MUST** appear in the following order:
+The repository's `README.md` badges, where present, **MUST** appear in the following order:
 
 * FIWARE Chapter
 * License
@@ -61,7 +61,7 @@ If a project's documentation uses the standard FIWARE CSS, the repository's `doc
 
 ![](img/Color-strip.png))
 
-The following standard FIWARE Colors and badges and **ReadtheDocs** CSS should be used the various  types of documentation produced
+The following standard FIWARE Colors and badges and **ReadtheDocs** CSS **SHOULD** be used the various  types of documentation produced
 
 * `#000000`  - Black. - Non Chapter specific documentation 
 * `#233c68`  - Midnight Blue - Core Context Chapter
@@ -87,7 +87,7 @@ The following colors are reserved for future use:
 * `#ff68a5` - Pink
 
 
-Each Document that needs to be published in the FIWARE CSS style MUST use the following CSS styles: 
+Each Document that needs to be published in the FIWARE CSS style **MUST** use the following CSS styles: 
 
 * `fiware_readthedocs.css` - Black. - Non Chapter specific documentation 
 * `fiware_readthedocs_core.css`  - Midnight Blue - Core Context

@@ -1,22 +1,22 @@
 # General Requirements
 
-A FIWARE GE must fit well in the architecture of a *“Powered by FIWARE”* solution:
+A FIWARE GE **MUST** fit well in the architecture of a *“Powered by FIWARE”* solution:
 
 * Integrate well with architectures where context management is cornerstone and addressed using FIWARE NGSI (currently FIWARE NGSIv2, compliant with ETSI NGSI-LD in the future).
 * Be able to fit within one of the defined FIWARE chapters.
 
 ## Development Lifecycle Requirements
 
-* Direct commits or self-commits to the master branch are not allowed. All contributions to master MUST come in the form of a Pull Request.
-* Pull Requests MUST include not only code changes but also test changes and documentation changes.
-* Pull Requests MUST be public and open during a reasonable period of time so that the community can check them and contribute if necessary.
+* Direct commits or self-commits to the master branch are not allowed. All contributions to master **MUST** come in the form of a Pull Request.
+* Pull Requests **MUST** include not only code changes but also test changes and documentation changes.
+* Pull Requests **MUST** be public and open during a reasonable period of time so that the community can check them and contribute if necessary.
 * Pull Requests need to be approved (using the standard Github function or a 'LGTM' comment) by all the reviewers involved, i.e. all people that gave their feedback on it.
-* Pull Request approval MUST be issued by a third party. Nobody can auto-merge their contributions.
-* Before merging an open Pull Request Travis status MUST be green. 
+* Pull Request approval **MUST** be issued by a third party. Nobody can auto-merge their contributions.
+* Before merging an open Pull Request Travis status **MUST** be green. 
 
 ## Publication Requirements
-* The SCM Tool MUST be [Github.com](https://github.com). 
-* Github MUST be used during the **whole development lifecycle**. See [Development Lifecycle Recommendations in FIWARE](development.md#Development_Lifecycle) which describes a set of best practices for collaborative open source development.
+* The SCM Tool **MUST** be [Github.com](https://github.com). 
+* Github **MUST** be used during the **whole development lifecycle**. See [Development Lifecycle Recommendations in FIWARE](development.md#Development_Lifecycle) which describes a set of best practices for collaborative open source development.
 * See [Checklist for publishing FIWARE Generic Enablers](GE_Checklist.md) for a list of tasks to be done in order to publish a new GE.
 
 ## Documentation Requirements

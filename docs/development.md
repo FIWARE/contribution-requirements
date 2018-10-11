@@ -6,9 +6,9 @@
 * Github **MUST** be used during the **whole development lifecycle**.  
 * The name of the Github Repository **MAY** be _'fiware' + '-' + "Code Name of your GE"_. Example: `fiware-orion`.
 * The Github Repository content **MUST** meet the [GE Publication Requirements](GE_Requirements.md#Publication_Requirements)
-* When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the README.md pertaining to the main repository or at the GH user/organization level. 
+* When the GE code is spread over various repositories, the FIWARE hyperlinks can be included on the `README.md` pertaining to the main repository or at the GH user/organization level. 
 
-* Every repository in Github **SHOULD** have at least one branch corresponding to the main development line, usually named 'master', and a certain number of additional branches/tags corresponding to releases.
+* Every repository in Github **SHOULD** have at least one branch corresponding to the main development line, usually named `master`, and a certain number of additional branches/tags corresponding to releases.
 * Every repository in Github **SHOULD** comply with the  Github recommended community standards checklist - e.g. `https://github.com/Fiware/developmentGuidelines/community`
 * Every repository in Github **SHOULD** have a one line repository description  - the description **SHOULD NOT** be left blank
 * Where **ReadtheDocs** documentation exists for a repository in Github, the GitHub repository URL **SHOULD**  link back to the latest **ReadtheDocs** documentation - the URL **SHOULD NOT** be left blank
@@ -132,13 +132,13 @@ To avoid documentation inconsistencies, **development related** documents **MUST
     * A walkthrough guide on using the main APIs
     * How to get access to the advanced API and Documentation topics
 
-In general the structure of the README **SHOULD** follow a standard format such as [standard-readme](https://github.com/RichardLitt/standard-readme).
+In general the structure of the `README.md` **SHOULD** follow a standard format such as [standard-readme](https://github.com/RichardLitt/standard-readme).
 
-More specifically, the referred README **SHOULD** include:
+More specifically, the referred `README.md` **SHOULD** include:
 
 * Simple GE/Service **Description** and purpose - 
     * The first paragraph **SHOULD** be an **elevator pitch** about the purpose of the repository (Since this is displayed on GitHub on mobile) 
-    * Include direct ** **ReadtheDocs**** links to the **User Guide**, **Admin Guide** in a subsequent introductory paragraph (To allow users to navigate directly between code and documentation )
+    * Include direct **ReadtheDocs** links to the **User Guide**, **Admin Guide** in a subsequent introductory paragraph (To allow users to navigate directly between code and documentation )
     * Include information about testbed environments if available
 
 * Then add a **Table of Contents** to make navigation through the rest of the document easier
@@ -171,27 +171,27 @@ More specifically, the referred README **SHOULD** include:
 
 ### Developer Oriented Documentation (**ReadtheDocs**)
 
-The name of the **project** on **ReadtheDocs** **SHOULD** match the stackoverflow tag and Docker image name, e.g. `fiware-orion` => `https://hub.docker.com/r/fiware/orion` => `https://fiware-orion.rtfd.io`.
+The name of the **project** on **ReadtheDocs** **SHOULD** match the Stack Overflow tag and Docker image name, e.g. `fiware-orion` => `https://hub.docker.com/r/fiware/orion` => `https://fiware-orion.rtfd.io`.
 
 Admin access to each **ReadtheDocs** documentation project **MUST** be granted to multiple accounts. This **SHOULD** include
 the current owner of the enabler, and **MAY** also be granted the `fiware` user account - this avoids 
 lock-out in case an individual administrator is unavailable.
 
-The Documentation **title** on **ReadtheDocs** (i.e. the `site_name` within the `mkdocs.yml`) **MUST** reflect the name of the enabler. The title **MAY** match the stackoverflow tag or alternatively the `site_name` **MAY** consist of the enabler name wihout the 'fiware' prefix.
+The Documentation **title** on **ReadtheDocs** (i.e. the `site_name` within the `mkdocs.yml`) **MUST** reflect the name of the enabler. The title **MAY** match the Stack Overflow tag or alternatively the `site_name` **MAY** consist of the enabler name wihout the 'fiware' prefix.
 
-The basic format of the Developer Documentation should consist of the following sections in the following order
+The basic format of the Developer Documentation **SHOULD** consist of the following sections in the following order
 
 * Getting Started **SHOULD** - simple responses from the GE - e.g. `/version` endpoint
 * User/Programmer's Guide **MUST** - how to use the GE
 * Installation/Admin Guide **MUST** - how to install the GE, both directly from source and via Docker
 * Deprecated Functionality **MAY** - any functionality that is no longer supported or deprecated
 
-Running tests, contributing code & etc. **SHOULD** be linked directly from the README, but 
+Running tests, contributing code & etc. **SHOULD** be linked directly from the `README.md`, but 
 **SHOULD NOT** be part of the **ReadtheDocs** Documentation - the justification is that many users of the
 software are not interested in contributing, but need to find user instructions alone without bloat in the text.
 
 Table-of-Contents listings **MAY** be added at the head of each file, but **MUST** come 
-directly after the main `h1` header, and **MUST NOT** be preceded by `h2`  
+directly after the main `<h1>` header, and **MUST NOT** be preceded by `<h2>`  
 **Table of Contents** Header of their own. This means the Table of Contents can be  used for navigation
 if reading the unstyled markdown files on GitHub, but can be hidden using CSS within the 
 **ReadtheDocs** documentation itself and avoid duplication with the sidebar Navigation.
@@ -199,7 +199,7 @@ if reading the unstyled markdown files on GitHub, but can be hidden using CSS wi
 Markdown for **ReadtheDocs** **MUST NOT** use HTML rendering such as `a` tags as 
 the navigation will no longer work correctly in **ReadtheDocs**. 
 
-Markdown for **ReadtheDocs** may use `h1...h6` HTML headers if necessary to suppress entries in the
+Markdown for **ReadtheDocs** may use `<h1>...<h6>` HTML headers if necessary to suppress entries in the
 **ReadtheDocs** sidebar.
 
 
@@ -208,7 +208,7 @@ Markdown for **ReadtheDocs** may use `h1...h6` HTML headers if necessary to supp
 GEs **SHOULD** be configurable through a `config` file. 
 
 Docker images for GEs **SHOULD** be configurable. through `ENV` variables. Where this is not possible
-or desirable, the README.md **MUST** explain how to mount a volume to set the configuration.
+or desirable, the `README.md` **MUST** explain how to mount a volume to set the configuration.
 
 If the GE can be configured through a config file, a **template/example** configuration file **MUST** be present and fully aligned with every version. 
 
@@ -246,19 +246,19 @@ They **MUST** be consistent with those reflected in the [FIWARE Catalogue](http:
 
 Apart from meeting the general [Ecosystem Support and Quality Requirements](GE_Requirements.md#Ecosystem_Support_and_Quality_Requirements) the following guidelines apply: 
 
-[Stackoverflow](http://stackoverflow.com) **SHOULD** be used for thorough technical questions. Educate your users to **tag** their questions properly in Stackoverflow. 
+[Stack Overflow](http://stackoverflow.com) **SHOULD** be used for thorough technical questions. Educate your users to **tag** their questions properly in Stack Overflow. 
 
-Each FIWARE GE **MUST** be associated to an Stackoverflow tag. Such tag could be specific for a GE or default to a chapter generic tag, for instance `fiware-iot`. 
+Each FIWARE GE **MUST** be associated to an Stack Overflow tag. Such tag could be specific for a GE or default to a chapter generic tag, for instance `fiware-iot`. 
 
-Stackoverflow tags **SHOULD** be of the form `fiware-<GE codename>`. Example `fiware-orion`.
-Creating new tags requires Stackoverflow Karma. You **MAY** ask someone from the FIWARE community with enough Karma to create tags for your GE.
+Stack Overflow tags **SHOULD** be of the form `fiware-<GE codename>`. Example `fiware-orion`.
+Creating new tags requires Stack Overflow Karma. You **MAY** ask someone from the FIWARE community with enough Karma to create tags for your GE.
 Otherwise you can use the [FIWARE Q&A](https://ask.fiware.org) platform. 
 
 * **Exception to the rule:** In the case the GE is associated to an existing tag (e.g. the tag was created before that GE joined FIWARE),
 it could be used instead of the usual `fiware-XXXX` as an exception, as long as the two following conditions occur:
 
     1. the tag clearly reflect the name of the GE,
-    2. the tag is already widely used in StackOverflow (i.e. more than 30 questions using it).
+    2. the tag is already widely used in Stack Overflow (i.e. more than 30 questions using it).
 
 
 Anyway, this is a workaround valid only in the case a tag synonym cannot be created due to reputational constraints.
