@@ -1,6 +1,6 @@
 site_name: requirements
 site_url: https://fiware-requirements.readthedocs.org
-repo_url: https://github.com/fiware/developerGuidelines.git
+repo_url: https://github.com/fiware/developmentGuidelines
 site_description: requirements Documentation
 docs_dir: docs
 site_dir: html
