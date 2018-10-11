@@ -1,0 +1,22 @@
+site_name: requirements
+site_url: https://fiware-requirements.readthedocs.org
+repo_url: https://github.com/fiware/developerGuidelines.git
+site_description: requirements Documentation
+docs_dir: docs
+site_dir: html
+markdown_extensions: [toc,fenced_code]
+use_directory_urls: false
+theme: readthedocs
+extra_css: ["https://fiware.org/style/fiware_readthedocs.css"]
+google_analytics: ['UA-84866051-2', 'fiware-requirements.readthedocs.io']
+pages:
+  - Home: index.md
+  - 'Checklist': GE_Checklist.md
+  - 'Requirements': GE_Requirements.md
+  - 'Analytics': analytics_readthedocs.md
+  - 'Development': development.md
+  - 'Docker': docker.md
+  - 'External Contributions': external_contributions.md
+  - 'Project Badges': project_badges.md
+  - 'Webhook': repo_webhook.md
+  
