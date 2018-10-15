@@ -7,6 +7,8 @@ A FIWARE GE **MUST** fit well in the architecture of a *“Powered by FIWARE”*
 
 ## Development Lifecycle Requirements
 
+The following requirements govern the development lifecycle:
+
 * Direct commits or self-commits to the master branch are not allowed. All contributions to master **MUST** come in the form of a Pull Request.
 * Pull Requests **MUST** include not only code changes but also test changes and documentation changes.
 * Pull Requests **MUST** be public and open during a reasonable period of time so that the community can check them and contribute if necessary.
