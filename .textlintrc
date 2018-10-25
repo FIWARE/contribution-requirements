@@ -6,7 +6,8 @@
       "adverb": false,
       "passive": false,
       "tooWordy": false,
-      "weasel": false
+      "weasel": false,
+      "so": false
     },
     "no-dead-link": {
        "ignoreRedirects": true,
