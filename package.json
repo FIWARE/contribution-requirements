@@ -1,7 +1,7 @@
 {
-	"name": "fiware-step-by-step",
-	"version": "0.5.1",
-	"description": "Complete collection of tutorials for the FIWARE ecosystem",
+	"name": "fiware-requirements",
+	"version": "0.0.1",
+	"description": "The requirements to be fulfilled by any FIWARE Generic Enabler (GE) as well as the recommended practices for the development of FIWARE GEs",
 	"keywords": [
 		"node",
 		"fiware",
@@ -9,10 +9,10 @@
 		"validator",
 		"ngsi"
 	],
-	"license": "MIT",
+	"license": "CC-BY-4.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Fiware/tutorials.Step-by-Step"
+		"url": "https://github.com/Fiware/developmentGuidelines"
 	},
 	"devDependencies": {
 		"eslint": "^5.6.0",
