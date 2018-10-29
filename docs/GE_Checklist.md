@@ -9,7 +9,9 @@ to [fiware-help@lists.fiware.org](mailto:fiware-help@lists.fiware.org)
 ### New Generic Enablers
 
 The following mimimal requirements must be met before a new contribution can be
-considered as an Incubated Generic Enabler.
+considered as an Incubated Generic Enabler. The acceptance can take time, for
+instance to allow studying the quality of the product, internal architecture,
+software design, code cleanliness etc.
 
 -   All New Generic Enablers **MUST** be presented to the TSC for candidature
     and accepted into an existing Chapter.
