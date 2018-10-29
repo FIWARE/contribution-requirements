@@ -12,7 +12,9 @@ The following mimimal requirements must be met before a new contribution can be
 considered as an Incubated Generic Enabler.
 
 -   All New Generic Enablers **MUST** be presented to the TSC for candidature
-    and accepted into an existing Chapter
+    and accepted into an existing Chapter.
+-   A New Generic Enabler **MUST** show how it integrates within the overall
+    FIWARE Architecture
 -   The codebase **MUST** be available on [GitHub](https://github.com)
 -   The GitHub repository **MUST** include an appropriate Open Source License
 -   For functional readiness at a minimum, a new incubated enabler **MUST** be
