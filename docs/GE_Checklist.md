@@ -39,8 +39,9 @@ software design, code cleanliness etc.
         Quick Start. Quantum Leap can be used without in depth knowledge of
         Crate-DB
 
--   For all webservice components, a `Dockerfile` **MUST** be available within
-    the code-base
+-   For all webservice components, a
+    [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be
+    available within the code-base
 -   Basic documentation **MUST** exist in Markdown and **MUST** be complete
     enough for usage of the component:
     -   A Quick Start guide
