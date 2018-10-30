@@ -196,8 +196,8 @@ To avoid documentation inconsistencies, **development related** documents
     **MUST** use an approved markup notation format if you want to benefit from
     automatic documentation generation systems (ReadTheDocs)_.
     -   [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-        is preferred for simple documents. \*\*
-        [ReStructuredText](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
+        is preferred for simple documents.
+    -   [ReStructuredText](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
         is an acceptable alternative for complex documentation.
 -   Code and documentation **MUST** be synced. To this aim, every **Pull
     Request** with any impact in existing documentation **SHOULD** include any
