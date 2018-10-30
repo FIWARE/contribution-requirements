@@ -4,7 +4,8 @@
 [![License: CC-BY-4.0](https://img.shields.io/github/license/fiware/developmentGuidelines.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.rtfd.io)
 
-This guide describes the requirements to be fulfilled by any FIWARE Generic Enabler (GE) as well as the recommended practices for its development. 
+This guide describes the requirements to be fulfilled by any FIWARE Generic
+Enabler (GE) as well as the recommended practices for its development.
 
 There are three kinds of requirements included:
 
@@ -18,10 +19,13 @@ There are three kinds of requirements included:
     be a sign of further good development process as the tools around them
     mature in the future.
 
-The Guide assumes that the reader knows the basics of [Github](https://github.com), [Travis](https://travis-ci.org/),
+The Guide assumes that the reader knows the basics of
+[Github](https://github.com), [Travis](https://travis-ci.org/),
 [test driven development](https://en.wikipedia.org/wiki/Test-driven_development)
-and [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration). If that is not the case please
-read one of the many tutorials available on the internet.
+and
+[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration).
+If that is not the case please read one of the many tutorials available on the
+internet.
 
 ### Impact on Rating and Continuous Improvement
 
