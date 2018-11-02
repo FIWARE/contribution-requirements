@@ -19,4 +19,5 @@ pages:
   - 'External Contributions': external_contributions.md
   - 'Project Badges': project_badges.md
   - 'Webhook': repo_webhook.md
+  - 'Appendix: Release Process': release.md
   
