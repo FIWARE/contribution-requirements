@@ -19,7 +19,6 @@
 		"eslint-config-tamia": "^6.0.1",
 		"eslint-plugin-prettier": "^3.0.0",
 		"husky": "^1.1.0",
-		"jest": "^23.6.0",
 		"lint-staged": "^7.3.0",
 		"memfs": "2.10.1",
 		"prettier": "^1.14.2",
@@ -33,7 +32,7 @@
 		"node": ">=8.6"
 	},
 	"scripts": {
-		"start" : "mkdocs serve",
+		"start": "mkdocs serve",
 		"precommit": "lint-staged",
 		"prettier:text": "prettier 'README.md' 'docs/*.md' --tab-width 4 --print-width 80 --write --prose-wrap always",
 		"test": "textlint 'README.md' 'docs/*.md'"
@@ -50,4 +49,3 @@
 		]
 	}
 }
-
