@@ -19,12 +19,12 @@ wishes to include in the FIWARE release has been:
 -   Labelled as a [SemVer release](GE_Requirements.md#releases) on **GitHub**
 
 Any proposed [new entries](GE_Checklist.md#new-generic-enablers) to the
-catalogue **MUST** have been presented to the TSC
+catalogue **MUST** have been presented to the TSC.
 
 Any component
 [transitioning to a full member](GE_Checklist.md#transition-to-full-membership)
 of the catalogue **MUST** have completed all "Must" requirements and have been
-presented as such to the TSC
+presented as such to the TSC.
 
 ## Release timetable
 
