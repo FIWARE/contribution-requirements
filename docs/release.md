@@ -10,8 +10,8 @@ is assumed that releases will follow at most a monthly cadence.
 ## Release Prerequisites
 
 Additional GE development for each release cycle should close by the beginning
-of the month - ideally this should mean that all code to be included in the
-FIWARE release has been:
+of the month - ideally this should mean that all code the development team
+wishes to include in the FIWARE release has been:
 
 -   Written
 -   Tested
