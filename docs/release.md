@@ -1,9 +1,11 @@
 A "FIWARE release" contains versioned releases of all Generic Enablers found
 within the [catalogue](https://www.fiware.org/developers/catalogue/). All
-components must work seamlessly with the current context broker and each other.
+components must work seamlessly with the
+[current context broker](https://github.com/telefonicaid/fiware-orion/releases/latest)
+and each other.
 
 The following timetable is proposed for a typical FIWARE release cycle, where it
-is assumed that releases will follow a monthly cadence.
+is assumed that releases will follow at most a monthly cadence.
 
 ## Release Prerequisites
 
@@ -28,8 +30,8 @@ presented as such to the TSC
 
 #### Week 1
 
-The formal commencement of the release process will be announced during the
-**first** TSC meeting of the month
+**Day 1** - The formal commencement of the release process will be announced
+during the **first** TSC meeting of the month.
 
 -   A list of release candidates will be collated for the TSC and created in a
     prerelease candidate list on
@@ -43,35 +45,37 @@ The formal commencement of the release process will be announced during the
     -   Double tag their **existing** approved release version in their GitHub
         repository with `FIWARE_<major>.<minor>`
     -   Send an eMail to FF staff requesting a time extension and propose a new
-        version number for inclusion in the release
+        version number for inclusion in the release.
 
 #### Week 2
 
-Any changes to the list created above must be received no later than the
-**second** TSC meeting of the month:
+**Day 8** - Any changes to the list created above must be received no later than
+the **second** TSC meeting of the month.
 
--   Proposed new catalogue additions
+-   Proposed new catalogue additions.
 -   Proposed transitions to full member status etc.
--   Alterations to the version numbers listed
+-   Alterations to the version numbers listed.
 
 Where any further adjustments have been requested, they must be completed within
-**three days** of the **second** TSC meeting of the month - for example:
+**three days** of the **second** TSC meeting of the month - i.e. **Day 11**. -
+for example:
 
 -   For new entrants, the
     [Minimal Checklist](GE_Checklist.md#new-generic-enablers) for new Generic
-    Enablers to be completed
+    Enablers to be completed.
 -   For all Generic Enablers, any missing **GitHub** release tags a new version
-    number added
--   Any other alterations to the codebase completed
+    number added.
+-   Any other alterations to the codebase completed.
 
 #### Week 3
 
-The release will be closed with final fixed versions on the **third** TSC
-meeting of the month
+**Day 15** - The release will be closed with final fixed versions on the
+**third** TSC meeting of the month.
 
 -   The finalized list of release enablers for release `FIWARE_<major>.<minor>`
     will added as a tagged release on
-    [GitHub](https://github.com/Fiware/catalogue/releases)
--   The prerelease candidates list on **GitHub** will be deleted
+    [GitHub](https://github.com/Fiware/catalogue/releases).
+-   The prerelease candidates list on **GitHub** will be deleted.
 -   Generic Enabler owners who had requested more time should double tag the
-    release version in their **GitHub** repository with `FIWARE_<major>.<minor>`
+    release version in their **GitHub** repository with
+    `FIWARE_<major>.<minor>`.
