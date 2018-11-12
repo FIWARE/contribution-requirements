@@ -1,11 +1,14 @@
 A "FIWARE release" contains versioned releases of all Generic Enablers found
 within the [catalogue](https://www.fiware.org/developers/catalogue/). All
 components must work seamlessly with the
-[current context broker](https://github.com/telefonicaid/fiware-orion/releases/latest)
+[FIWARE Context Broker](https://github.com/telefonicaid/fiware-orion/releases/latest)
 and each other.
 
-The following timetable is proposed for a typical FIWARE release cycle, where it
-is assumed that releases will follow at most a monthly cadence.
+The following timetable is proposed for a typical FIWARE release cycle. It is
+assumed that two releases a year will occur to be aligned with the biannual
+FIWARE Summits. Furthermore, some interim releases may also be required to align
+with roadmap milestones. Even at the most frequent, releases are not expected to
+occur more often than once a month.
 
 ## Release Prerequisites
 
