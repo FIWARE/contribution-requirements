@@ -153,7 +153,7 @@ contributions **MUST** include clauses as follows:
 A "FIWARE Release" shall contain versioned releases of all Generic Enablers
 found within the [catalogue](https://www.fiware.org/developers/catalogue/). All
 GEs pertaining to a FIWARE Release must work seamlessly with the corresponding
-FIWARE Context Broker release.
+FIWARE Context Broker part of such FIWARE Release.
 
 The following rules apply for numbering FIWARE Releases:
 
