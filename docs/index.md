@@ -6,5 +6,5 @@ This guide is describes the requirements to be fulfilled by any FIWARE Generic
 Enabler (GE) as well as the recommended practices for its development.
 
 The
-[Summary of Must Requirements](https://github.com/fiware/contribution-requirements/README.md#summary-of-must-requirements)
+[Summary of Must Requirements](https://github.com/fiware/contribution-requirements/blob/master/README.md#summary-of-must-requirements)
 provides a quick overview.
