@@ -20,9 +20,9 @@ The following requirements govern the development lifecycle:
     so that the community can check them and contribute if necessary.
 -   Pull Requests need to be approved (using the standard GitHub function or a
     'LGTM' comment) by all the reviewers involved, i.e. all people that gave
-    their feedback on it. Nonetheless, if a PR has been approved by at least
-    one reviewer, and after a reasonable time for feedback no further comments
-    have been received, the approved Pull Request should be landed as-is.
+    their feedback on it. Nonetheless, if a PR has been approved by at least one
+    reviewer, and after a reasonable time for feedback no further comments have
+    been received, the approved Pull Request should be landed as-is.
 -   Pull Request approval **MUST** be issued by a third party. Nobody can
     auto-merge their contributions.
 -   Before merging an open Pull Request Travis status **MUST** be green.
@@ -150,23 +150,44 @@ contributions **MUST** include clauses as follows:
 
 ## Releases
 
--   Every release MUST have an associated Release Notes entry at the Github
-    Releases section. See
-    [Example](https://github.com/telefonicaid/fiware-orion/releases)
+A "FIWARE Release" shall contain versioned releases of all Generic Enablers
+found within the [catalogue](https://www.fiware.org/developers/catalogue/). All
+GEs pertaining to a FIWARE Release must work seamlessly with the version of the
+[Context Broker](https://github.com/telefonicaid/fiware-orion) corresponding to
+that FIWARE Release.
 
-The following rules apply for numbering FIWARE releases:
+The following rules apply for numbering FIWARE Releases:
 
 -   Major release number: to be increased by decision at TSC level, typically
     linked with a major achievement (e.g., support to NGSI-LD).
 -   Minor release number: to be incremented with relevant milestones agreed at
-    TSC level. Milestones will be FIWARE Summits by default. Additional ones can
-    be added if strictly needed and agreed at TSC level.
--   Major.minor numbering of FIWARE GEs in the Core Context Management chapter
-    matches numbering of FIWARE release, i.e., they automatically increment as
-    FIWARE releases evolve.
+    TSC level. Milestones will be usually aligned with the celebration of FIWARE
+    Summits. Additional releases can be added if strictly needed and agreed at
+    TSC level.
 
-The release note for each versioned release should include a list of the latest
-version of interoperable enablers it has been tested against as follows:
+### GE Releases
+
+-   Every time there is a FIWARE Release, GE Owners **MUST** tag the GE release
+    pertaining to such FIWARE Release with `FIWARE_<major>.<minor>`. Please note
+    that this imply that certain GE releases could be double tagged. The
+    referred tag will be intended to mark clearly that such GE Release is part
+    of and compatible with the corresponding FIWARE Release. Docker images or
+    other associated artefacts **MUST** also be properly tagged with the
+    referred FIWARE tag.
+
+"Compatibility" with a release means compatibility with the FIWARE Context
+Broker in that release, i.e. the FIWARE GE owner commits to do the relevant
+functional and integration testing. This also implies that breaking changes
+within the Context Broker should be scheduled and announced beforehand (i.e.
+roadmapped) to give GEs a chance to catch up.
+
+-   Every GE release MUST have an associated Release Notes entry at the Github
+    Releases section. See
+    [Example](https://github.com/telefonicaid/fiware-orion/releases)
+
+The release notes for each versioned release should include a list of the latest
+version of interoperable enablers (apart from the Context Broker) it has been
+tested against, as follows:
 
 -   Either:
 
@@ -182,18 +203,6 @@ version of interoperable enablers it has been tested against as follows:
 >     FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE
 >     components pertaining to the same FIWARE release, excepting: {a bullet
 >     list follows with a detail of GE incompatibilities}".
-
-FIWARE GE owners **SHOULD**:
-
--   Create a tag `<product release number>_FIWARE<major>.<minor>` to be attached
-    to the corresponding docker images, where `FIWARE<major>.<minor>` is the
-    release of FIWARE that docker image is compatible with (there can be several
-    tags like that)
--   Notify the FIWARE Foundation whenever a new release of the FIWARE GE has
-    been released.
-
-"Compatibility" with a release means compatibility with Core FIWARE GEs in that
-release, i.e. the FIWARE GE owner commits to do the relevant testing.
 
 ## Roadmap
 
