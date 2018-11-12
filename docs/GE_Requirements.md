@@ -20,9 +20,9 @@ The following requirements govern the development lifecycle:
     so that the community can check them and contribute if necessary.
 -   Pull Requests need to be approved (using the standard GitHub function or a
     'LGTM' comment) by all the reviewers involved, i.e. all people that gave
-    their feedback on it. Nonetheless, if after some reasonable period of time,
-    a reviewer has not provided any follow-up feedback the Pull Request will be
-    landed (if there is approval from at least one other reviewer).
+    their feedback on it. NNonetheless, if a PR has been approved by at least
+    one reviewer, and after a reasonable time for feedback no further comments
+    have been received, the approved Pull Request should be landed as-is.
 -   Pull Request approval **MUST** be issued by a third party. Nobody can
     auto-merge their contributions.
 -   Before merging an open Pull Request Travis status **MUST** be green.
