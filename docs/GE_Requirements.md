@@ -150,23 +150,41 @@ contributions **MUST** include clauses as follows:
 
 ## Releases
 
--   Every release MUST have an associated Release Notes entry at the Github
-    Releases section. See
-    [Example](https://github.com/telefonicaid/fiware-orion/releases)
+A "FIWARE Release" shall contain versioned releases of all Generic Enablers
+found within the [catalogue](https://www.fiware.org/developers/catalogue/). All
+GEs pertaining to a FIWARE Release must work seamlessly with the corresponding
+FIWARE Context Broker release.
 
-The following rules apply for numbering FIWARE releases:
+The following rules apply for numbering FIWARE Releases:
 
 -   Major release number: to be increased by decision at TSC level, typically
     linked with a major achievement (e.g., support to NGSI-LD).
 -   Minor release number: to be incremented with relevant milestones agreed at
-    TSC level. Milestones will be FIWARE Summits by default. Additional ones can
-    be added if strictly needed and agreed at TSC level.
--   Major.minor numbering of FIWARE GEs in the Core Context Management chapter
-    matches numbering of FIWARE release, i.e., they automatically increment as
-    FIWARE releases evolve.
+    TSC level. Milestones will be aligned with the celebration of FIWARE Summits
+    by default. Additional ones can be added if strictly needed and agreed at
+    TSC level.
 
-The release note for each versioned release should include a list of the latest
-version of interoperable enablers it has been tested against as follows:
+### GE Releases
+
+-   Everytime there is a FIWARE Release, GE Owners **MUST** tag the GE release
+    pertaining to such FIWARE Release with `FIWARE<major>.<minor>`. Please note
+    that this imply that certain GE releases could be double tagged. The
+    referred tag will be intended to mark clearly that such GE Release is part
+    of and compatible with the corresponding FIWARE Release. Docker images or
+    other associated artefacts **MUST** also be properly tagged with the
+    referred FIWARE tag.
+
+"Compatibility" with a release means compatibility with the FIWARE Context
+Broker in that release, i.e. the FIWARE GE owner commits to do the relevant
+testing.
+
+-   Every GE release MUST have an associated Release Notes entry at the Github
+    Releases section. See
+    [Example](https://github.com/telefonicaid/fiware-orion/releases)
+
+The release notes for each versioned release should include a list of the latest
+version of interoperable enablers (apart from the Context Broker) it has been
+tested against, as follows:
 
 -   Either:
 
@@ -182,18 +200,6 @@ version of interoperable enablers it has been tested against as follows:
 >     FIWARE Release {FIWARE_ver}, and it is fully compatible with all other GE
 >     components pertaining to the same FIWARE release, excepting: {a bullet
 >     list follows with a detail of GE incompatibilities}".
-
-FIWARE GE owners **SHOULD**:
-
--   Create a tag `<product release number>_FIWARE<major>.<minor>` to be attached
-    to the corresponding docker images, where `FIWARE<major>.<minor>` is the
-    release of FIWARE that docker image is compatible with (there can be several
-    tags like that)
--   Notify the FIWARE Foundation whenever a new release of the FIWARE GE has
-    been released.
-
-"Compatibility" with a release means compatibility with Core FIWARE GEs in that
-release, i.e. the FIWARE GE owner commits to do the relevant testing.
 
 ## Roadmap
 
