@@ -17,7 +17,7 @@ of the month - ideally this should mean that all code the development team
 wishes to include in the FIWARE release has been:
 
 -   Written
--   Tested
+-   Tested (both functional and integration tests)
 -   Documented
 -   Labelled as a [SemVer release](GE_Requirements.md#releases) on **GitHub**
 
