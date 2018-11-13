@@ -18,6 +18,7 @@ pages:
   - 'Docker': docker.md
   - 'External Contributions': external_contributions.md
   - 'Project Badges': project_badges.md
+  - 'Training Courses': learning_materials.md
   - 'Webhook': repo_webhook.md
   - 'Appendix: Release Process': release.md
   

@@ -65,6 +65,8 @@ which includes:
 
 GE's repository `README.md` file **MUST** include:
 
+#### General
+
 -   the [Project Badges](project_badges.md) which are stated as mandatory.
 -   a link to the Release Notes so that developers can check what
     {major}.{minor} FIWARE Release the product is compatible with (see
@@ -72,6 +74,9 @@ GE's repository `README.md` file **MUST** include:
 -   links to proper places on the FIWARE site (or related repositories) where
     planned roadmap of the product with respect to future releases of FIWARE is
     described (see sections on Releases and Roadmap below).
+
+#### QA Requirements
+
 -   a section within the `README` displaying the GE ratings defined as follows:
     ![](img/rating.png)
 
@@ -89,6 +94,49 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 ```
 
 (replace `orion` as necessary)
+
+#### Tutorial/Training Requirements
+
+GE's repository `README.md` file **MUST** include a list of relevant training
+courses:
+
+-   a section within the `README` displaying links to the relevant
+    [Tutorial](learning_materials.md#tutorials) ![](img/tutorial.png)
+-   a section within the `README` displaying links to the relevant
+    [Academy Courses](learning_materials.md#academy) ![](img/academy.png)
+
+As an example, **Keyrock** would display links to learning materials as shown:
+
+```
+## Training Courses
+
+### Tutorials
+
+The following Tutorials on **Keyrock** are available:
+
+&nbsp; 401.
+[Administrating Users and Organizations](https://fiware-tutorials.readthedocs.io/en/latest/identity-management)<br/>
+&nbsp; 402.
+[Managing Roles and Permissions](https://fiware-tutorials.readthedocs.io/en/latest/roles-permissions)<br/>
+&nbsp; 403.
+[Securing Application Access](https://fiware-tutorials.readthedocs.io/en/latest/securing-access)<br/>
+
+### Video Presentations
+
+The following Video Presentation on **Keyrock** are available:
+
+-   [Part 1 - Keyrock Introduction](https://www.youtube.com/watch?v=dHyVTan6bUY)
+-   [Part 2 - Keyrock Overview](https://www.youtube.com/watch?v=dtKsjGbJ7X)
+-   [Part 3 - Applications in Keyrock](https://www.youtube.com/watch?v=pjsl0eHpFww)
+
+###  Other Presentations
+
+- [API Management (Porto 2018)](https://www.slideshare.net/FI-WARE/fiware-global-summit-fiwares-api-management-97030121)
+- [Identity Management, Access Control and API Management  (Malaga 2017)](https://www.slideshare.net/FI-WARE/fiware-alvaro-alonso-complete-framework-for-identity-access-control-and-api-management)
+```
+
+-   The list of training courses **MUST** be regularly reviewed and updated.
+-   A [Project Badge](project_badges.md) for training **SHOULD** be displayed.
 
 ## Ecosystem Support and Quality Requirements
 
