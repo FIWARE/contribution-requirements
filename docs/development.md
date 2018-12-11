@@ -256,7 +256,7 @@ More specifically, the referred `README.md` **SHOULD** include:
 
 -   How to **run tests**
 
-    -   End-to-end tests (**MUST**). This will be part of the sanity checks
+    -   End-to-end tests (**SHOULD**). This will be part of the sanity checks
         included in the "Installation & Administration Guide", thus a link will
         be needed.
     -   Unit tests (**SHOULD**)
@@ -371,9 +371,9 @@ Apart from meeting the general
 [Ecosystem Support and Quality Requirements](GE_Requirements.md#ecosystem-support-and-quality-requirements)
 the following guidelines apply:
 
-[Stack Overflow](http://stackoverflow.com) **SHOULD** be used for thorough
-technical questions. Educate your users to **tag** their questions properly in
-Stack Overflow.
+Where relevant, [Stack Overflow](http://stackoverflow.com) **SHOULD** be used
+for thorough technical questions. Educate your users to **tag** their questions
+properly in Stack Overflow.
 
 Each FIWARE GE **MUST** be associated to an Stack Overflow tag. Such tag could
 be specific for a GE or default to a chapter generic tag, for instance
