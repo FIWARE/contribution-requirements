@@ -99,7 +99,7 @@ If a project's documentation uses the standard FIWARE CSS, the repository's
 `docs/index.md` - being the opening page of the documentation, it **MUST**
 contain equivalent a linked **FIWARE Chapter** badge (with a link to
 https://www.fiware.org/developers/catalogue/ ), and **SHOULD** contain a
-**Support** badge (with a linkp to the support channel)
+**Support** badge (with a link to the support channel)
 
 ## FIWARE Chapter Colors and Badges
 
