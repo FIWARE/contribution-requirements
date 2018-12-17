@@ -25,13 +25,7 @@ very beginning of the document:
 -   ![ ](https://img.shields.io/docker/pulls/fiware/orion.svg)- **Docker**
     (pointer to the Docker container at the Docker Hub Repository) Example:
     `https://img.shields.io/docker/pulls/fiware/orion.svg`
--   ![ ](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow) -
-    **Stack Overflow** tag (pointer to the Stack Overflow support channel)
-    Example:
-    `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
--   ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -
-    **Support** (pointer to the support channel, askbot, which can be used to
-    get support if Stack Overflow is not used)
+-   Optional Support badges (e.g. Stack Overflow) - see below
 -   A new line character `<br/>`
 -   ![ ](https://img.shields.io/readthedocs/fiware-orion.svg) -
     **Documentation** (pointer to the documentation on readthedocs corresponding
@@ -41,9 +35,22 @@ very beginning of the document:
     **GE Status** - to show active support for a repository Example:
     `https://nexus.lab.fiware.org/static/badges/statuses/orion.svg`
 
--   ![Training](https://img.shields.io/badge/Training-7_courses-brightgreen.svg?label=Training) -
+-   ![Training](https://img.shields.io/badge/Training-available-brightgreen.svg?label=Training) -
     **Training** - to show actively maintained academy materials. Example:
     `https://img.shields.io/badge/dynamic/json.svg?label=Training&url=https://fiware.github.io/catalogue/json/orion.json&query=$.courses&colorB=brightgreen`
+
+GitHub repositories `README.md` **SHOULD** list either of the following support
+badges at the beginning of the document (where relevant):
+
+-   ![ ](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow) -
+    **Stack Overflow** tag (pointer to the Stack Overflow support channel)
+    Example:
+    `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
+-   ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -
+    **Support** (pointer to the support channel, askbot, which can be used to
+    get support if Stack Overflow is not used)
+
+or alternatively include links to other relevant support channels.
 
 GitHub repositories `README.md` **SHOULD** include additional badges to display
 the commitment of the maintainers to high code standards - the following badges
@@ -65,7 +72,7 @@ following order:
 -   FIWARE Chapter
 -   License
 -   Docker
--   Stack Overflow
+-   Stack Overflow (if provided)
 -   Other Support Channels (if provided)
 -   `<br/>` - new line character
 -   Documentation
@@ -89,11 +96,10 @@ Should you have any doubt please check
 `http://github.com/telefonicaid/fiware-orion/README.md` and its raw content.
 
 If a project's documentation uses the standard FIWARE CSS, the repository's
-`docs/index.md` - being the opening page of the documentation, **MUST** contain
-equivalent linked badges in the following order:
-
--   **FIWARE Chapter** (Link to https://www.fiware.org/developers/catalogue/ )
--   **Support** (pointer to the support channel)
+`docs/index.md` - being the opening page of the documentation, it **MUST**
+contain equivalent a linked **FIWARE Chapter** badge (with a link to
+https://www.fiware.org/developers/catalogue/ ), and **SHOULD** contain a
+**Support** badge (with a link to the support channel)
 
 ## FIWARE Chapter Colors and Badges
 

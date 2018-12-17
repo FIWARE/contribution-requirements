@@ -149,8 +149,8 @@ for new and incubated enablers listed above **MUST** be met.
 
 -   A Stack Overflow tag for the component is registered (Ask FF Staff)
 -   Where it is suitable to provide a global instance of a service, a public
-    instance is deployed in the FIWARE Lab and maintained by the FF team (Ask FF
-    Staff)
+    instance may be deployed in the FIWARE Lab and maintained by the FF team
+    (Ask FF Staff)
 -   A tour guide entry is provided - see [fiwaretourguide.readthedocs.io]
     https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/)
 -   A tutorial is provided (See some examples at

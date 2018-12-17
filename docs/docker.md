@@ -34,19 +34,20 @@ There are three kinds of guidelines included:
     -   `FIWARE_<release n>`: one stable release every six months for all FIWARE
         components. This indicates GEs which will work together
 
--   The reference Dockerfile **MUST** be present under the `docker` folder of
-    the GE repository
+-   The reference Dockerfile **MAY** be present under a separate `docker` folder
+    of the GE repository
 
 -   Should your GE depend on other components (Databases, etc.) you **MUST**
     provide a `docker-compose.yml` file that will allow to instantiate the GE
     together with its dependencies.
 
--   A `README.md` **MUST** be provided under the `docker` folder. Such a
-    `README.md` **MUST** give instructions about how to work with the
-    corresponding Docker container. Please bear in mind that such a `README.md`
-    will also be included as part of the Dockerhub documentation.
--   The `README.md` **MUST** list all available `ENV` variables that can be
-    supplied to the Docker Image
+-   Where the `docker` folder is present, a `README.md` **MUST** be provided
+    along with the `Dockerfile` folder. Such a `README.md` **MUST** give
+    complete instructions about how to work with the corresponding Docker
+    container. Please bear in mind that such a `README.md` will also be included
+    as part of the Dockerhub documentation.
+-   The `README.md` **MUST** list or link to the documentation holding all
+    available `ENV` variables that can be supplied to the Docker Image
 
 -   If the Docker file hides sensitive information (e.g. passwords) using Docker
     Secrets, the `README.md` **MUST** list all available `ENV` variables which
@@ -58,13 +59,13 @@ There are three kinds of guidelines included:
     variables alone.
 
 -   It **SHOULD** be possible to configure the GE config entirely through -
-    `ENV` variables. Where this is not possible, the `README.md` **MUST**
+    `ENV` variables. Where this is not possible, the `README.md` **SHOULD**
     explain how to mount a volume to set the configuration.
 
 -   Where configuration occurs via a `config` file, and the image cannot be
-    driven by `ENV` variables, a sample `config` file **MUST** be supplied and
-    injected as part of the Docker build. Dockerfiles **MUST NOT** copy default
-    configuration directly from GitHub.
+    driven by `ENV` variables, a sample `config` file **SHOULD** be supplied and
+    injected as part of the Docker build. Dockerfiles **SHOULD NOT** copy
+    default configuration directly from GitHub.
 
 -   A GE's Docker **MUST** be published at least under the 'fiware' account on
     DockerHub (if possible, please avoid the term 'fiware' in your repository
