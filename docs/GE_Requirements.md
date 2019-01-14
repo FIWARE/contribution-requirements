@@ -27,6 +27,11 @@ The following requirements govern the development lifecycle:
     auto-merge their contributions.
 -   Before merging an open Pull Request Travis status **MUST** be green.
 
+## Testing Requirements
+
+A FIWARE GE **MUST** include a suite of functional tests that allow to verify
+the proper integration with the FIWARE Context Broker GE.
+
 ## Publication Requirements
 
 -   The SCM Tool **MUST** be [Github.com](https://github.com).
