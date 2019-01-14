@@ -1,26 +1,26 @@
-## Guidelines for GE Dockerization (Containerization)
+## Requirements for GE Dockerization (Containerization)
 
-This page summarizes Guidelines for providing Docker Containers for FIWARE GEs.
-[Click here](https://docs.docker.com/engine/understanding-docker/) for an
+This page summarizes Requirements for providing Docker Containers for FIWARE
+GEs. [Click here](https://docs.docker.com/engine/understanding-docker/) for an
 introduction to Docker.
 
-There are three kinds of guidelines included:
+There are three kinds of requirements included:
 
--   MUST Guidelines. They are mandatory and your GE project must conform to
+-   MUST Requirements. They are mandatory and your GE project must conform to
     that.
 
--   SHOULD Guidelines. They are not mandatory but **highly recommended**.
+-   SHOULD Requirements. They are not mandatory but **highly recommended**.
 
--   MAY Guidelines. They are nice to have.
+-   MAY Requirements. They are nice to have.
 
-## Guidelines
+## General Requirements
 
 -   At least one Dockerfile (hereby named as 'reference `Dockerfile`'), intended
     to GE users, **MUST** be provided. The base image (Ubuntu, CentOS, etc.) for
     such a Dockerfile might depend on each GE.
 
--   Hacker-oriented Dockerfiles (intended to GE developers) **MAY** be provided
-    as well.
+-   Hacker-oriented i.e. for GE development, Dockerfiles (intended to GE
+    developers) **MAY** be provided as well.
 
 -   Each Docker container **MUST** define the following tags (present at
     [Dockerhub](https://hub.docker.com/):
@@ -31,8 +31,8 @@ There are three kinds of guidelines included:
     -   `<release n>`: one tag per relevant and active stable release. The name
         of the tag will correspond to the name assigned to the release in
         GitHub.
-    -   `FIWARE_<release n>`: one stable release every six months for all FIWARE
-        components. This indicates GEs which will work together
+    -   `FIWARE_<release n>`: one stable release for all FIWARE components. This
+        indicates GEs which will work together
 
 -   The reference Dockerfile **MAY** be present under a separate `docker` folder
     of the GE repository
@@ -67,21 +67,6 @@ There are three kinds of guidelines included:
     injected as part of the Docker build. Dockerfiles **SHOULD NOT** copy
     default configuration directly from GitHub.
 
--   A GE's Docker **MUST** be published at least under the 'fiware' account on
-    DockerHub (if possible, please avoid the term 'fiware' in your repository
-    name, as the username already contains it).
-
-The GE owner will be responsible for publication and maintenance operations. The
-publication method will be through the 'Automatic Build Procedure' which allows
-to link a GitHub repository to a Dockerhub one (and keep them in sync). In order
-to get access to that account and proceed with the publication, please get in
-touch with the FIWARE team at
-[fiware-help@lists.fiware.org](mailto:fiware-help@lists.fiware.org).
-
--   Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE
-    Catalogue according to the Guidelines defined by the
-    [FIWARE Catalogue](http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Creating_instances).
-
 -   The GitHub repository `README.md` **MUST** have a Docker reference - this is
     a link on the mandatory Docker Pulls `README.md` badge
 
@@ -100,6 +85,17 @@ touch with the FIWARE team at
 
 -   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
     fixed, and **MUST** be configurable using `ENV` variables.
+
+## Publication Requirements
+
+The GE owner will be responsible for publication and maintenance operations.
+
+Maintenance and release of interim Point releases should be done using the GE
+Owner own contributor account.
+
+-   Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE
+    Catalogue according to the Guidelines defined by the
+    [FIWARE Catalogue](http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Creating_instances).
 
 ## Examples
 
