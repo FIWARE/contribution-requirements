@@ -15,19 +15,18 @@ There are three kinds of requirements included:
 
 ## General Requirements
 
--   At least one Dockerfile (hereby named as 'reference `Dockerfile`'), intended
+-   At least one Dockerfile (hereby named as 'reference `Dockerfile'), intended
     to GE users, **MUST** be provided. The base image (Ubuntu, CentOS, etc.) for
     such a Dockerfile might depend on each GE.
 
--   Hacker-oriented i.e. for GE development, Dockerfiles (intended to GE
-    developers) **MAY** be provided as well.
+-   Hacker-oriented, i.e. for GE development, Dockerfiles **MAY** be provided as
+    well.
 
--   Each Docker container **MUST** define the following tags (present at
+-   Each Docker container **SHOULD** define the following tags (present at
     [Dockerhub](https://hub.docker.com/):
 
     -   `latest`: It will correspond to the latest build (latest code snapshot)
         of the GE. It might not be stable.
-    -   `stable`: It will correspond to the latest stable release of the GE.
     -   `<release n>`: one tag per relevant and active stable release. The name
         of the tag will correspond to the name assigned to the release in
         GitHub.
@@ -41,57 +40,79 @@ There are three kinds of requirements included:
     provide a `docker-compose.yml` file that will allow to instantiate the GE
     together with its dependencies.
 
--   Where the `docker` folder is present, a `README.md` **MUST** be provided
-    along with the `Dockerfile` folder. Such a `README.md` **MUST** give
-    complete instructions about how to work with the corresponding Docker
-    container. Please bear in mind that such a `README.md` will also be included
-    as part of the Dockerhub documentation.
--   The `README.md` **MUST** list or link to the documentation holding all
-    available `ENV` variables that can be supplied to the Docker Image
+-   There **MUST** be a docker-hub specific README for the docker image
+    documentation. This lies in the same directory as the Dockerfile and
+    \*should\*\* not be a copy of the root GitHub `README.md` since the required
+    information is not the same.
 
--   If the Docker file hides sensitive information (e.g. passwords) using Docker
+*   The Docker `README.md` **MUST** give complete instructions about how to work
+    with the corresponding Docker container. Please bear in mind that such a
+    `README.md` will also be included as part of the Dockerhub documentation.
+
+*   The Docker `README.md` **MUST** list or link to the documentation holding
+    all available `ENV` variables that can be supplied to the Docker Image
+
+*   If the Docker file hides sensitive information (e.g. passwords) using Docker
     Secrets, the `README.md` **MUST** list all available `ENV` variables which
     have an equivalent `_FILE` that can be supplied by secrets.
 
--   It **MUST** be possible to supply sensitive information using the Docker
+*   It **MUST** be possible to supply sensitive information using the Docker
     Secrets mechanism as well as plain text variables for testing. Sensitive
     information (e.g. passwords) **MUST NOT** be passed in plain text - `ENV`
     variables alone.
 
--   It **SHOULD** be possible to configure the GE config entirely through -
+*   It **SHOULD** be possible to configure the GE config entirely through -
     `ENV` variables. Where this is not possible, the `README.md` **SHOULD**
     explain how to mount a volume to set the configuration.
 
--   Where configuration occurs via a `config` file, and the image cannot be
+*   Where configuration occurs via a `config` file, and the image cannot be
     driven by `ENV` variables, a sample `config` file **SHOULD** be supplied and
     injected as part of the Docker build. Dockerfiles **SHOULD NOT** copy
     default configuration directly from GitHub.
 
--   The GitHub repository `README.md` **MUST** have a Docker reference - this is
+*   The GitHub repository `README.md` **MUST** have a Docker reference - this is
     a link on the mandatory Docker Pulls `README.md` badge
 
--   The **ReadtheDocs** GE Installation Documentation **MUST** include
+*   The **ReadtheDocs** GE Installation Documentation **MUST** include
     references to the Docker Hub image, and how to configure it.
 
--   Docker containers **MUST** be tested before being published to the
+*   Docker containers **MUST** be tested before being published to the
     community. Error in Docker materials of a GE will be considered as critical
     and **MUST** be fixed immediately.
 
--   Dockerfiles **SHOULD** follow best practices as described
+*   Dockerfiles **SHOULD** follow best practices as described
     [here](https://docs.docker.com/articles/dockerfile_best-practices/)
 
--   Dockerfiles **SHOULD** be based on the latest LTS release of the base
+*   Dockerfiles **SHOULD** be based on the latest LTS release of the base
     image - e.g. `ubuntu:18.04`, `node:carbon` etc.
 
--   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
+*   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
     fixed, and **MUST** be configurable using `ENV` variables.
 
 ## Publication Requirements
 
-The GE owner will be responsible for publication and maintenance operations.
+-   The GE owner will be responsible for Docker publication and maintenance
+    operations.
 
-Maintenance and release of interim Point releases should be done using the GE
-Owner own contributor account.
+-   Maintenance and release of interim point releases **MUST** be done using the
+    GE Owner own contributor account.
+
+-   The name of the `r/fiware/image` **MUST** match the standardized name of the
+    GitHub sub-module within the catalogue. It is not necessarily linked to the
+    name of the GitHub repository used by the team within GitHub. (e.g.
+    apinf/platform won’t create a FIWARE Docker image called `platform`.)
+
+-   A web-hook **MUST** be added so that the FIWARE Infrastructure is informed
+    whenever a release version is tagged. FIWARE will build tagged releases
+    only - i.e. `r/fiware/component/latest` will be the **latest stable
+    release**.
+
+-   Builds of components which do not successfully integrate with
+    `r/fiware/orion/latest` will not be added to the FIWARE account. When change
+    have been made, a [semVer](https://semver.org/) release on the source code
+    will be required in order to complete the release. This will kick off the
+    FIWARE build - obviously it is essential that such a build passes the
+    mandatory integration tests.
 
 -   Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE
     Catalogue according to the Guidelines defined by the
