@@ -42,7 +42,7 @@ There are three kinds of requirements included:
 
 -   There **MUST** be a docker-hub specific README for the docker image
     documentation. This lies in the same directory as the Dockerfile and
-    \*should\*\* not be a copy of the root GitHub `README.md` since the required
+    **SHOULD not** be a copy of the root GitHub `README.md` since the required
     information is not the same.
 
 *   The Docker `README.md` **MUST** give complete instructions about how to work
@@ -80,14 +80,39 @@ There are three kinds of requirements included:
     community. Error in Docker materials of a GE will be considered as critical
     and **MUST** be fixed immediately.
 
-*   Dockerfiles **SHOULD** follow best practices as described
+## Recommended best practices
+
+-   Dockerfiles **SHOULD** follow best practices as described
     [here](https://docs.docker.com/articles/dockerfile_best-practices/)
 
-*   Dockerfiles **SHOULD** be based on the latest LTS release of the base
+-   Dockerfiles **SHOULD** be based on the latest LTS release of the base
     image - e.g. `ubuntu:18.04`, `node:carbon` etc.
 
-*   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
+-   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
     fixed, and **MUST** be configurable using `ENV` variables.
+
+Dockerfiles should be publically available, and therefore can be read by outside
+developer and can reflect on the quality of the product in question. Although
+image size is not everything, there are several ways to reduce the bloat of
+docker images and good practice should be followed: We propose the following can
+help standardize across teams:
+
+-   Where possible, base the image on debian:9-slim rather than Ubuntu.
+
+-   Node-based images should use node-carbon-slim where possible (which is also
+    debian based)
+
+-   Builds should not package development dependencies and should remove
+    unnecessary tools such as wget, curl and so on - if necessary load these
+    tools and remove them within the same layer.
+
+-   Use the RUN git clone method of obtaining source code instead of ADD/COPY in
+    case source code can be deleted
+
+-   Consider adding build-args to be able to download latest/stable/specific
+    release of the codebase.
+
+-   Additional alpine based builds may be requested for some components.
 
 ## Publication Requirements
 
@@ -100,7 +125,7 @@ There are three kinds of requirements included:
 -   The name of the `r/fiware/image` **MUST** match the standardized name of the
     GitHub sub-module within the catalogue. It is not necessarily linked to the
     name of the GitHub repository used by the team within GitHub. (e.g.
-    apinf/platform won’t create a FIWARE Docker image called `platform`.)
+    `apinf/platform` won’t create a FIWARE Docker image called `platform`.)
 
 -   A web-hook **MUST** be added so that the FIWARE Infrastructure is informed
     whenever a release version is tagged. FIWARE will build tagged releases
@@ -111,7 +136,7 @@ There are three kinds of requirements included:
     `r/fiware/orion/latest` will not be added to the FIWARE account. When change
     have been made, a [semVer](https://semver.org/) release on the source code
     will be required in order to complete the release. This will kick off the
-    FIWARE build - obviously it is essential that such a build passes the
+    FIWARE build. Obviously it is essential that such a build passes the
     mandatory integration tests.
 
 -   Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE
