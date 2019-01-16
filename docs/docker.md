@@ -4,30 +4,22 @@ This page summarizes Requirements for providing Docker Containers for FIWARE
 GEs. [Click here](https://docs.docker.com/engine/understanding-docker/) for an
 introduction to Docker.
 
-There are three kinds of requirements included:
-
--   MUST Requirements. They are mandatory and your GE project must conform to
-    that.
-
--   SHOULD Requirements. They are not mandatory but **highly recommended**.
-
--   MAY Requirements. They are nice to have.
-
 ## General Requirements
 
--   At least one Dockerfile (hereby named as 'reference `Dockerfile'), intended
+-   At least one Dockerfile (hereby named as 'reference Dockerfile'), intended
     to GE users, **MUST** be provided. The base image (Ubuntu, CentOS, etc.) for
     such a Dockerfile might depend on each GE, although some recommendations
-    (see below) are provided.
+    (see below) are provided. The Dockerfile can be at the root folder of the
+    GE's Repository or under a folder named `docker`.
 
 -   Hacker-oriented, i.e. for GE development, Dockerfiles **MAY** be provided as
     well.
 
--   Each Docker container **SHOULD** define the following tags (present at
+-   Each Docker image **SHOULD** define the following tags (present at
     [Dockerhub](https://hub.docker.com/):
 
-    -   `latest`: It will correspond to the latest build (latest code snapshot)
-        of the GE. It might not be stable.
+    -   `latest`: **On the GE owner's account** will correspond to the latest
+        build (latest code snapshot) of the GE. It might not be stable.
     -   `<release n>`: one tag per relevant and active stable release. The name
         of the tag will correspond to the name assigned to the release in
         GitHub.
@@ -91,15 +83,8 @@ There are three kinds of requirements included:
 -   Maintenance and release of interim point releases **MUST** be done using the
     GE Owner own contributor account.
 
--   The name of the `r/fiware/image` **MUST** match the standardized name of the
-    GitHub sub-module within the catalogue. It is not necessarily linked to the
-    name of the GitHub repository used by the team within GitHub. (e.g.
-    `apinf/platform` won’t create a FIWARE Docker image called `platform`.)
-
 -   A web-hook **MUST** be added so that the FIWARE Infrastructure is informed
-    whenever a release version is tagged. FIWARE will build tagged releases
-    only - i.e. `r/fiware/component/latest` will be the **latest stable
-    release**.
+    whenever a release version is tagged.
 
 -   Builds of components which do not successfully integrate with
     `r/fiware/orion/latest` will not be added to the FIWARE account. When change
@@ -107,10 +92,6 @@ There are three kinds of requirements included:
     will be required in order to complete the release. This will kick off the
     FIWARE build. Obviously it is essential that such a build passes the
     mandatory integration tests.
-
--   Dockerfiles and Dockerhub repositories **MUST** be linked from the FIWARE
-    Catalogue according to the Guidelines defined by the
-    [FIWARE Catalogue](http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Creating_instances).
 
 ## Recommended best practices
 
