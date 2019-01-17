@@ -73,8 +73,8 @@ introduction to Docker.
 
 -   The GE owner will be responsible for Docker publication and maintenance
     operations. Docker builds **SHOULD** be automated. GE Owner's build should
-    be triggered by git push, FIWARE's one will be triggered by the release of
-    new FIWARE-tagged versions.
+    be triggered by git push, FIWARE's one will be triggered by new tagged
+    releases.
 
 -   Docker containers **MUST** be tested before being published to the
     community. Error in Docker materials of a GE will be considered as critical
