@@ -259,9 +259,19 @@ tested against, as follows:
 
 ## Roadmap
 
+A FIWARE GE **MUST** describe its planned roadmap. At the introductory text
+found in the `README.md` corresponding to the main GE repository the following
+statement has to be included:
+
+"The roadmap of this FIWARE GE is described here" (being “here” a clickable link
+that points to a `roadmap.md` file).
+
+For describing a GE roadmap the following template **MUST** be used:
+[GE_roadmap_template.md](GE_roadmap_template.md)
+
 Representatives of the GE community **MUST** attend F2F roadmap meetings to take
 place at FIWARE Summits (not overlapping with agenda, day or day and a half
 before the Summit or after the Congress part)
 
-There will be a web page on the FIWARE site describing what work is planned as a
-result of these FIWARE Roadmap meetings.
+There will be a web page on the FIWARE site describing what overall work is
+planned.
