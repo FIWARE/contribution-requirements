@@ -20,5 +20,6 @@ pages:
   - 'Project Badges': project_badges.md
   - 'Training Courses': learning_materials.md
   - 'Webhook': repo_webhook.md
-  - 'Appendix: Release Process': release.md
+  - 'Appendix A: Release Process': release.md
+  - 'Appendix B: Roadmap Template': GE_roadmap_template.md
   
