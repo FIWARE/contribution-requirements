@@ -308,8 +308,10 @@ Table of Contents can be used for navigation if reading the unstyled Markdown
 files on GitHub, but can be hidden using CSS within the **ReadtheDocs**
 documentation itself and avoid duplication with the sidebar Navigation.
 
-Markdown for **ReadtheDocs** **MUST NOT** use HTML rendering such as `a` tags as
-the navigation will no longer work correctly in **ReadtheDocs**.
+Markdown for **ReadtheDocs** **MUST NOT** use HTML rendering such as `<a>` tags
+as the navigation is unpredictable and may no longer work correctly in
+**ReadtheDocs**. An exception can be made for documentation using an extended
+character set (e.g. Japanese) which require these tags for headings.
 
 Markdown for **ReadtheDocs** may use `<h1>...<h6>` HTML headers if necessary to
 suppress entries in the **ReadtheDocs** sidebar.
