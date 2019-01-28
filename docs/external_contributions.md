@@ -61,11 +61,11 @@ given by mentors. The contributor's role includes:
 
 Credits **MUST** be given to external contributors. A _CREDITS_ file **MUST** be
 present at the root directory of the GE code repository. The format of that file
-MAY use some of the following alternatives (it's up to GE team to chose which
+SHOULD use some of the following alternatives (it's up to GE team to chose which
 option they prefer):
 
 - One line per contributor to the project. An example can be found [here](https://github.com/nodejs/node/blob/master/AUTHORS).
-- Include a link to the contributors graph in the github repository. An example of the contributor graph can be found [here](https://github.com/telefonicaid/fiware-orion/graphs/contributors).
+- A short list of major contributors and a link to the contributors graph in the github repository. An example can be found [here](https://github.com/Kotti/Kotti/blob/master/AUTHORS.txt)
 - A list of contributors and the detail of their particular contributons. An examples can be found [here](https://github.com/sinatra/sinatra/blob/master/AUTHORS.md).
 
 The public **backlog organization** for _Welcome Contributions_ **SHOULD** be as
