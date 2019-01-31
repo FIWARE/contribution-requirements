@@ -60,4 +60,4 @@ of the product even though development of these features has not yet been
 scheduled for a release in the near future. Please feel free to contact us if
 you wish to get involved in the implementation or influence the roadmap
 
-{{Complete this section following the same structure as described for shory term roadmap}}
+{{Complete this section following the same structure as described for short term roadmap}}
