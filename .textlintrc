@@ -188,9 +188,7 @@
     "no-dead-link": {
        "ignoreRedirects": true,
        "ignore": [
-          "mailto:*",
-          "https://github.com/telefonicaid/sigfox-iotagent/blob/master/doc/roadmap.md",
-          "https://coveralls.io/**"
+          "mailto:*"
       ]
     }
   }
