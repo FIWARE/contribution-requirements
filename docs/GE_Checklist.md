@@ -18,7 +18,8 @@ software design, code cleanliness etc.
 -   A New Generic Enabler **MUST** show how it integrates within the overall
     FIWARE Architecture
 -   The codebase **MUST** be available on [GitHub](https://github.com)
--   The GitHub repository **MUST** include an appropriate Open Source License
+-   The GitHub repository **MUST** include an appropriate Open Source License -
+    see [https://choosealicense.com/](https://choosealicense.com/)
 -   For functional readiness at a minimum, a new incubated enabler **MUST** be
     able to be instantiated directly in a running state by any competent
     developer without the need to refer to other dependent technologies - for
