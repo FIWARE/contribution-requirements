@@ -21,7 +21,7 @@ There are three kinds of requirements included:
     mature in the future.
 
 The Guide assumes that the reader knows the basics of
-[Github](https://github.com), [Travis](https://travis-ci.org/),
+[GitHub](https://github.com), [Travis](https://travis-ci.org/),
 [test driven development](https://en.wikipedia.org/wiki/Test-driven_development)
 and
 [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration).
