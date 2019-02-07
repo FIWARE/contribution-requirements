@@ -4,6 +4,7 @@
 [![License: CC-BY-4.0](https://img.shields.io/github/license/fiware/developmentGuidelines.svg)](https://creativecommons.org/licenses/by/4.0/)
 <br>
 [![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.rtfd.io)
+[![Build Status](https://img.shields.io/travis/Fiware/contribution-requirements.svg)](https://travis-ci.org/Fiware/contribution-requirements)
 
 This guide describes the requirements to be fulfilled by any FIWARE Generic
 Enabler (GE) as well as the recommended practices for its development.
