@@ -64,9 +64,14 @@ present at the root directory of the GE code repository. The format of that file
 SHOULD use some of the following alternatives (it's up to GE team to chose which
 option they prefer):
 
-- One line per contributor to the project. An example can be found [here](https://github.com/nodejs/node/blob/master/AUTHORS).
-- A short list of major contributors and a link to the contributors graph in the github repository. An example can be found [here](https://github.com/Kotti/Kotti/blob/master/AUTHORS.txt)
-- A list of contributors and the detail of their particular contributons. An examples can be found [here](https://github.com/sinatra/sinatra/blob/master/AUTHORS.md).
+-   One line per contributor to the project. An example can be found
+    [here](https://github.com/nodejs/node/blob/master/AUTHORS).
+-   A short list of major contributors and a link to the contributors graph in
+    the GitHub repository. An example can be found
+    [here](https://github.com/Kotti/Kotti/blob/master/AUTHORS.txt)
+-   A list of contributors and the detail of their particular contributons. An
+    examples can be found
+    [here](https://github.com/sinatra/sinatra/blob/master/AUTHORS.md).
 
 The public **backlog organization** for _Welcome Contributions_ **SHOULD** be as
 follows:
@@ -105,18 +110,24 @@ follows:
 
 *   Repositories which are open to contributions GitHub **SHOULD** comply with
     the GitHub recommended community standards checklist by having a
-    `CONTRIBUTING.MD`
+    `CONTRIBUTING.MD` - see the associated
+    [Git Hub Article](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 *   Repositories which are open to contributions GitHub **MAY** require a pull
-    request template
+    request template - see associated
+    [Git Hub Article](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
+*   Presence of a `CODE_OF_CONDUCT.md` **MAY** also be useful - see associated
+    [Git Hub Article](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/).
+    It should noted that FIWARE members should have already signed the
+    [FIWARE Code of Conduct](https://www.fiware.org/foundation/code-of-conduct/)
 *   Repositories which are open to contributions GitHub **SHOULD** automate code
-    formatting (e.g. Go fmt, prettier/ESLint for Nodejs, Jacobe or Checkstyle
+    formatting (e.g. Go fmt, prettier/ESLint for Node.js, Jacobe or Checkstyle
     for Java etc.)
 
 ## Recognitions
 
 Apart from the presence on the credits file, different recognitions can be given
-to external contributors. Some ideas, coming from the Mozilla Community can be
-found [here](https://cbt.etherpad.mozilla.org/WaystoRecognize?).
+to external contributors. Some ideas, coming from the GitHub Open Source Guides
+can be found [here](https://opensource.guide/).
 
 The greater recognition that can be made to a contributor is promotion to the
 'active contributor' role (see

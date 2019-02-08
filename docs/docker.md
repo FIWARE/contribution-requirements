@@ -88,7 +88,7 @@ introduction to Docker.
 
 -   Builds of components which do not successfully integrate with
     `r/fiware/orion/latest` will not be added to the FIWARE account. When change
-    have been made, a [semVer](https://semver.org/) release on the source code
+    have been made, a [SemVer](https://semver.org/) release on the source code
     will be required in order to complete the release. This will kick off the
     FIWARE build. Obviously it is essential that such a build passes the
     mandatory integration tests.
@@ -104,7 +104,7 @@ introduction to Docker.
 -   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
     fixed, and **MUST** be configurable using `ENV` variables.
 
-Dockerfiles should be publically available, and therefore can be read by outside
+Dockerfiles should be publicly available, and therefore can be read by outside
 developers and can reflect on the quality of the product in question. Although
 image size is not everything, there are several ways to reduce the bloat of
 docker images and good practice should be followed:

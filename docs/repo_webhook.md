@@ -2,7 +2,7 @@
 
 According to the [mission statement](https://www.fiware.org/foundation/) of the
 FIWARE Foundation, the Foundation promotes FIWARE related assets across several
-locations, such as [fiware.org](http;//fiware,org),
+locations, such as [fiware.org](http://fiware.org),
 [ReadtheDocs](https://readthedocs.org/) and [GitHub](https://github.com/).
 
 To keep the message on GitHub focused, the Foundation restricts the main
