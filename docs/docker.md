@@ -16,7 +16,7 @@ introduction to Docker.
     well.
 
 -   Each Docker image **SHOULD** define the following tags (present at
-    [Dockerhub](https://hub.docker.com/):
+    [Dockerhub](https://hub.docker.com/)):
 
     -   `latest`: **On the GE owner's account** will correspond to the latest
         build (latest code snapshot) of the GE. It might not be stable.
@@ -103,6 +103,13 @@ introduction to Docker.
 
 -   Although default values **SHOULD** be defined, exposed ports **MUST NOT** be
     fixed, and **MUST** be configurable using `ENV` variables.
+    
+-   The `MAINTAINER` instruction is deprecated. The `LABEL` instruction is a much 
+    more flexible version of this and you should use it instead, as it enables 
+    setting any metadata you require, and can be viewed easily, for example 
+    with docker inspect. Dockerfiles **SHOULD** put the labels `maintainer`, 
+    `release-date`, `version`, and `vendor`.
+
 
 Dockerfiles should be publicly available, and therefore can be read by outside
 developers and can reflect on the quality of the product in question. Although
