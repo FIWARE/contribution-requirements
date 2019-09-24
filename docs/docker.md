@@ -146,7 +146,7 @@ Dockerfiles **SHOULD** put the following labels inside the Dockerfile:
 Keep in mind that could be possible predefine some values for these labels and modify then during the
 building of the docker image. In the following example, we have predefined some values in the Dockerfile
 content and during the construction of the docker image, we modify some of them. The reason is to allow the
-building outside of Docker Hub or without specifing the corresponding arguments in the command line. Note 
+building outside of Docker Hub or without specifying the corresponding arguments in the command-line. Note 
 that a Docker build hook can be used to automate the date and branch functions.
 
 ```dockerfile
