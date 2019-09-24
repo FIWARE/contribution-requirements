@@ -107,9 +107,8 @@ introduction to Docker.
 -   The `MAINTAINER` instruction is deprecated. The `LABEL` instruction is a much 
     more flexible version of this and you should use it instead, as it enables 
     setting any metadata you require, and can be viewed easily, for example 
-    with docker inspect. Dockerfiles **SHOULD** put the labels `maintainer`, 
-    `release-date`, `version`, and `vendor`.
-
+    with docker inspect. See section [Label description content](#label-description-content) 
+    for more details.
 
 Dockerfiles should be publicly available, and therefore can be read by outside
 developers and can reflect on the quality of the product in question. Although
@@ -132,6 +131,83 @@ docker images and good practice should be followed:
     release of the codebase.
 
 -   Additional alpine-based builds may be requested for some components.
+
+### Label description content
+
+Dockerfiles **SHOULD** put the following labels inside the Dockerfile:
+
+- `maintainer` - the name of the caretaker organization.
+- `gitrepo` - where the source code can be found.
+- `branch` - the branch the image was built from.
+- `release_date` - the date the image was built.
+- `contacts` - comma separated partial email addresses of responsible contacts (e.g for security updates)
+- `organization` - partial email address(es) of responsible contacts (to avoid full public addresses / spam)
+
+Keep in mind that could be possible predefine some values for these labels and modify then during the
+building of the docker image. In the following example, we have predefined some values in the Dockerfile
+content and during the construction of the docker image, we modify some of them. The reason is to allow the
+building outside of Docker Hub or without specifing the corresponding arguments in the command line. Note 
+that a Docker build hook can be used to automate the date and branch functions.
+
+```dockerfile
+ARG NODE_VERSION=8.16.1-slim
+FROM node:${NODE_VERSION}
+ARG GITHUB_ACCOUNT=fiware
+ARG GITHUB_REPOSITORY=iotagent-ul
+ARG DOWNLOAD=latest
+ARG SOURCE_BRANCH=master
+ARG BUILD_DATE=unknown
+ARG VERSION="latest"
+
+ENV DOWNLOAD=${DOWNLOAD}
+
+LABEL maintainer="FIWARE Foundation e.V." \
+      gitrepo=https://github.com/${GITHUB_ACCOUNT}/${GITHUB_REPOSITORY} \
+      branch=${SOURCE_BRANCH} \
+      release_date=${BUILD_DATE} \
+      contacts=fernando.lopez,jason.fox \
+      organization=fiware.org \
+      version=${VERSION}
+
+CMD ["/hello"]
+```
+
+Moreover, to build the docker image (configuring properly the variables `SOURCE_BRANCH`, `DOCKER_TAG`, and `IMAGE_NAME`)
+just execute the following command:
+
+```shell script
+docker build  \
+  --build-arg BUILD_DATE="$(date)" \
+  --build-arg SOURCE_BRANCH=$SOURCE_BRANCH \
+  --build-arg VERSION=$DOCKER_TAG \
+  -t $IMAGE_NAME .
+```
+
+Finally, we can extract the information from the image executing the following command over a previously created
+image.
+
+```shell script
+docker inspect --format '{{json .Config.Labels}}' test | jq .
+```
+
+Produce the following result for the previous docker image example.
+
+```json
+{
+  "branch": "develop",
+  "contacts": "fernando.lopez,jason.fox",
+  "gitrepo": "https://github.com/fiware/iotagent-ul",
+  "maintainer": "FIWARE Foundation e.V.",
+  "organization": "fiware.org",
+  "release_date": "Tue Sep 24 11:13:44 CEST 2019",
+  "version": "1.0"
+}
+```
+
+> Note: [jq](https://stedolan.github.io/jq/) program is a “filter” that takes an input, and produces an output in pretty json format.
+
+This should also be present in the relevant Docker README.md
+
 
 ## Examples
 
