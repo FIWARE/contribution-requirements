@@ -210,7 +210,7 @@ Produce the following result for the previous docker image example.
 > Note: [jq](https://stedolan.github.io/jq/) program is a “filter” that takes an input, and produces an output in pretty 
 > json format.
 
-A statement about how to extract Dockerfile label data using `docker inspect` **SHOULD** also be present in the the Docker 
+A statement about how to extract Dockerfile label data using `docker inspect` **SHOULD** also be present in the Docker 
 `README.md`. The Docker `README.md is used to provide documentation on Docker Hub.
 
 ## Examples
