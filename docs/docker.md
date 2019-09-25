@@ -107,7 +107,7 @@ introduction to Docker.
 -   The `MAINTAINER` instruction is deprecated. The `LABEL` instruction is a much 
     more flexible version of this and you should use it instead, as it enables 
     setting any metadata you require, and can be viewed easily, for example 
-    with docker inspect. See section [Label description content](#label-description-content) 
+    with `docker inspect`. See section [Label description content](#label-description-content) 
     for more details.
 
 Dockerfiles should be publicly available, and therefore can be read by outside
@@ -144,10 +144,13 @@ Dockerfiles **SHOULD** put the following labels inside the Dockerfile:
 - `organization` - partial email address(es) of responsible contacts (to avoid full public addresses / spam)
 
 Keep in mind that could be possible predefine some values for these labels and modify then during the
-building of the docker image. In the following example, we have predefined some values in the Dockerfile
-content and during the construction of the docker image, we modify some of them. The reason is to allow the
-building outside of Docker Hub or without specifying the corresponding arguments in the command-line. Note 
-that a Docker build hook can be used to automate the date and branch functions.
+building of the docker image. Most values can be predefined or supplied as part of the automated build 
+hook script. In the following example, we have predefined some values in the Dockerfile content and 
+during the construction of the docker image, we modify some of them. The reason is to allow the building 
+outside of Docker Hub or without specifying the corresponding arguments in the command-line. Note that a 
+Docker build hook can be used to automate the date and branch functions. Actually anything that can go 
+in the build script (e.g. date) or anything that is predefined by Docker Hub (assuming automated builds 
+have been set up.)
 
 ```dockerfile
 ARG NODE_VERSION=8.16.1-slim
@@ -172,10 +175,10 @@ LABEL maintainer="FIWARE Foundation e.V." \
 CMD ["/hello"]
 ```
 
-Moreover, to build the docker image (configuring properly the variables `SOURCE_BRANCH`, `DOCKER_TAG`, and `IMAGE_NAME`)
-just execute the following command:
+For automated builds, a docker hub build hook can be set up, pre-configured with `SOURCE_BRANCH`, `DOCKER_TAG`, and 
+`IMAGE_NAME` .- an example can be found [here](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/hooks/build).
 
-```shell script
+```bash
 docker build  \
   --build-arg BUILD_DATE="$(date)" \
   --build-arg SOURCE_BRANCH=$SOURCE_BRANCH \
@@ -186,7 +189,7 @@ docker build  \
 Finally, we can extract the information from the image executing the following command over a previously created
 image.
 
-```shell script
+```bash
 docker inspect --format '{{json .Config.Labels}}' test | jq .
 ```
 
@@ -204,10 +207,11 @@ Produce the following result for the previous docker image example.
 }
 ```
 
-> Note: [jq](https://stedolan.github.io/jq/) program is a “filter” that takes an input, and produces an output in pretty json format.
+> Note: [jq](https://stedolan.github.io/jq/) program is a “filter” that takes an input, and produces an output in pretty 
+> json format.
 
-This should also be present in the relevant Docker README.md
-
+A statement about how to extract Dockerfile label data using `docker inspect` **SHOULD** also be present in the the Docker 
+`README.md`. The Docker `README.md is used to provide documentation on Docker Hub.
 
 ## Examples
 
