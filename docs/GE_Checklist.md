@@ -29,15 +29,15 @@ software design, code cleanliness etc.
         but a working MySQL can be easily instantiated by Docker and minimal
         data is seeded by Keyrock - the database volume can be persisted.
         Knowledge of SQL is unnecessary for use.
-    -   An [IoT Agent](https://iotagent-node-lib.rtfd.io/) can have a dependency
-        on MongoDB - the volumes are exposed so that the data will be persisted
-        if the Docker container goes down. Alternatively an IoT Agent can be
-        memory based, but all configuration can be set up using a config file or
-        Docker params and then data injected by HTTP requests. An understanding
-        of MongoDB is unnecessary to get it to work.
-    -   [QuantumLeap](https://quantumleap.rtfd.io/) works with Grafana and
-        Crate-DB - appropriate set-up and docker compose are available in the
-        Quick Start. Quantum Leap can be used without in depth knowledge of
+    -   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a
+        dependency on MongoDB - the volumes are exposed so that the data will be
+        persisted if the Docker container goes down. Alternatively an IoT Agent
+        can be memory based, but all configuration can be set up using a config
+        file or Docker params and then data injected by HTTP requests. An
+        understanding of MongoDB is unnecessary to get it to work.
+    -   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana
+        and Crate-DB - appropriate set-up and docker compose are available in
+        the Quick Start. Quantum Leap can be used without in depth knowledge of
         Crate-DB
 
 -   For all webservice components, a
@@ -90,12 +90,12 @@ The expected requirements to be fulfilled within a few months of acceptance:
 -   New entry in the
     [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) under the
     corresponding Chapter agreed at TSC Level. See also
-    [Working with the FIWARE catalogue](https://wiki.fiware.org/Working_with_the_FIWARE_catalogue)
+    [Working with the FIWARE catalogue](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue)
 -   Mirroring GitHub Webhook properly configured. See
     [webhooks](repo_webhook.md) (Ask FF to configure the mirroring).
 -   **ReadtheDocs** project available and styled using the FIWARE CSS and
     Chapter CSS. See
-    [fiware-orion.readthedocs.org](https://fiware-orion.readthedocs.org) as an
+    [fiware-orion.readthedocs.org](https://fiware-orion.readthedocs.io) as an
     example.
 -   Automatic documentation generation **MUST** be configured. See
     [mkdocs.yml](https://github.com/telefonicaid/fiware-orion/blob/master/mkdocs.yml)
@@ -106,11 +106,11 @@ The expected requirements to be fulfilled within a few months of acceptance:
     [FIWARE's Dockerhub account](https://hub.docker.com/Dockerhub)
 -   Roadmap **MUST** be available at one of the following:
     -   Promoted on GitHub and linked in the
-        [Current Roadmap](https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE)
+        [Current Roadmap](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Current_Supported_Features_and_Roadmap_in_FIWARE)
     -   Promoted in a publicly available document on the web and linked at
-        [Current Roadmap](https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE)
+        [Current Roadmap](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Current_Supported_Features_and_Roadmap_in_FIWARE)
     -   Full text found within the
-        [Current Roadmap](https://wiki.fiware.org/Current_Supported_Features_and_Roadmap_in_FIWARE)
+        [Current Roadmap](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Current_Supported_Features_and_Roadmap_in_FIWARE)
 -   Release schedule **MUST** be aligned with
     [release requirements](GE_Requirements.md#releases)
 -   Access **MUST** be provided to the corresponding information in order to see

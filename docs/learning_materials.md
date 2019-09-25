@@ -55,7 +55,7 @@ Enabler and where it fits within the FIWARE Ecosystem.
 
 -   For examples see [youtube.com](https://www.youtube.com/watch?v=dHyVTan6bUY),
     [slideshare.net](https://www.slideshare.net/FI-WARE/fiware-iotidasintroul20v2)
-    and [fiware-academy.readthedocs.io](https://fiware-academy.readthedocs.io/en/latest/core/orion/index.html)
+    and [https://fiware-academy.readthedocs.io](https://fiware-academy.readthedocs.io)
 
 Academy courses consist of short (5-10 minute) videos and slide presentations
 (with or without audio). These courses are suitable for developers who prefer to

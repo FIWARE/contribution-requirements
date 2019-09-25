@@ -51,9 +51,9 @@
 			"prettier --tab-width 4 --print-width 80 --write --prose-wrap always",
 			"git add"
 		],
-    	"*.yml": [
-      		"prettier --no-config --write",
-      		"git add"
-    	]
+		"*.yml": [
+			"prettier --no-config --write",
+			"git add"
+		]
 	}
 }
