@@ -130,7 +130,7 @@ docker images and good practice should be followed:
 
 -   [GitHub Repository](https://github.com/telefonicaid/fiware-orion/tree/master/docker)
 
--   [Docker Hub repository](https://registry.hub.docker.com/u/fiware/orion/)
+-   [Docker Hub repository](https://hub.docker.com/r/fiware/orion/)
 
 ## Support
 

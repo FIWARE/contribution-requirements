@@ -188,7 +188,9 @@
     "no-dead-link": {
        "ignoreRedirects": true,
        "ignore": [
-          "mailto:*"
+          "mailto:*",
+          "https://blog.github.com/2016-04-01-squash-your-commits/",
+          "https://www.fiware.org/foundation"
       ]
     }
   }

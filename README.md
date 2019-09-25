@@ -1,9 +1,9 @@
 # FIWARE Platform Contribution Requirements
 
-[![FIWARE Documentation](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/documentation.svg)](https://fiware-requirements.rtfd.io)
+[![FIWARE Documentation](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/documentation.svg)](https://fiware-requirements.readthedocs.io)
 [![License: CC-BY-4.0](https://img.shields.io/github/license/fiware/developmentGuidelines.svg)](https://creativecommons.org/licenses/by/4.0/)
 <br>
-[![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.rtfd.io)
+[![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.readthedocs.io)
 [![Build Status](https://img.shields.io/travis/FIWARE/contribution-requirements.svg)](https://travis-ci.org/FIWARE/contribution-requirements)
 
 This guide describes the requirements to be fulfilled by any FIWARE Generic
