@@ -60,6 +60,10 @@ software design, code cleanliness etc.
 
 #### Submission Checklist
 
+>
+>  **Note:** A formal application must be made using the attached  [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)
+>
+
 The following information **MUST** be submitted to FF Staff:
 
 -   The URL of all of the GitHub Repositories holding the code base
@@ -82,7 +86,7 @@ The following information **MUST** be submitted to FF Staff:
         [What is text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#what-is-orion)
     -   Example -
         [Why Use text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#why-use-orion)
-
+        
 ### Incubated
 
 The expected requirements to be fulfilled within a few months of acceptance:
