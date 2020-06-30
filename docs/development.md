@@ -330,7 +330,7 @@ configuration file **MUST** be present and fully aligned with every version.
 The config file **MUST** be seen as part of the documentation (for integrators
 and deployers). So it is mandatory to **document every config param**, its
 available options and operation advices.
-[Redis configuration](https://github.com/antirez/redis/blob/unstable/redis.conf)
+[Redis configuration](https://github.com/redis-io/redis/blob/unstable/redis.conf)
 is an illustrative example.
 
 ## Software Releases (source code)
