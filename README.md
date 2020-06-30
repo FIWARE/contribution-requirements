@@ -6,11 +6,10 @@
 [![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.readthedocs.io)
 [![Build Status](https://img.shields.io/travis/FIWARE/contribution-requirements.svg)](https://travis-ci.org/FIWARE/contribution-requirements)
 
-This guide describes the requirements to be fulfilled by any FIWARE Generic
-Enabler (GE) as well as the recommended practices for its development.
+This guide describes the requirements to be fulfilled by any Generic Enabler (GE) within the **FIWARE Catalogue** as well as the recommended practices for its development.
 
-| :inbox_tray: &nbsp; [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | :octocat: [FIWARE Catalogue](https://github.com/FIWARE/catalogue) |  :books: [Documentation](https://fiware-requirements.readthedocs.io) |
-| --- | ---| ---|
+| :inbox_tray: &nbsp; [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) | :octocat: [GitHub Repository](https://github.com/FIWARE/catalogue) |  :books: [Documentation](https://fiware-requirements.readthedocs.io) |
+| --- | --- | --- | --- |
 
 There are three kinds of requirements included:
 
