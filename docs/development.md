@@ -365,7 +365,7 @@ Files describing the **Licensing and Contribution Policy** **MUST** be included
 in the repository. Please check the
 [General GE Licensing Requirements](GE_Requirements.md#licensing-requirements).
 They **MUST** be consistent with those reflected in the
-[FIWARE Catalogue](http://catalogue-server.fiware.org).
+[FIWARE Catalogue](https://github.com/FIWARE/catalogue).
 
 ## Developer Support
 
