@@ -17,8 +17,8 @@ software design, code cleanliness etc.
     and accepted into an existing Chapter.
 -   A New Generic Enabler **MUST** show how it integrates within the overall
     FIWARE Architecture
--   The codebase **MUST** be available on [GitHub](https://github.com)
--   The GitHub repository **MUST** include an appropriate Open Source License -
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a> The codebase **MUST** be available on [GitHub](https://github.com)
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#169;</a>  The GitHub repository **MUST** include an appropriate Open Source License -
     see [https://choosealicense.com/](https://choosealicense.com/)
 -   For functional readiness at a minimum, a new incubated enabler **MUST** be
     able to be instantiated directly in a running state by any competent
@@ -43,7 +43,7 @@ software design, code cleanliness etc.
 -   For all webservice components, a
     [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be
     available within the code-base
--   Basic documentation **MUST** exist in Markdown and **MUST** be complete
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> Basic documentation **MUST** exist in Markdown and **MUST** be complete
     enough for usage of the component:
     -   A Quick Start guide
     -   Admin Installation instructions - how to create instances:
@@ -67,7 +67,7 @@ software design, code cleanliness etc.
 The following information **MUST** be submitted to FF Staff:
 
 -   The URL of all of the GitHub Repositories holding the code base
--   The version number of the initial release to be included in the catalogue -
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#169;</a> The version number of the initial release to be included in the catalogue -
     this **MUST** correspond to a real release tag found on the GitHub
     repository
 -   The location of the official `Dockerfile`, so an “official” FIWARE docker
@@ -86,7 +86,7 @@ The following information **MUST** be submitted to FF Staff:
         [What is text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#what-is-orion)
     -   Example -
         [Why Use text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#why-use-orion)
-        
+
 ### Incubated
 
 The expected requirements to be fulfilled within a few months of acceptance:
@@ -156,7 +156,6 @@ for new and incubated enablers listed above **MUST** be met.
 -   Where it is suitable to provide a global instance of a service, a public
     instance may be deployed in the FIWARE Lab and maintained by the FF team
     (Ask FF Staff)
--   A tour guide entry is provided - see [fiwaretourguide.readthedocs.io]
-    https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/)
+-   A tour guide entry is provided - see [fiwaretourguide.readthedocs.io](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/)
 -   A tutorial is provided (See some examples at
     [fiware-tutorials.readthedocs.io](http://fiware-tutorials.readthedocs.io/en/latest))

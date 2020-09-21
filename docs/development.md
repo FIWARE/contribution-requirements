@@ -2,9 +2,9 @@
 
 ## SCM Tool
 
--   The SCM Tool **MUST** be [GitHub](https://github.com). Accompanying tools or
+-  <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a>  The SCM Tool **MUST** be [GitHub](https://github.com). Accompanying tools or
     plugins that integrate well with GitHub (ex. Gerrit) **MAY** be used.
--   GitHub **MUST** be used during the **whole development lifecycle**.
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#169;</a> GitHub **MUST** be used during the **whole development lifecycle**.
 -   The name of the GitHub Repository **MAY** be _'fiware' + '-' + "Code Name of
     your GE"_. Example: `fiware-orion`.
 -   The GitHub Repository content **MUST** meet the
@@ -105,10 +105,10 @@ ISSUE 345. POST Operation /entities. Part III Rendering Responses.
 
 ## Continuous Integration
 
-GE projects developed as open source **SHOULD** have a **public continuous
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a>  GE projects developed as open source **SHOULD** have a **public continuous
 integration system**.
 
-The continuous integration system **SHOULD** be running **every time a new Pull
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_continuous_integration">&#169;</a>  The continuous integration system **SHOULD** be running **every time a new Pull
 Request** (PR) is done. As a result the PR owner can know in advance if her code
 is breaking something.
 
@@ -122,17 +122,17 @@ git revert for the former.
 system** as it is super-easy to integrate it with GitHub. Jenkins is another
 popular tool which has the advantage of being able to run on different OS.
 
-Unit tests coverage **MAY** be provided using open source tools like
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_most">&#169;</a> Unit tests coverage **MAY** be provided using open source tools like
 [ coveralls](https://coveralls.io/). See an example in
 [Wirecloud](https://github.com/Wirecloud/wirecloud)
 
-You **MUST** include **Travis badges** (or other badges) in your `README.md`
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a> You **MUST** include **Travis badges** (or other badges) in your `README.md`
 file. Travis badges can be used to report the current status of your build, (it
 **SHOULD** be green!).
 
 ## Tracking
 
-A Tracking system **MUST** be used in order to **manage the development work**.
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#discussion">&#169;</a> A Tracking system **MUST** be used in order to **manage the development work**.
 Such tracking system **MUST** include at least all the bugs/known issues of your
 component.
 
@@ -160,16 +160,18 @@ design principles of your component. Be prepared for trade-offs.
 
 ## Code Quality
 
-Project repositories **SHOULD** automate coding formatting and run code
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#static-analysis">&#169;</a>  Project repositories **SHOULD** automate coding formatting and run code
 linters/style checkers as part of the CI testing process where possible - e.g.
 **Checkstyle**, **Lint4j**, **ESLint** etc. A list of suitable tools can be
 found at: `https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis`
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_critical_fixed">&#169;</a>
 To attract active support community, code **SHOULD** regularly be upgraded to
 the latest LTS libraries and versions of dependencies - e.g. Java 8,9,10 rather
 than Java 1.4; ECMAScript 6 rather than ECMAScript 5 etc. Ideally such changes
 can also be applied automatically, but **MUST** be tested.
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_fixed_60_days">&#169;</a>
 Versions of dependent libraries with known vulnerabilities **SHOULD** be
 upgraded
 
@@ -183,7 +185,7 @@ Apart from meeting the
 [General Documentation Requirements](GE_Requirements.md#documentation-requirements)
 the following guidelines apply.
 
-To avoid documentation inconsistencies, **development related** documents
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#english">&#169;</a> To avoid documentation inconsistencies, **development related** documents
 **MUST** be handled in the same way than Source Code, this implies:
 
 -   **Developer oriented** documentation **MUST** be included as part of the
@@ -207,7 +209,7 @@ To avoid documentation inconsistencies, **development related** documents
 
 ### Documentation `README.md`
 
--   A `README.md` **MUST** be always present in the root folder of any
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a> A `README.md` **MUST** be always present in the root folder of any
     repository associated to the GE. The purpose of such a document associated
     to a GE is to document:
     -   GE overall description.
@@ -233,7 +235,7 @@ More specifically, the referred `README.md` **SHOULD** include:
 -   Then add a **Table of Contents** to make navigation through the rest of the
     document easier
 
--   How to **Build & Install**
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#build">&#169;</a> How to **Build & Install**
 
     -   Make your simplest full stack deployment as easy as possible
     -   Include System requirement info: SO, CPU/Storage Capacity...
@@ -241,20 +243,20 @@ More specifically, the referred `README.md` **SHOULD** include:
     -   Provide a “Hello World” example using curl (basic acceptance test)
     -   Include troubleshooting information for the whole process
 
--   **API Overview** of the main data flow
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> **API Overview** of the main data flow
 
     -   It is a tutorial, not a reference. It does not need to be exhaustive, it
         needs to guide the user
     -   Provide always curl examples for this section
 
--   More **API Examples**
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> More **API Examples**
 
     -   Just the important bits of your API used in examples
 
 -   A link to the **API Reference Documentation**.
     [Open API](https://github.com/OAI/OpenAPI-Specification) **SHOULD** be used.
 
--   How to **run tests**
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_invocation">&#169;</a> How to **run tests**
 
     -   End-to-end tests (**SHOULD**). This will be part of the sanity checks
         included in the "Installation & Administration Guide", thus a link will
@@ -284,7 +286,7 @@ The Documentation **title** on **ReadtheDocs** (i.e. the `site_name` within the
 the Stack Overflow tag or alternatively the `site_name` **MAY** consist of the
 enabler name wihout the 'fiware' prefix.
 
-The basic format of the Developer Documentation **SHOULD** consist of the
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#169;</a> The basic format of the Developer Documentation **SHOULD** consist of the
 following sections in the following order
 
 -   Getting Started **SHOULD** - simple responses from the GE - e.g. `/version`
@@ -339,7 +341,7 @@ Apart from meeting the general
 [Release Requirements](GE_Requirements.md#releases) the following guidelines
 apply.
 
-Each code release **SHOULD** be properly **tagged** in your GitHub repository.
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#169;</a> Each code release **SHOULD** be properly **tagged** in your GitHub repository.
 
 Each component **SHOULD** always show a consistent view in the “Releases” and
 “Tags” tabs at GitHub.com. Examples:
@@ -350,7 +352,7 @@ Each component **SHOULD** always show a consistent view in the “Releases” an
 
 The release notes **SHOULD** include links for downloading the source code.
 
-The **release notes** associated to each Release **SHOULD** include the **change
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#169;</a> The **release notes** associated to each Release **SHOULD** include the **change
 log** for that release, i.e. the list of changes regarding the previous version,
 including (if possible) links to the **GitHub issues** related to each change.
 

@@ -22,6 +22,7 @@ very beginning of the document:
     Example:
     `https://img.shields.io/github/license/telefonicaid/fiware-orion.svg`
     Example: `https://img.shields.io/readthedocs/fiware-orion.svg`
+-   ![ ](https://bestpractices.coreinfrastructure.org/projects/24/badge) - **CII Best Practices Badge**
 -   ![ ](https://img.shields.io/docker/pulls/fiware/orion.svg)- **Docker**
     (pointer to the Docker container at the Docker Hub Repository) Example:
     `https://img.shields.io/docker/pulls/fiware/orion.svg`

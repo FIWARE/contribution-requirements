@@ -31,7 +31,11 @@ and
 If that is not the case please read one of the many tutorials available on the
 internet.
 
+The
+
 ## Summary of MUST Requirements
+
+-   Every repo must sign-up  to the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge
 
 -   All the
     [GE General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements)
@@ -41,38 +45,27 @@ internet.
     [GE Publication Checklist](https://fiware-requirements.readthedocs.io/en/latest/GE_Checklist)
     **MUST** be followed.
 
--   A Tracking system MUST be used in order to **manage the development work**.
-    Such tracking system MUST include at least all the bugs/known issues of your
-    component.
+-   GitHub and GitHub Issue tracking **MUST** be used.
 
--   When a commit is actually solving a bug/issue there MUST be a
-    **cross-reference** between the commit message and the corresponding
-    bug/issue in the Tracking System.
+-   Accurate, current Documentation **MUST** be available on ReadTheDocs and as GitHub content
 
--   Developer oriented **documentation** MUST be included as part of the
-    **GitHub content**.
+    +   To guarantee that documentation is of high quality, development related
+        **documents** MUST be **peer-reviewed and QA verified**. See
+        [Documentation Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development/index.html#documentation)
+        for the best documentation practices.
 
--   **Code and documentation** MUST be **synced**. A recommended practice
-    (SHOULD) is that every Pull Request with a direct impact on documentation
-    include documentation changes as well.
+    +   Should you want to benefit from automatic documentation generation systems,
+        namely, [ReadtheDocs](https://readthedocs.org), you **MUST** use an approved
+        markup notation
 
--   To guarantee that documentation is of high quality, development related
-    **documents** MUST be **peer-reviewed and QA verified**. See
-    [Documentation Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development/index.html#documentation)
-    for the best documentation practices.
+        +   [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+            is preferred for simple documents.
+        +   [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
+            is an acceptable alternative for complex documentation.
 
--   Should you want to benefit from automatic documentation generation systems,
-    namely, [ReadtheDocs](https://readthedocs.org), you **MUST** use an approved
-    markup notation
-
-    -   [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-        is preferred for simple documents.
-    -   [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
-        is an acceptable alternative for complex documentation.
-
--   API Specifications MUST be provided. Preferred format is
-    [OpenAPI](https://github.com/OAI/OpenAPI-Specification), a.k.a. Swagger,
-    format.
+    +   API Specifications MUST be provided. Preferred format is
+        [OpenAPI](https://github.com/OAI/OpenAPI-Specification), a.k.a. Swagger,
+        format.
 
 ## Development Requirements
 

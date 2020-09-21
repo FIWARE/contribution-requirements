@@ -29,13 +29,13 @@ The following requirements govern the development lifecycle:
 
 ## Testing Requirements
 
-A FIWARE GE **MUST** include a suite of functional tests that allow to verify
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a> A FIWARE GE **MUST** include a suite of functional tests that allow to verify
 the proper integration with the FIWARE Context Broker GE.
 
 ## Publication Requirements
 
--   The SCM Tool **MUST** be [Github.com](https://github.com).
--   GitHub **MUST** be used during the **whole development lifecycle**. See
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a> The SCM Tool **MUST** be [Github.com](https://github.com).
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#169;</a>  GitHub **MUST** be used during the **whole development lifecycle**. See
     [Development Lifecycle Recommendations in FIWARE](development.md#Development_Lifecycle)
     which describes a set of best practices for collaborative open source
     development.
@@ -46,7 +46,7 @@ the proper integration with the FIWARE Context Broker GE.
 
 ### Requirements regarding reference to FIWARE
 
-The `README.md` file of the GitHub repo, or several GitHub repos, associated to
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#169;</a> The `README.md` file of the GitHub repo, or several GitHub repos, associated to
 a FIWARE GE, **MUST** include an Introduction/About section at the beginning
 which includes:
 
@@ -68,7 +68,7 @@ which includes:
 
 ### `README.md` Contents
 
-GE's repository `README.md` file **MUST** include:
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a> GE's repository `README.md` file **MUST** include:
 
 #### General
 
@@ -169,9 +169,11 @@ FIWARE. In the event of not meeting the minimal QA requirements:
 
 ## Licensing and IPR Management Requirements
 
-The source code of the product MUST be licensed under
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#169;</a> The source code of the product MUST be licensed under
 [one of the well-recognized open source licenses approved by the Open Source Initiative](https://opensource.org/licenses/alphabetical).
-The open source license under which source code of the product is licensed
+
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#license_location">&#169;</a> The open source license under which source code of the product is licensed
 **MUST** be clearly mentioned in a first-level section of the `README.md` file
 included in the main GitHub repository. When using a copyleft open source
 license, the following paragraph **MUST** be added in the section where the open
@@ -183,10 +185,10 @@ source license is mentioned:
 > merely uses or aggregates (i.e. links to) an otherwise unmodified version of
 > existing software IS NOT considered a derivative work.
 
-Every enabler **MUST** be open to third party contributions. All offered
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#enhancement_responses">&#169;</a> Every enabler **MUST** be open to third party contributions. All offered
 contributions **MUST** be reviewed within a "reasonable" timeframe.
 
-There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#dco">&#169;</a> There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the
 terms under which the IPR of contributions to the source code of the product
 will be managed. Such document **MUST** be made accessible in (or map to) a
 first-level section of the `README.md` file included in the associated GitHub
@@ -234,7 +236,7 @@ functional and integration testing. This also implies that breaking changes
 within the Context Broker should be scheduled and announced beforehand (i.e.
 roadmapped) to give GEs a chance to catch up.
 
--   Every GE release MUST have an associated Release Notes entry at the Github
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#169;</a>  Every GE release MUST have an associated Release Notes entry at the Github
     Releases section. See
     [Example](https://github.com/telefonicaid/fiware-orion/releases)
 
@@ -259,7 +261,7 @@ tested against, as follows:
 
 ## Roadmap
 
-A FIWARE GE **MUST** describe its planned roadmap. At the introductory text
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_roadmap">&#169;</a>  A FIWARE GE **MUST** describe its planned roadmap. At the introductory text
 found in the `README.md` corresponding to the main GE repository the following
 statement has to be included:
 
