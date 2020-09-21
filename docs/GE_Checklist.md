@@ -13,14 +13,14 @@ considered as an Incubated Generic Enabler. The acceptance can take time, for
 instance to allow studying the quality of the product, internal architecture,
 software design, code cleanliness etc.
 
--   All New Generic Enablers **MUST** be presented to the TSC for candidature
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> All New Generic Enablers **MUST** be presented to the TSC for candidature
     and accepted into an existing Chapter.
--   A New Generic Enabler **MUST** show how it integrates within the overall
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> A New Generic Enabler **MUST** show how it integrates within the overall
     FIWARE Architecture
 -   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a> The codebase **MUST** be available on [GitHub](https://github.com)
 -   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#169;</a>  The GitHub repository **MUST** include an appropriate Open Source License -
     see [https://choosealicense.com/](https://choosealicense.com/)
--   For functional readiness at a minimum, a new incubated enabler **MUST** be
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For functional readiness at a minimum, a new incubated enabler **MUST** be
     able to be instantiated directly in a running state by any competent
     developer without the need to refer to other dependent technologies - for
     example:
@@ -40,21 +40,21 @@ software design, code cleanliness etc.
         the Quick Start. Quantum Leap can be used without in depth knowledge of
         Crate-DB
 
--   For all webservice components, a
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For all webservice components, a
     [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be
     available within the code-base
 -   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> Basic documentation **MUST** exist in Markdown and **MUST** be complete
     enough for usage of the component:
-    -   A Quick Start guide
-    -   Admin Installation instructions - how to create instances:
+    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> A Quick Start guide
+    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Admin Installation instructions - how to create instances:
         -   Standalone using configuration files
         -   Using Docker/Docker-compose and injecting `ENV` variables
-    -   Developer Documentation - how to call the API programmatically
-    -   User Documentation - how to use the GUI
-    -   Apiary file (where necessary)
--   For a stateful component, the state **MUST** be persistable between
+    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Developer Documentation - how to call the API programmatically
+    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> User Documentation - how to use the GUI
+    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Apiary file (where necessary)
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For a stateful component, the state **MUST** be persistable between
     instantiations, additional manual set-up **MUST** not be required.
--   There **MUST** be a commitment that the team behind the product will follow
+-   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> There **MUST** be a commitment that the team behind the product will follow
     through with completing the remaining Incubated requirements within a
     reasonable time frame
 
