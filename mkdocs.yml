@@ -11,9 +11,9 @@ extra_css: ["https://www.fiware.org/style/fiware_readthedocs.css", "https://www.
 google_analytics: ['UA-84866051-2', 'fiware-requirements.readthedocs.io']
 pages:
   - Home: index.md
-  - 'Checklist': GE_Checklist.md
-  - 'Requirements': GE_Requirements.md
-  - 'Development': development.md
+  - 'Requirements Checklist': GE_Checklist.md
+  - 'General Requirements': GE_Requirements.md
+  - 'Development Requirements': development.md
   - 'Docker': docker.md
   - 'External Contributions': external_contributions.md
   - 'Project Badges': project_badges.md

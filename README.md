@@ -6,10 +6,13 @@
 [![Documentation](https://img.shields.io/readthedocs/fiware-requirements.svg)](https://fiware-requirements.readthedocs.io)
 [![Build Status](https://img.shields.io/travis/FIWARE/contribution-requirements.svg)](https://travis-ci.org/FIWARE/contribution-requirements)
 
-This guide describes the requirements to be fulfilled by any Generic Enabler (GE) within the **FIWARE Catalogue** as well as the recommended practices for its development.
+This guide describes the requirements to be fulfilled by any Generic Enabler
+(GE) within the **FIWARE Catalogue** as well as the recommended practices for
+its development.
 
-| :inbox_tray: &nbsp; [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) | :octocat: [GitHub Repository](https://github.com/FIWARE/catalogue) |  :books: [Documentation](https://fiware-requirements.readthedocs.io) |
-| --- | --- | --- | --- |
+| :inbox_tray: &nbsp; [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) | :octocat: [GitHub Repository](https://github.com/FIWARE/catalogue) | :books: [Documentation](https://fiware-requirements.readthedocs.io) |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------- |
+
 
 There are three kinds of requirements included:
 
@@ -35,35 +38,38 @@ The
 
 ## Summary of MUST Requirements
 
--   Every repo must sign-up  to the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge
+-   Every Generic Enabler must sign-up to the
+    [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup)
+    and display the badge
 
 -   All the
-    [GE General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements)
+    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements)
     are **MUST** requirements.
 
 -   The steps described by the
-    [GE Publication Checklist](https://fiware-requirements.readthedocs.io/en/latest/GE_Checklist)
+    [Generic Enabler Checklist](https://fiware-requirements.readthedocs.io/en/latest/GE_Checklist)
     **MUST** be followed.
 
 -   GitHub and GitHub Issue tracking **MUST** be used.
 
--   Accurate, current Documentation **MUST** be available on ReadTheDocs and as GitHub content
+-   Accurate, current Documentation **MUST** be available on ReadTheDocs and as
+    GitHub content
 
-    +   To guarantee that documentation is of high quality, development related
+    -   To guarantee that documentation is of high quality, development related
         **documents** MUST be **peer-reviewed and QA verified**. See
         [Documentation Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development/index.html#documentation)
         for the best documentation practices.
 
-    +   Should you want to benefit from automatic documentation generation systems,
-        namely, [ReadtheDocs](https://readthedocs.org), you **MUST** use an approved
-        markup notation
+    -   Should you want to benefit from automatic documentation generation
+        systems, namely, [ReadtheDocs](https://readthedocs.org), you **MUST**
+        use an approved markup notation
 
-        +   [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+        -   [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
             is preferred for simple documents.
-        +   [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
+        -   [restructuredtext](https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst)
             is an acceptable alternative for complex documentation.
 
-    +   API Specifications MUST be provided. Preferred format is
+    -   API Specifications MUST be provided. Preferred format is
         [OpenAPI](https://github.com/OAI/OpenAPI-Specification), a.k.a. Swagger,
         format.
 

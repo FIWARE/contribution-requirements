@@ -17,7 +17,6 @@ The following requirements govern the development lifecycle:
     auto-merge their contributions.
 -   Before merging an open Pull Request Travis status **MUST** be green.
 
-
 ## Development Lifecycle
 
 Apart from the minimal, mandatory lifecycle described above the following

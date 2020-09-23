@@ -108,7 +108,8 @@ follows:
         Previous experience in the project will be a must in order to be
         commissioned to the task.
 
-*   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#tests_documented_added">&#169;</a> Repositories which are open to contributions GitHub **SHOULD** comply with
+*   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#tests_documented_added">&#169;</a>
+    Repositories which are open to contributions GitHub **SHOULD** comply with
     the GitHub recommended community standards checklist by having a
     `CONTRIBUTING.MD` - see the associated
     [Git Hub Article](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)

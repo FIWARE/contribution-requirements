@@ -1,4 +1,3 @@
-
 ### Badges
 
 This document is a recommendation on the usage of badges in FIWARE Projects.
@@ -20,7 +19,8 @@ very beginning of the document:
     Example:
     `https://img.shields.io/github/license/telefonicaid/fiware-orion.svg`
     Example: `https://img.shields.io/readthedocs/fiware-orion.svg`
--   ![.](https://bestpractices.coreinfrastructure.org/projects/24/badge) - **CII Best Practices Badge**
+-   ![.](https://bestpractices.coreinfrastructure.org/projects/24/badge) - **CII
+    Best Practices Badge**
 -   ![.](https://img.shields.io/docker/pulls/fiware/orion.svg)- **Docker**
     (pointer to the Docker container at the Docker Hub Repository) Example:
     `https://img.shields.io/docker/pulls/fiware/orion.svg`
@@ -34,7 +34,6 @@ very beginning of the document:
     **GE Status** - to show active support for a repository Example:
     `https://nexus.lab.fiware.org/static/badges/statuses/orion.svg`
 
-
 GitHub repositories `README.md` **SHOULD** list either of the following support
 badges at the beginning of the document (where relevant):
 
@@ -44,12 +43,12 @@ badges at the beginning of the document (where relevant):
     `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
 -   ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -
     **Support** (pointer to the support channel, askbot, which can be used to
-    get support if Stack Overflow is not used) or alternatively include links to other relevant support channels.
+    get support if Stack Overflow is not used) or alternatively include links to
+    other relevant support channels.
 
 The idea being that the first row of badges is informational, the second row
 displays the state of the project. The second row of badges should ideally all
 be **GREEN** at all times.
-
 
 ```markdown
 # Identity Manager - Keyrock
@@ -66,9 +65,6 @@ be **GREEN** at all times.
 ![Status](https://nexus.lab.fiware.org/repository/raw/public/static/badges/statuses/keyrock.svg)
 ```
 
-
-
-
 #### QA Requirements
 
 -   a section within the `README` displaying the GE ratings defined as follows:
@@ -76,15 +72,23 @@ be **GREEN** at all times.
 
 ```markdown
 ## Orion
-This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
 
-* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.version&colorB=blue)
-* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docSoundness&colorB=blue)
-* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToFix&colorB=blue)
-* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.failureRate&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.scalability&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.performance&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.stability&colorB=blue)
+This project is part of [FIWARE](http://fiware.org/) and has been rated as
+follows:
+
+-   **Version Tested:**
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.version&colorB=blue)
+-   **Documentation:**
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docCompleteness&colorB=blue)
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docSoundness&colorB=blue)
+-   **Responsiveness:**
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToCharge&colorB=blue)
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToFix&colorB=blue)
+-   **FIWARE Testing:**
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.failureRate&colorB=blue)
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.scalability&colorB=blue)
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.performance&colorB=blue)
+    ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.stability&colorB=blue)
 ```
 
 (replace `orion` as necessary)
@@ -123,10 +127,10 @@ The following Video Presentation on **Keyrock** are available:
 -   [Part 2 - Keyrock Overview](https://www.youtube.com/watch?v=dtKsjGbJ7X)
 -   [Part 3 - Applications in Keyrock](https://www.youtube.com/watch?v=pjsl0eHpFww)
 
-###  Other Presentations
+### Other Presentations
 
-- [API Management (Porto 2018)](https://www.slideshare.net/FI-WARE/fiware-global-summit-fiwares-api-management-97030121)
-- [Identity Management, Access Control and API Management  (Malaga 2017)](https://www.slideshare.net/FI-WARE/fiware-alvaro-alonso-complete-framework-for-identity-access-control-and-api-management)
+-   [API Management (Porto 2018)](https://www.slideshare.net/FI-WARE/fiware-global-summit-fiwares-api-management-97030121)
+-   [Identity Management, Access Control and API Management (Malaga 2017)](https://www.slideshare.net/FI-WARE/fiware-alvaro-alonso-complete-framework-for-identity-access-control-and-api-management)
 ```
 
 ## Roadmap

@@ -1,14 +1,9 @@
-## Development Lifecycle Recommendations in FIWARE
+## Repository Recommendations
 
-## SCM Tool
+<span/>
 
--  <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a>  The SCM Tool **MUST** be [GitHub](https://github.com). Accompanying tools or
-    plugins that integrate well with GitHub (ex. Gerrit) **MAY** be used.
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#169;</a> GitHub **MUST** be used during the **whole development lifecycle**.
 -   The name of the GitHub Repository **MAY** be _'fiware' + '-' + "Code Name of
     your GE"_. Example: `fiware-orion`.
--   The GitHub Repository content **MUST** meet the
-    [GE Publication Requirements](GE_Requirements.md#publication-requirements)
 -   When the GE code is spread over various repositories, the FIWARE hyperlinks
     can be included on the `README.md` pertaining to the main repository or at
     the GH user/organization level.
@@ -36,13 +31,14 @@
     python script generating context data for Orion should also include the
     `fiware-orion` tag.
 
-
 ## Continuous Integration
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a>  GE projects developed as open source **SHOULD** have a **public continuous
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a>
+GE projects developed as open source **SHOULD** have a **public continuous
 integration system**.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_continuous_integration">&#169;</a>  The continuous integration system **SHOULD** be running **every time a new Pull
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_continuous_integration">&#x24D2;</a>
+The continuous integration system **SHOULD** be running **every time a new Pull
 Request** (PR) is done. As a result the PR owner can know in advance if her code
 is breaking something.
 
@@ -56,17 +52,24 @@ git revert for the former.
 system** as it is super-easy to integrate it with GitHub. Jenkins is another
 popular tool which has the advantage of being able to run on different OS.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_most">&#169;</a> Unit tests coverage **MAY** be provided using open source tools like
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_most">&#x24D2;</a>
+Unit tests coverage **MAY** be provided using open source tools like
 [ coveralls](https://coveralls.io/). See an example in
 [Wirecloud](https://github.com/Wirecloud/wirecloud)
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a> You **MUST** include **Travis badges** (or other badges) in your `README.md`
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a>
+You **MUST** include **Travis badges** (or other badges) in your `README.md`
 file. Travis badges can be used to report the current status of your build, (it
 **SHOULD** be green!).
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_policy">&#x24D2;</a>
+As new functionality is added to the software, tests of that functionality
+**MUST** be added
+
 ## Tracking
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#discussion">&#169;</a> A Tracking system **MUST** be used in order to **manage the development work**.
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#discussion">&#x24D2;</a>
+A Tracking system **MUST** be used in order to **manage the development work**.
 Such tracking system **MUST** include at least all the bugs/known issues of your
 component.
 
@@ -77,15 +80,18 @@ When a commit is actually solving a bug/issue there **MUST** be a
 **cross-reference** between the commit message and the corresponding bug/issue
 in the Tracking System.
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#report_responses">&#x24D2;</a>
 When users report a new **bug**, it **SHOULD** be given an **estimation** of
 when the bug will be solved. If the bug is consider minor or a very edge case
 and it will not be resolved, it **SHOULD** be marked as 'WontFix' and closed.
 This decision **MUST** be **communicated** to the reporter together with a
 suggested workaround.
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a>
 The **roadmap** of your component **SHOULD** be **public**. Please check the
 [General Roadmap Requirements](GE_Requirements.md#roadmap)
 
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#enhancement_responses">&#x24D2;</a>
 Be prepared for **external contributions**. When someone makes a Pull Request be
 responsive and consider carefully the proposal made. If you want to **create
 community** around your component you **SHOULD** be open minded. On the other
@@ -94,18 +100,19 @@ design principles of your component. Be prepared for trade-offs.
 
 ## Code Quality
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#static-analysis">&#169;</a>  Project repositories **SHOULD** automate coding formatting and run code
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#static-analysis">&#x24D2;</a>
+Project repositories **SHOULD** automate coding formatting and run code
 linters/style checkers as part of the CI testing process where possible - e.g.
 **Checkstyle**, **Lint4j**, **ESLint** etc. A list of suitable tools can be
 found at: `https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis`
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_critical_fixed">&#169;</a>
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_critical_fixed">&#x24D2;</a>
 To attract active support community, code **SHOULD** regularly be upgraded to
 the latest LTS libraries and versions of dependencies - e.g. Java 8,9,10 rather
 than Java 1.4; ECMAScript 6 rather than ECMAScript 5 etc. Ideally such changes
 can also be applied automatically, but **MUST** be tested.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_fixed_60_days">&#169;</a>
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#vulnerabilities_fixed_60_days">&#x24D2;</a>
 Versions of dependent libraries with known vulnerabilities **SHOULD** be
 upgraded
 
@@ -119,11 +126,12 @@ Apart from meeting the
 [General Documentation Requirements](GE_Requirements.md#documentation-requirements)
 the following guidelines apply.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#english">&#169;</a> To avoid documentation inconsistencies, **development related** documents
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#english">&#x24D2;</a>
+To avoid documentation inconsistencies, **development related** documents
 **MUST** be handled in the same way than Source Code, this implies:
 
--   **Developer oriented** documentation **MUST** be included as part of the
-    GitHub content.
+-   **Developer oriented** documentation in English **MUST** be included as part
+    of the GitHub content.
 -   **Markdown** (.md) is the recommended format for document files.
     Restructured Text (reST) might be used as well.
 -   Additional developer oriented documentation (advanced topics) **MUST** be
@@ -141,69 +149,6 @@ the following guidelines apply.
 -   **Inconsistencies** or lacks of documentation **SHOULD** be detected in Code
     Reviews and QA phases, opening **bugs** when necessary.
 
-### Documentation `README.md`
-
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a> A `README.md` **MUST** be always present in the root folder of any
-    repository associated to the GE. The purpose of such a document associated
-    to a GE is to document:
-    -   GE overall description.
-    -   How to Deploy the GE (basic/default installation procedure)
-    -   How to run tests
-    -   A walkthrough guide on using the main APIs
-    -   How to get access to the advanced API and Documentation topics
-
-In general the structure of the `README.md` **SHOULD** follow a standard format
-such as [standard-readme](https://github.com/RichardLitt/standard-readme).
-
-More specifically, the referred `README.md` **SHOULD** include:
-
--   Simple GE/Service **Description** and purpose -
-
-    -   The first paragraph **SHOULD** be an **elevator pitch** about the
-        purpose of the repository (Since this is displayed on GitHub on mobile)
-    -   Include direct **ReadtheDocs** links to the **User Guide**, **Admin
-        Guide** in a subsequent introductory paragraph (To allow users to
-        navigate directly between code and documentation )
-    -   Include information about testbed environments if available
-
--   Then add a **Table of Contents** to make navigation through the rest of the
-    document easier
-
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#build">&#169;</a> How to **Build & Install**
-
-    -   Make your simplest full stack deployment as easy as possible
-    -   Include System requirement info: SO, CPU/Storage Capacity...
-    -   Include installation support for your dependencies
-    -   Provide a “Hello World” example using curl (basic acceptance test)
-    -   Include troubleshooting information for the whole process
-
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> **API Overview** of the main data flow
-
-    -   It is a tutorial, not a reference. It does not need to be exhaustive, it
-        needs to guide the user
-    -   Provide always curl examples for this section
-
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> More **API Examples**
-
-    -   Just the important bits of your API used in examples
-
--   A link to the **API Reference Documentation**.
-    [Open API](https://github.com/OAI/OpenAPI-Specification) **SHOULD** be used.
-
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_invocation">&#169;</a> How to **run tests**
-
-    -   End-to-end tests (**SHOULD**). This will be part of the sanity checks
-        included in the "Installation & Administration Guide", thus a link will
-        be needed.
-    -   Unit tests (**SHOULD**)
-    -   Performance tests (**MAY**)
-
--   List of links to **Advanced topics** (/doc folder)
-    -   User & Programmers Manual (**MUST**)
-    -   Installation & Administration Guide (**MUST**)
-    -   Other documents, for instance: HA deployment, detailed architecture,
-        Advanced configuration topics, advanced functionalities, ...
-
 ### Developer Oriented Documentation (**ReadtheDocs**)
 
 The name of the **project** on **ReadtheDocs** **SHOULD** match the Stack
@@ -220,7 +165,8 @@ The Documentation **title** on **ReadtheDocs** (i.e. the `site_name` within the
 the Stack Overflow tag or alternatively the `site_name` **MAY** consist of the
 enabler name wihout the 'fiware' prefix.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#169;</a> The basic format of the Developer Documentation **SHOULD** consist of the
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#x24D2;</a>
+The basic format of the Developer Documentation **SHOULD** consist of the
 following sections in the following order
 
 -   Getting Started **SHOULD** - simple responses from the GE - e.g. `/version`
@@ -254,14 +200,16 @@ suppress entries in the **ReadtheDocs** sidebar.
 
 ## Configuration
 
-GEs **SHOULD** be configurable through a `config` file.
+<span style="color:#233c68;">&#x24D5;</span> GEs **SHOULD** be configurable
+through a `config` file.
 
-Docker images for GEs **SHOULD** be configurable. through `ENV` variables. Where
-this is not possible or desirable, the `README.md` **MUST** explain how to mount
-a volume to set the configuration.
+<span style="color:#233c68;">&#x24D5;</span> Docker images for GEs **SHOULD** be
+configurable. through `ENV` variables. Where this is not possible or desirable,
+the `README.md` **MUST** explain how to mount a volume to set the configuration.
 
-If the GE can be configured through a config file, a **template/example**
-configuration file **MUST** be present and fully aligned with every version.
+<span style="color:#233c68;">&#x24D5;</span> If the GE can be configured through
+a config file, a **template/example** configuration file **MUST** be present and
+fully aligned with every version.
 
 The config file **MUST** be seen as part of the documentation (for integrators
 and deployers). So it is mandatory to **document every config param**, its
@@ -275,7 +223,8 @@ Apart from meeting the general
 [Release Requirements](GE_Requirements.md#releases) the following guidelines
 apply.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#169;</a> Each code release **SHOULD** be properly **tagged** in your GitHub repository.
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#x24D2;</a>
+Each code release **SHOULD** be properly **tagged** in your GitHub repository.
 
 Each component **SHOULD** always show a consistent view in the “Releases” and
 “Tags” tabs at GitHub.com. Examples:
@@ -286,14 +235,15 @@ Each component **SHOULD** always show a consistent view in the “Releases” an
 
 The release notes **SHOULD** include links for downloading the source code.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#169;</a> The **release notes** associated to each Release **SHOULD** include the **change
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#x24D2;</a>
+The **release notes** associated to each Release **SHOULD** include the **change
 log** for that release, i.e. the list of changes regarding the previous version,
 including (if possible) links to the **GitHub issues** related to each change.
 
 ## Binary Releases
 
-GEs **MUST** provide Docker containers according to
-[Docker Guidelines](docker.md).
+<span style="color:#233c68;">&#x24D5;</span> GEs **MUST** provide Docker
+containers according to [Docker Guidelines](docker.md).
 
 ## Additional Repository Content
 
@@ -327,8 +277,9 @@ Otherwise you can use the [FIWARE Q&A](https://ask.fiware.org) platform.
     used instead of the usual `fiware-XXXX` as an exception, as long as the two
     following conditions occur:
 
-        1. the tag clearly reflect the name of the GE,
-        2. the tag is already widely used in Stack Overflow (i.e. more than 30 questions using it).
+    -   the tag clearly reflect the name of the GE,
+    -   the tag is already widely used in Stack Overflow (i.e. more than 30
+        questions using it).
 
 Anyway, this is a workaround valid only in the case a tag synonym cannot be
 created due to reputational constraints.

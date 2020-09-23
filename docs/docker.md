@@ -49,7 +49,8 @@ introduction to Docker.
     Secrets, the `README.md` **MUST** list all available `ENV` variables which
     have an equivalent `_FILE` that can be supplied by secrets.
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#no_leaked_credentials">&#169;</a> It **MUST** be possible to supply sensitive information using the Docker
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#no_leaked_credentials">&#169;</a>
+    It **MUST** be possible to supply sensitive information using the Docker
     Secrets mechanism as well as plain text variables for testing. Sensitive
     information (e.g. passwords) **MUST NOT** be passed in plain text - `ENV`
     variables alone.

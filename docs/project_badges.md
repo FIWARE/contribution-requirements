@@ -1,29 +1,33 @@
 # FIWARE Project Badges
 
-<span style="color:#233c68;">&#x24D5;</span>  GitHub repositories `README.md` **MUST** include the following badges at the
-very beginning of the document:
+<span style="color:#233c68;">&#x24D5;</span> GitHub repositories `README.md`
+**MUST** include the following badges at the very beginning of the document:
 
--   FIWARE Chapter, FLOSS License,  CII Best Practices Badge, ,  Documentation, GE Status,
+-   FIWARE Chapter, FLOSS License, CII Best Practices Badge, , Documentation, GE
+    Status,
 -   Docker Pulls (where applicable)
 
-<span style="color:#233c68;">&#x24D5;</span>  GitHub repositories `README.md` **SHOULD** list either of the following support
-badges at the beginning of the document (where relevant):
+<span style="color:#233c68;">&#x24D5;</span> GitHub repositories `README.md`
+**SHOULD** list either of the following support badges at the beginning of the
+document (where relevant):
 
--  Stack Overflow tag , Support badge
+-   Stack Overflow tag , Support badge
 
 See the [template](analytics_readthedocs.md) for more details.
 
-<span style="color:#233c68;">&#x24D5;</span> ReadtheDocs Homepage (`docs/index.md`)  where documentation  uses the standard FIWARE CSS **MUST**
-contain  a linked **FIWARE Chapter** badge (with a link to
+<span style="color:#233c68;">&#x24D5;</span> ReadtheDocs Homepage
+(`docs/index.md`) where documentation uses the standard FIWARE CSS **MUST**
+contain a linked **FIWARE Chapter** badge (with a link to
 `https://www.fiware.org/developers/catalogue/` ),
 
-<span style="color:#233c68;">&#x24D5;</span> ReadtheDocs Homepage (`docs/index.md`)  where documentation  uses the standard FIWARE CSS **SHOULD** contain a
-**Support** badge (with a link to the support channel)
+<span style="color:#233c68;">&#x24D5;</span> ReadtheDocs Homepage
+(`docs/index.md`) where documentation uses the standard FIWARE CSS **SHOULD**
+contain a **Support** badge (with a link to the support channel)
 
 ## FIWARE Chapter Colors and Badges
 
-<span style="color:#233c68;">&#x24D5;</span> Each Document that needs to be published in the FIWARE CSS style **MUST** use
-the following CSS styles:
+<span style="color:#233c68;">&#x24D5;</span> Each Document that needs to be
+published in the FIWARE CSS style **MUST** use the following CSS styles:
 
 -   `fiware_readthedocs.css` - Black. - Non Chapter specific documentation
 -   `fiware_readthedocs_core.css` - Midnight Blue - Core Context
@@ -35,7 +39,6 @@ the following CSS styles:
 -   `fiware_readthedocs_processing.css` - Steel -
     Processing/Visualization/Analysis Chapter
 -   `fiware_readthedocs_media_streams.css` - Purple - Media Streams
-
 
 ![](img/Color-strip.png))
 
