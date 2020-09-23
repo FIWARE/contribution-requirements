@@ -4,7 +4,7 @@ This section defines how to apply to become a FIWARE Generic Enabler, the role
 of Incubated Generic Enablers and how to transition to full membership as a
 FIWARE GE.
 
-### New Generic Enabler Checklist
+### New Generic Enabler
 
 This checklist is intended to inform new FIWARE GE owners of the steps that have
 to be taken in order to publish a new FIWARE GE.
@@ -112,7 +112,7 @@ describing the GE in the same manner as the other Generic Enablers
 -   Example -
     [Why Use text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#why-use-orion)
 
-### Incubated Generic Enabler Checklist
+### Incubated Generic Enabler
 
 The following items are not specific requirements, but are expected requirements
 to be fulfilled within a few months of acceptance with the co-operation of the
@@ -156,7 +156,7 @@ transition to a full member is tracked as part of the FIWARE Quality Assurance
 testing, and insufficient progress on issues will eventually result in the
 enabler being quarantined or be removed from the list of Enablers.
 
-### Full Membership Checklist
+### Mature Generic Enabler (Full Member)
 
 <span style="color:#233c68;">&#x24D5;</span> All of the FIWARE "**MUST**"
 requirements (marked <span style="color:#233c68;">&#x24D5;</span> ) **MUST** be

@@ -83,14 +83,3 @@ In summary, Academy courses are aimed at new **developers** who are interested
 in learning about a Generic Enabler in isolation, and deep-dive presentations
 are aimed at exisiting **developers** who are interested in expanding their
 knowledge.
-
-#### Training Course Badge
-
-A count of links will be maintained for each Generic Enabler within the
-**Catalogue** repository.
-
-The training badge **MUST** be displayed at the top of the `README` as shown:
-
--   `https://img.shields.io/badge/dynamic/json.svg?label=Training&url=https://fiware.github.io/catalogue/json/orion.json&query=$.courses&colorB=brightgreen`
-
-(replace `orion` as necessary)

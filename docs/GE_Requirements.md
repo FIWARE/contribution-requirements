@@ -64,7 +64,7 @@ of onboarding tasks to be completed in order to publish a new GE.
 
 ## `README.md`
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a>
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#x24D2;</a>
 A `README.md` **MUST** be always present in the root folder of any repository
 associated to the GE. The purpose of such a document associated to a GE is to
 document: - GE overall description. - How to Deploy the GE (basic/default
@@ -75,8 +75,8 @@ In general the structure of the `README.md` **SHOULD** follow a standard format
 such as [standard-readme](https://github.com/RichardLitt/standard-readme).
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#x24D2;</a>
-The `README.md` file of the GitHub repository must start by summarizing the usage of
-the enabler (for example duplicating the elevator pitch)
+The `README.md` file of the GitHub repository must start by summarizing the
+usage of the enabler (for example duplicating the elevator pitch)
 
 <span style="color:#233c68;">&#x24D5;</span> The `README.md` file **MUST**
 include an Introduction/About section at the beginning which includes the
@@ -102,7 +102,7 @@ described (see sections on Releases and Roadmap below).
 <span style="color:#233c68;">&#x24D5;</span> More specifically, the referred
 `README.md` **SHOULD** follow standard-readme and include:
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a>
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#x24D2;</a>
     Simple GE/Service **Description** and purpose -
 
     -   The first paragraph **SHOULD** be an **elevator pitch** about the
@@ -115,7 +115,7 @@ described (see sections on Releases and Roadmap below).
 -   Then add a **Table of Contents** to make navigation through the rest of the
     document easier
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#build">&#169;</a>
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#build">&#x24D2;</a>
     How to **Build & Install**
 
     -   Make your simplest full stack deployment as easy as possible
@@ -124,14 +124,14 @@ described (see sections on Releases and Roadmap below).
     -   Provide a “Hello World” example using curl (basic acceptance test)
     -   Include troubleshooting information for the whole process
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a>
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#x24D2;</a>
     **API Overview** of the main data flow
 
     -   It is a tutorial, not a reference. It does not need to be exhaustive, it
         needs to guide the user
     -   Provide always curl examples for this section
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a>
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#x24D2;</a>
     More **API Examples**
 
     -   Just the important bits of your API used in examples
@@ -139,7 +139,7 @@ described (see sections on Releases and Roadmap below).
 -   A link to the **API Reference Documentation**.
     [Open API](https://github.com/OAI/OpenAPI-Specification) **SHOULD** be used.
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_invocation">&#169;</a>
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_invocation">&#x24D2;</a>
     How to **run tests**
 
     -   End-to-end tests (**SHOULD**). This will be part of the sanity checks
@@ -179,7 +179,7 @@ As an example, in Markdown adding links to learning materials as shown:
 A FIWARE GE **MUST** include a suite of functional tests that allow to verify
 the proper integration with the FIWARE Context Broker GE.
 
-## Support and Commitment to Quality
+## Commitment to Quality
 
 <span style="color:#233c68;">&#x24D5;</span> The Community behind each FIWARE GE
 (owner, other contributors) **SHOULD** bring support to requests submitted
