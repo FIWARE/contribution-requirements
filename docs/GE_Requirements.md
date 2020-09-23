@@ -1,6 +1,6 @@
 # General Requirements
 
-A FIWARE GE **MUST** fit well in the architecture of a _“Powered by FIWARE”_
+<span style="color:#233c68;">&#x24D5;</span> A FIWARE GE **MUST** fit well in the architecture of a _“Powered by FIWARE”_
 solution:
 
 -   Integrate well with architectures where context management is cornerstone
@@ -8,50 +8,31 @@ solution:
     ETSI NGSI-LD in the future).
 -   Be able to fit within one of the defined FIWARE chapters.
 
-## Development Lifecycle Requirements
-
-The following requirements govern the development lifecycle:
-
--   Direct commits or self-commits to the master branch are not allowed. All
-    contributions to master **MUST** come in the form of a Pull Request.
--   Pull Requests **MUST** include not only code changes but also test changes
-    and documentation changes.
--   Pull Requests **MUST** be public and open during a reasonable period of time
-    so that the community can check them and contribute if necessary.
--   Pull Requests need to be approved (using the standard GitHub function or a
-    'LGTM' comment) by all the reviewers involved, i.e. all people that gave
-    their feedback on it. Nonetheless, if a PR has been approved by at least one
-    reviewer, and after a reasonable time for feedback no further comments have
-    been received, the approved Pull Request should be landed as-is.
--   Pull Request approval **MUST** be issued by a third party. Nobody can
-    auto-merge their contributions.
--   Before merging an open Pull Request Travis status **MUST** be green.
 
 ## Testing Requirements
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#169;</a> A FIWARE GE **MUST** include a suite of functional tests that allow to verify
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a> A FIWARE GE **MUST** include a suite of functional tests that allow to verify
 the proper integration with the FIWARE Context Broker GE.
 
 ## Publication Requirements
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a> The SCM Tool **MUST** be [Github.com](https://github.com).
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#169;</a>  GitHub **MUST** be used during the **whole development lifecycle**. See
-    [Development Lifecycle Recommendations in FIWARE](development.md#Development_Lifecycle)
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a> The SCM Tool **MUST** be [Github.com](https://github.com).
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#x24D2;</a>  GitHub **MUST** be used during the **whole development lifecycle**. See
+    [Development Lifecycle Recommendations in FIWARE](lifecycle.md)
     which describes a set of best practices for collaborative open source
     development.
--   See [Checklist for publishing FIWARE Generic Enablers](GE_Checklist.md) for
-    a list of tasks to be done in order to publish a new GE.
+
+See [Checklist for publishing FIWARE Generic Enablers](GE_Checklist.md) for
+    a list of onboarding tasks to be completed in order to publish a new GE.
 
 ## Documentation Requirements
 
 ### Requirements regarding reference to FIWARE
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#169;</a> The `README.md` file of the GitHub repo, or several GitHub repos, associated to
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#x24D2;</a> The `README.md` file of the GitHub repo, or several GitHub repos, associated to
 a FIWARE GE, **MUST** include an Introduction/About section at the beginning
-which includes:
-
--   the following paragraph, introducing FIWARE, clearly showing that the
-    product has been labeled as a FIWARE GE:
+which includes the following paragraph, introducing FIWARE, clearly showing that the product has been labeled as a FIWARE GE:
 
 > {name of the product} is a FIWARE Generic Enabler. Therefore, it can be
 > integrated as part of any platform “Powered by FIWARE”. FIWARE is a curated
@@ -68,80 +49,36 @@ which includes:
 
 ### `README.md` Contents
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#169;</a> GE's repository `README.md` file **MUST** include:
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#x24D2;</a> GE's repository `README.md` file **MUST** include:
 
 #### General
 
--   the [Project Badges](project_badges.md) which are stated as mandatory.
+<span style="color:#233c68;">&#x24D5;</span> the [Project Badges](project_badges.md) which are stated as mandatory.
+
 -   a link to the Release Notes so that developers can check what
     {major}.{minor} FIWARE Release the product is compatible with (see
     [Releases](#releases))
+
 -   links to proper places on the FIWARE site (or related repositories) where
     planned roadmap of the product with respect to future releases of FIWARE is
     described (see sections on Releases and Roadmap below).
 
 #### QA Requirements
 
--   a section within the `README` displaying the GE ratings defined as follows:
-    ![](img/rating.png)
-
-```
-## Orion
-This project is part of [FIWARE](http://fiware.org/) and has been rated as follows:
-
-* **Version Tested:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.version&colorB=blue)
-* **Documentation:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Completeness&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docCompleteness&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Usability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.docSoundness&colorB=blue)
-* **Responsiveness:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Respond&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToCharge&colorB=blue) ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Time%20to%20Fix&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.timeToFix&colorB=blue)
-* **FIWARE Testing:** ![ ](https://img.shields.io/badge/dynamic/json.svg?label=Tests%20Passed&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.failureRate&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Scalability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.scalability&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Performance&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.performance&colorB=blue)
-![ ](https://img.shields.io/badge/dynamic/json.svg?label=Stability&url=https://fiware.github.io/Generic-Enablers/json/orion.json&query=$.stability&colorB=blue)
-```
-
-(replace `orion` as necessary)
+<span style="color:#233c68;">&#x24D5;</span>  a section within the `README`  **SHOULD**  display the GE ratings defined in the [template](GE_roadmap_template.md).
 
 #### Tutorial/Training Requirements
 
-GE's repository `README.md` file **MUST** include a list of relevant training
+<span style="color:#233c68;">&#x24D5;</span>  GE's repository `README.md` file **MUST** include a list of relevant training
 courses:
 
--   a section within the `README` displaying links to the relevant
-    [Tutorial](learning_materials.md#tutorials) ![](img/tutorial.png)
--   a section within the `README` displaying links to the relevant
-    [Academy Courses](learning_materials.md#academy) ![](img/academy.png)
+![](img/linkbox.png)
 
-As an example, **Keyrock** would display links to learning materials as shown:
+As an example, in markdown adding links to learning materials as shown:
 
+```markdown
+| [Documentation] | [Academy] | ...etc |
 ```
-## Training Courses
-
-### Tutorials
-
-The following Tutorials on **Keyrock** are available:
-
-&nbsp; 401.
-[Administrating Users and Organizations](https://fiware-tutorials.readthedocs.io/en/latest/identity-management)<br/>
-&nbsp; 402.
-[Managing Roles and Permissions](https://fiware-tutorials.readthedocs.io/en/latest/roles-permissions)<br/>
-&nbsp; 403.
-[Securing Application Access](https://fiware-tutorials.readthedocs.io/en/latest/securing-access)<br/>
-
-### Video Presentations
-
-The following Video Presentation on **Keyrock** are available:
-
--   [Part 1 - Keyrock Introduction](https://www.youtube.com/watch?v=dHyVTan6bUY)
--   [Part 2 - Keyrock Overview](https://www.youtube.com/watch?v=dtKsjGbJ7X)
--   [Part 3 - Applications in Keyrock](https://www.youtube.com/watch?v=pjsl0eHpFww)
-
-###  Other Presentations
-
-- [API Management (Porto 2018)](https://www.slideshare.net/FI-WARE/fiware-global-summit-fiwares-api-management-97030121)
-- [Identity Management, Access Control and API Management  (Malaga 2017)](https://www.slideshare.net/FI-WARE/fiware-alvaro-alonso-complete-framework-for-identity-access-control-and-api-management)
-```
-
--   The list of training courses **MUST** be regularly reviewed and updated.
--   A [Project Badge](project_badges.md) for training **SHOULD** be displayed.
 
 ## Ecosystem Support and Quality Requirements
 
@@ -169,11 +106,11 @@ FIWARE. In the event of not meeting the minimal QA requirements:
 
 ## Licensing and IPR Management Requirements
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#169;</a> The source code of the product MUST be licensed under
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#x24D2;</a> The source code of the product MUST be licensed under
 [one of the well-recognized open source licenses approved by the Open Source Initiative](https://opensource.org/licenses/alphabetical).
 
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#license_location">&#169;</a> The open source license under which source code of the product is licensed
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#license_location">&#x24D2;</a> The open source license under which source code of the product is licensed
 **MUST** be clearly mentioned in a first-level section of the `README.md` file
 included in the main GitHub repository. When using a copyleft open source
 license, the following paragraph **MUST** be added in the section where the open
@@ -185,10 +122,10 @@ source license is mentioned:
 > merely uses or aggregates (i.e. links to) an otherwise unmodified version of
 > existing software IS NOT considered a derivative work.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#enhancement_responses">&#169;</a> Every enabler **MUST** be open to third party contributions. All offered
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#enhancement_responses">&#x24D2;</a> Every enabler **MUST** be open to third party contributions. All offered
 contributions **MUST** be reviewed within a "reasonable" timeframe.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#dco">&#169;</a> There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#dco">&#x24D2;</a> There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the
 terms under which the IPR of contributions to the source code of the product
 will be managed. Such document **MUST** be made accessible in (or map to) a
 first-level section of the `README.md` file included in the associated GitHub
@@ -236,7 +173,7 @@ functional and integration testing. This also implies that breaking changes
 within the Context Broker should be scheduled and announced beforehand (i.e.
 roadmapped) to give GEs a chance to catch up.
 
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#169;</a>  Every GE release MUST have an associated Release Notes entry at the Github
+-   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#x24D2;</a>  Every GE release MUST have an associated Release Notes entry at the Github
     Releases section. See
     [Example](https://github.com/telefonicaid/fiware-orion/releases)
 
@@ -261,7 +198,7 @@ tested against, as follows:
 
 ## Roadmap
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_roadmap">&#169;</a>  A FIWARE GE **MUST** describe its planned roadmap. At the introductory text
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_roadmap">&#x24D2;</a>  A FIWARE GE **MUST** describe its planned roadmap. At the introductory text
 found in the `README.md` corresponding to the main GE repository the following
 statement has to be included:
 

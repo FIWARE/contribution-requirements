@@ -13,48 +13,56 @@ considered as an Incubated Generic Enabler. The acceptance can take time, for
 instance to allow studying the quality of the product, internal architecture,
 software design, code cleanliness etc.
 
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> All New Generic Enablers **MUST** be presented to the TSC for candidature
+<span style="color:#233c68;">&#x24D5;</span> All New Generic Enablers **MUST** be presented to the TSC for candidature
     and accepted into an existing Chapter.
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> A New Generic Enabler **MUST** show how it integrates within the overall
+
+<span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** show how it integrates within the overall
     FIWARE Architecture
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#169;</a> The codebase **MUST** be available on [GitHub](https://github.com)
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#169;</a>  The GitHub repository **MUST** include an appropriate Open Source License -
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a> The codebase **MUST** be available on [GitHub](https://github.com)
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#floss_license">&#x24D2;</a>  The GitHub repository **MUST** include an appropriate Open Source License -
     see [https://choosealicense.com/](https://choosealicense.com/)
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For functional readiness at a minimum, a new incubated enabler **MUST** be
+
+<span style="color:#233c68;">&#x24D5;</span> For functional readiness at a minimum, a new incubated enabler **MUST** be
     able to be instantiated directly in a running state by any competent
     developer without the need to refer to other dependent technologies - for
     example:
 
-    -   [Keyrock](https://fiware-idm.readthedocs.io/en/latest/) relies on MySQL,
-        but a working MySQL can be easily instantiated by Docker and minimal
-        data is seeded by Keyrock - the database volume can be persisted.
-        Knowledge of SQL is unnecessary for use.
-    -   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a
-        dependency on MongoDB - the volumes are exposed so that the data will be
-        persisted if the Docker container goes down. Alternatively an IoT Agent
-        can be memory based, but all configuration can be set up using a config
-        file or Docker params and then data injected by HTTP requests. An
-        understanding of MongoDB is unnecessary to get it to work.
-    -   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana
-        and Crate-DB - appropriate set-up and docker compose are available in
-        the Quick Start. Quantum Leap can be used without in depth knowledge of
-        Crate-DB
+-   [Keyrock](https://fiware-idm.readthedocs.io/en/latest/) relies on MySQL,
+    but a working MySQL can be easily instantiated by Docker and minimal
+    data is seeded by Keyrock - the database volume can be persisted.
+    Knowledge of SQL is unnecessary for use.
+-   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a
+    dependency on MongoDB - the volumes are exposed so that the data will be
+    persisted if the Docker container goes down. Alternatively an IoT Agent
+    can be memory based, but all configuration can be set up using a config
+    file or Docker params and then data injected by HTTP requests. An
+    understanding of MongoDB is unnecessary to get it to work.
+-   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana
+    and Crate-DB - appropriate set-up and docker compose are available in
+    the Quick Start. Quantum Leap can be used without in depth knowledge of
+    Crate-DB
 
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For all webservice components, a
+<span style="color:#233c68;">&#x24D5;</span> For all webservice components, a
     [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be
     available within the code-base
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#169;</a> Basic documentation **MUST** exist in Markdown and **MUST** be complete
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_interface">&#x24D2;</a> Basic documentation **MUST** exist in Markdown and **MUST** be complete
     enough for usage of the component:
-    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> A Quick Start guide
-    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Admin Installation instructions - how to create instances:
-        -   Standalone using configuration files
-        -   Using Docker/Docker-compose and injecting `ENV` variables
-    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Developer Documentation - how to call the API programmatically
-    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> User Documentation - how to use the GUI
-    -   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> Apiary file (where necessary)
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> For a stateful component, the state **MUST** be persistable between
+
+-   <span style="color:#233c68;">&#x24D5;</span> A Quick Start guide
+-   <span style="color:#233c68;">&#x24D5;</span> Admin Installation instructions - how to create instances:
+    -   Standalone using configuration files
+    -   Using Docker/Docker-compose and injecting `ENV` variables
+-   <span style="color:#233c68;">&#x24D5;</span> Developer Documentation - how to call the API programmatically
+-   <span style="color:#233c68;">&#x24D5;</span> User Documentation - how to use the GUI
+-   <span style="color:#233c68;">&#x24D5;</span> Apiary file (where necessary)
+
+<span style="color:#233c68;">&#x24D5;</span> For a stateful component, the state **MUST** be persistable between
     instantiations, additional manual set-up **MUST** not be required.
--   <small style="color:#5dc0cf;font-weight:bold">&#x24BB;</small> There **MUST** be a commitment that the team behind the product will follow
+
+<span style="color:#233c68;">&#x24D5;</span> There **MUST** be a commitment that the team behind the product will follow
     through with completing the remaining Incubated requirements within a
     reasonable time frame
 
@@ -66,30 +74,35 @@ software design, code cleanliness etc.
 
 The following information **MUST** be submitted to FF Staff:
 
--   The URL of all of the GitHub Repositories holding the code base
--   <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#169;</a> The version number of the initial release to be included in the catalogue -
+<span style="color:#233c68;">&#x24D5;</span> The URL of all of the GitHub Repositories holding the code base
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#version_semver">&#x24D2;</a> The version number of the initial release to be included in the catalogue -
     this **MUST** correspond to a real release tag found on the GitHub
     repository
--   The location of the official `Dockerfile`, so an “official” FIWARE docker
+
+<span style="color:#233c68;">&#x24D5;</span> The location of the official `Dockerfile`, so an “official” FIWARE docker
     image can be set up from the FIWARE account
--   The URL for the official documentation - ideally this URL should be a
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#x24D2;</a> The URL for the official documentation - ideally this URL should be a
     **ReadtheDocs** project
--   The name of a representative who will take the role of the owner/caretaker
+
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#bus_factor">&#x24D2;</a> The name of a representative who will take the role of the owner/caretaker
     of the Generic Enabler.
--   A sample **elevator pitch** (one sentence) and the **What is?** and **Why
+
+<span style="color:#233c68;">&#x24D5;</span>  A sample **elevator pitch** (one sentence) and the **What is?** and **Why
     use?** texts (one paragraph each) describing the GE in the same manner as
     the other Generic Enablers
 
-    -   Example -
-        [Elevator Pitches](https://www.fiware.org/developers/catalogue/)
-    -   Example -
-        [What is text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#what-is-orion)
-    -   Example -
-        [Why Use text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#why-use-orion)
+-   Example -
+    [Elevator Pitches](https://www.fiware.org/developers/catalogue/)
+-   Example -
+    [What is text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#what-is-orion)
+-   Example -
+    [Why Use text?](https://github.com/Fiware/catalogue/blob/master/core/README.md#why-use-orion)
 
 ### Incubated
 
-The expected requirements to be fulfilled within a few months of acceptance:
+The following items are not specific requirements, but are expected requirements to be fulfilled within a few months of acceptance with the co-operation of the FIWARE Staff and the team behind the contributed component:
 
 -   New entry in the
     [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) under the
@@ -131,21 +144,19 @@ enabler being quarantined or be removed from the list of Enablers.
 
 #### Transition to Full membership
 
-All of the "**MUST**" requirements of the
-[Development Guidelines](development.md) must be fulfilled before the incubation
+<span style="color:#233c68;">&#x24D5;</span> All of the FIWARE "**MUST**" requirements (marked <span style="color:#233c68;">&#x24D5;</span> ) **MUST** be fulfilled before the incubation
 period is complete.
 
-The enabler should have demonstrated that it fulfills a real need within the
+<span style="color:red">&#x24D2;</span> The CII Best Practices Badge **MUST** be displayed ![ ](https://bestpractices.coreinfrastructure.org/projects/24/badge) and passing.
+
+<span style="color:#233c68;">&#x24D5;</span> The enabler should have demonstrated that it fulfills a real need within the
 FIWARE ecosystem, and statitics showing a credible level of adoption and
 community support **MUST** be presented to the TSC.
 
 ### Mature (Full Member)
 
 This is the expected standard for membership going onward. All the requirements
-for new and incubated enablers listed above **MUST** be met.
-
--   All FIWARE Development (**MUST**) Guidelines are met. See
-    [Development Guidelines](development.md)
+for marked <span style="color:#233c68;">&#x24D5;</span> or <span style="color:red">&#x24D2;</span> **MUST** be met.
 
 > To further clarify, failure to do so will result in a written warning and a
 > requirement to comply within a given period of time. Mature Generic Enablers

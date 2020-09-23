@@ -13,7 +13,6 @@ pages:
   - Home: index.md
   - 'Checklist': GE_Checklist.md
   - 'Requirements': GE_Requirements.md
-  - 'Analytics': analytics_readthedocs.md
   - 'Development': development.md
   - 'Docker': docker.md
   - 'External Contributions': external_contributions.md
@@ -21,5 +20,8 @@ pages:
   - 'Training Courses': learning_materials.md
   - 'Webhook': repo_webhook.md
   - 'Appendix A: Release Process': release.md
-  - 'Appendix B: Roadmap Template': GE_roadmap_template.md
+  - 'Appendix B: Development Lifecycle': lifecycle.md
+  - 'Appendix C: Templates': GE_roadmap_template.md
+  - 'Appendix D: Analytics': analytics_readthedocs.md
+
   
