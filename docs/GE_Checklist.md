@@ -145,9 +145,9 @@ FIWARE Staff and the team behind the contributed component:
 -   Release schedule **MUST** be aligned with
     [release requirements](GE_Requirements.md#releases)
 -   Access **MUST** be provided to the corresponding information in order to see
-    your component reflected in the [ monitoring
-    tool](https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0
-    FIWARE - TSC Enablers Dashboard) (Ask FF Staff)
+    your component reflected in the
+    [monitoring tool](https://docs.google.com/spreadsheets/d/1yyZNUlAPDcqjnD-gIoGOd5SZfVDJXO36G75xTDL0HgA/edit#gid=0)
+    (Ask FF Staff)
 
 It is accepted that Incubated Enablers may not currently comply with all
 "**MUST**" requirements of the [Development Guidelines](development.md), but are
@@ -163,8 +163,9 @@ requirements (marked <span style="color:#233c68;">&#x24D5;</span> ) **MUST** be
 fulfilled before the incubation period is complete.
 
 <span style="color:red">&#x24D2;</span> The CII Best Practices Badge **MUST** be
-displayed ![ ](https://bestpractices.coreinfrastructure.org/projects/24/badge)
-and passing.
+displayed
+[![.](https://bestpractices.coreinfrastructure.org/projects/24/badge)](#) and
+passing.
 
 <span style="color:#233c68;">&#x24D5;</span> The enabler should have
 demonstrated that it fulfills a real need within the FIWARE ecosystem, and

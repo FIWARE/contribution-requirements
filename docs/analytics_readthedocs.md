@@ -13,7 +13,7 @@ if you have a Google Analytics account or not.
 #### Create new property without having a Google Analytics account
 
 If you don’t have a Google Analytics account, you can create one on
-http://analytics.google.com, a Google account is required. Once logged in with
+`http://analytics.google.com`, a Google account is required. Once logged in with
 your Google account, you will see a page similar to this :
 ![](img/Sign_up_analytics.png)
 
@@ -25,7 +25,7 @@ Name** field with the desired value and, on the **Setting up your property**
 section, you should fill the required information:
 
 -   **Site Name**: The name of the page that you are going to monitor.
--   ** site URL**: The URL of the Read the Docs generated site.
+-   **site URL**: The URL of the Read the Docs generated site.
 -   **Industry Category**: The category of the project.
 -   **Reporting Time Zone**: The Time Zone that will be used in the generated
     reports. ![](img/New_account.png)
@@ -40,7 +40,7 @@ directly. **Annotate the Tracking ID** because it will be used later.
 
 #### Create new property having a Google Analytics account
 
-If you already have a Google Analytics account, from the** Admin** section, with
+If you already have a Google Analytics account, from the **Admin** section, with
 the desired account selected, you should select “**Create new property**” in the
 column named **PROPERTY**.
 
@@ -60,7 +60,7 @@ Once all the information is provided, you should click **Get Tracking ID**.
 
 After the creation of the property, it is ready to use. Google Analytics have
 some examples of how the property can be used but we will use the Tracking ID
-directly.** Annotate the Tracking ID** because it will be used later.
+directly. **Annotate the Tracking ID** because it will be used later.
 
 ![](img/Tracking_id.png)
 
@@ -68,8 +68,8 @@ directly.** Annotate the Tracking ID** because it will be used later.
 
 From the property section, you simply should select **User Management** on the
 left menu. Once in the User Management section, you can add the
-**fiware.eu@gmail.com** filling the information as can be seen in the image
-below. Then simply click on Add. Ensure that the email address is correct, all
+`fiware.eu@gmail.com` filling the information as can be seen in the image below.
+Then simply click on Add. Ensure that the email address is correct, all
 permissions are provided and the option **Notify this user by email** is
 checked.
 

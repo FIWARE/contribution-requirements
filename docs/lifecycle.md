@@ -24,28 +24,28 @@ guidelines also apply.
 
 The development lifecycle of a GE **SHOULD** be as follows:
 
-1. When developing a new feature / bug try to **divide the work** into smaller
-   parts. For instance, dividing by frontend and backend implementation. There
-   can be other criteria that might depend on each feature / bug. The aim of
-   this division is to simplify the review process. Big commits are usually hard
-   to review, hard to change later and prone to conflicts.
+1.  When developing a new feature / bug try to **divide the work** into smaller
+    parts. For instance, dividing by frontend and backend implementation. There
+    can be other criteria that might depend on each feature / bug. The aim of
+    this division is to simplify the review process. Big commits are usually
+    hard to review, hard to change later and prone to conflicts.
 
-2. Once you have divided the work in parts, the implementation of each part
-   **SHOULD** be done in a **different branch** that you will use later to _Pull
-   Request_ to the GE Repository. One recommended practice is that you _fork_
-   the original repository to your GH account and develop the feature in your
-   own branch (which will belong to your own repository). Later, you will make a
-   Pull Request from that branch to the GE repository. See
-   [branching model](http://nvie.com/posts/a-successful-git-branching-model).
+2.  Once you have divided the work in parts, the implementation of each part
+    **SHOULD** be done in a **different branch** that you will use later to
+    _Pull Request_ to the GE Repository. One recommended practice is that you
+    _fork_ the original repository to your GH account and develop the feature in
+    your own branch (which will belong to your own repository). Later, you will
+    make a Pull Request from that branch to the GE repository. See
+    [branching model](http://nvie.com/posts/a-successful-git-branching-model).
 
-3. The Pull Request **SHOULD** include not only the feature's source code but
-   **unit or integration tests** together with relevant documentation.
+3.  The Pull Request **SHOULD** include not only the feature's source code but
+    **unit or integration tests** together with relevant documentation.
 
-4. At the time of landing (merging), a Pull Request **SHOULD** include **only
-   one commit**. While developing you **MAY** have more than one commit but
-   ultimately _only one commit **SHOULD** remain_. For doing so, use the
-   [git squash](https://blog.github.com/2016-04-01-squash-your-commits/)
-   functionality.
+4.  At the time of landing (merging), a Pull Request **SHOULD** include **only
+    one commit**. While developing you **MAY** have more than one commit but
+    ultimately _only one commit **SHOULD** remain_. For doing so, use the
+    [git squash](https://blog.github.com/2016-04-01-squash-your-commits/)
+    functionality.
 
 Nonetheless, there can be situations for which a Pull Request might be better
 explained with more than one commit. In that particular case you **SHOULD** also
@@ -59,26 +59,26 @@ ISSUE 345. POST Operation /entities. Part II DB Persistence.
 ISSUE 345. POST Operation /entities. Part III Rendering Responses.
 ```
 
-5. Once a Pull Request is done, a **code review** will be performed. Find a
-   competent reviewer that can perform a code review. There can be more than one
-   reviewer but one of them **SHOULD** be a main developer or technical
-   owner/architect of the project. Typically the reviewer will test the feature,
-   review the code (style, robustness, structure, performance) and suggest some
-   changes. The code review **MUST** be made using the code review facilities
-   provided by GitHub.
+5.  Once a Pull Request is done, a **code review** will be performed. Find a
+    competent reviewer that can perform a code review. There can be more than
+    one reviewer but one of them **SHOULD** be a main developer or technical
+    owner/architect of the project. Typically the reviewer will test the
+    feature, review the code (style, robustness, structure, performance) and
+    suggest some changes. The code review **MUST** be made using the code review
+    facilities provided by GitHub.
 
-6. Try to address all the comments suggested by reviewers. If a comment is not
-   going to be addressed a rationale **SHOULD** be provided.
+6.  Try to address all the comments suggested by reviewers. If a comment is not
+    going to be addressed a rationale **SHOULD** be provided.
 
-7. Wait for a final **positive review**. This **MAY** imply _one or more
-   iterations_ over steps 5 and 6.
+7.  Wait for a final **positive review**. This **MAY** imply _one or more
+    iterations_ over steps 5 and 6.
 
-8. Land (merge) the new code. But before landing **ensure that all tests are
-   passing**. Under certain conditions your Pull Request could not be directly
-   landed (merged). In that case you would need to rebase your branch with the
-   master branch, resolve all conflicts, push them and finally merge the new
-   code in the master branch. Nobody can auto-merge their contributions.
+8.  Land (merge) the new code. But before landing **ensure that all tests are
+    passing**. Under certain conditions your Pull Request could not be directly
+    landed (merged). In that case you would need to rebase your branch with the
+    master branch, resolve all conflicts, push them and finally merge the new
+    code in the master branch. Nobody can auto-merge their contributions.
 
-9. If later you discover that new code is breaking something _do not hesitate to
-   back out the culprit code_. That's the advantage of landing only one commit.
-   Backing out code is as easy as `git revert <commit_hash>` .
+9.  If later you discover that new code is breaking something _do not hesitate
+    to back out the culprit code_. That's the advantage of landing only one
+    commit. Backing out code is as easy as `git revert <commit_hash>` .

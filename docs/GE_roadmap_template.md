@@ -9,39 +9,39 @@ should be used in preference to other badges.
 GitHub repositories `README.md` **MUST** include the following badges at the
 very beginning of the document:
 
--   ![.](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg) -
-    **FIWARE Chapter** (Link to https://www.fiware.org/developers/catalogue/ )
+-   [![.](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](#) -
+    **FIWARE Chapter** (Link to `https://www.fiware.org/developers/catalogue/` )
     Example:
     `https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg` -
     the full link includes the logo.
--   ![.](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg) -
+-   [![.](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)](#) -
     **License** - (Link to the OSS License under the component is offered)
     Example:
     `https://img.shields.io/github/license/telefonicaid/fiware-orion.svg`
     Example: `https://img.shields.io/readthedocs/fiware-orion.svg`
--   ![.](https://bestpractices.coreinfrastructure.org/projects/24/badge) - **CII
-    Best Practices Badge**
--   ![.](https://img.shields.io/docker/pulls/fiware/orion.svg)- **Docker**
+-   [![.](https://bestpractices.coreinfrastructure.org/projects/24/badge)](#) -
+    **CII Best Practices Badge**
+-   [![.](https://img.shields.io/docker/pulls/fiware/orion.svg)](#) - **Docker**
     (pointer to the Docker container at the Docker Hub Repository) Example:
     `https://img.shields.io/docker/pulls/fiware/orion.svg`
 -   Optional Support badges (e.g. Stack Overflow) - see below
 -   A new line character `<br/>`
--   ![.](https://img.shields.io/readthedocs/fiware-orion.svg) -
+-   [![.](https://img.shields.io/readthedocs/fiware-orion.svg)](#) -
     **Documentation** (pointer to the documentation on readthedocs corresponding
     to the branch) Example:
     `https://img.shields.io/badge/support-askbot-yellowgreen.svg`
--   ![.](https://nexus.lab.fiware.org/repository/raw/public/static/badges/statuses/keyrock.svg) -
+-   [![.](https://nexus.lab.fiware.org/repository/raw/public/static/badges/statuses/keyrock.svg)](#) -
     **GE Status** - to show active support for a repository Example:
     `https://nexus.lab.fiware.org/static/badges/statuses/orion.svg`
 
 GitHub repositories `README.md` **SHOULD** list either of the following support
 badges at the beginning of the document (where relevant):
 
--   ![ ](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow) -
+-   [![.](https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow)](#) -
     **Stack Overflow** tag (pointer to the Stack Overflow support channel)
     Example:
     `https://img.shields.io/badge/tag-fiware--orion-orange.svg?logo=stackoverflow`
--   ![ ](https://img.shields.io/badge/support-askbot-yellowgreen.svg) -
+-   [![.](https://img.shields.io/badge/support-askbot-yellowgreen.svg)](#) -
     **Support** (pointer to the support channel, askbot, which can be used to
     get support if Stack Overflow is not used) or alternatively include links to
     other relevant support channels.

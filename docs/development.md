@@ -54,7 +54,7 @@ popular tool which has the advantage of being able to run on different OS.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_most">&#x24D2;</a>
 Unit tests coverage **MAY** be provided using open source tools like
-[ coveralls](https://coveralls.io/). See an example in
+[coveralls](https://coveralls.io/). See an example in
 [Wirecloud](https://github.com/Wirecloud/wirecloud)
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a>
@@ -74,7 +74,7 @@ Such tracking system **MUST** include at least all the bugs/known issues of your
 component.
 
 The Tracking system **SHOULD** be **public**. You **MAY** use the
-[JIRA](https://jira.fiware.org FIWARE) as a **public tracking tool**.
+[JIRA](https://jira.fiware.org) as a **public tracking tool**.
 
 When a commit is actually solving a bug/issue there **MUST** be a
 **cross-reference** between the commit message and the corresponding bug/issue
