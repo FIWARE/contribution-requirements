@@ -31,7 +31,7 @@ who already come with a _proposed patch_ **MUST** be given preference. Assignmen
 owners, particularly mentors. GitHub users activity profile **MAY** be used in order to assess the skills of the
 potential contributor.
 
-For those projects using GitHub as a public backlog, work items will be 'Github issues' tagged as 'Welcome
+For those projects using GitHub as a public backlog, work items will be 'GitHub issues' tagged as 'Welcome
 Contributions'. The assignment process will consist of a comment made by the contributor on the corresponding GitHub
 issue, indicating the intent to fix the issue. A mentor can decide to acknowledge the request by actually assigning the
 issue. Nonetheless, the Mentor will have the final assignment decision depending on the proved skills of the requester.

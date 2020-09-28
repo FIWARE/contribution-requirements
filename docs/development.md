@@ -12,7 +12,7 @@
     `https://github.com/Fiware/developmentGuidelines/community`
 -   Every repository in GitHub **SHOULD** have a one line repository description - the description **SHOULD NOT** be
     left blank
--   Where **ReadtheDocs** documentation exists for a repository in Github, the GitHub repository URL **SHOULD** link
+-   Where **ReadtheDocs** documentation exists for a repository in GitHub, the GitHub repository URL **SHOULD** link
     back to the latest **ReadtheDocs** documentation - the URL **SHOULD NOT** be left blank
 -   Every repository in GitHub **SHOULD** include a list of related topics including the following:
     -   `fiware`

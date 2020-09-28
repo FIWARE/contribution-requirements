@@ -40,7 +40,7 @@ When using a copyleft open source license, IPR Management rules for contribution
 ## SCM Tool
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a>
-The SCM Tool **MUST** be [Github.com](https://github.com). Accompanying tools or plugins that integrate well with GitHub
+The SCM Tool **MUST** be [github.com](https://github.com). Accompanying tools or plugins that integrate well with GitHub
 (ex. Gerrit) **MAY** be used.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_interim">&#x24D2;</a>
@@ -191,7 +191,7 @@ the codebase **MUST** be tagged with a semantic release number
 Every release **MUST** have a unique version number
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#release_notes">&#x24D2;</a>
-Every GE release MUST have an associated Release Notes entry at the Github Releases section.
+Every GE release MUST have an associated Release Notes entry at the GitHub Releases section.
 
 As an example see the following [release note](https://github.com/telefonicaid/fiware-orion/releases)
 
