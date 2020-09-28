@@ -39,7 +39,7 @@
 		"precommit": "lint-staged",
 		"lint:md": "remark 'README.md' docs",
 		"lint:text": "textlint 'README.md' 'docs/*.md' 'docs/**/*.md'",
-		"prettier:text": "prettier 'README.md' 'docs/*.md' --tab-width 4 --print-width 80 --write --prose-wrap always",
+		"prettier:text": "prettier  --parser markdown '*.md' 'docs/*.md' --tab-width 4 --print-width 120 --write --prose-wrap always",
 		"test": "textlint 'README.md' 'docs/*.md'"
 	},
 	"husky": {
@@ -49,7 +49,7 @@
 	},
 	"lint-staged": {
 		"*.md": [
-			"prettier --tab-width 4 --print-width 120 --write --prose-wrap always",
+			"prettier --parser markdown --tab-width 4 --print-width 120 --write --prose-wrap always",
 			"git add"
 		],
 		"*.yml": [
