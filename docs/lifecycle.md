@@ -18,7 +18,7 @@ The following requirements govern the development lifecycle:
 
 Apart from the minimal, mandatory lifecycle described above the following guidelines also apply.
 
-The development lifecycle of a GE **SHOULD** be as follows:
+The development lifecycle of a FIWARE Generic Enabler **SHOULD** be as follows:
 
 1.  When developing a new feature / bug try to **divide the work** into smaller parts. For instance, dividing by
     frontend and backend implementation. There can be other criteria that might depend on each feature / bug. The aim of
@@ -26,10 +26,10 @@ The development lifecycle of a GE **SHOULD** be as follows:
     prone to conflicts.
 
 2.  Once you have divided the work in parts, the implementation of each part **SHOULD** be done in a **different
-    branch** that you will use later to _Pull Request_ to the GE Repository. One recommended practice is that you _fork_
-    the original repository to your GH account and develop the feature in your own branch (which will belong to your own
-    repository). Later, you will make a Pull Request from that branch to the GE repository. See
-    [branching model](http://nvie.com/posts/a-successful-git-branching-model).
+    branch** that you will use later to _Pull Request_ to the FIWARE Generic Enabler Repository. One recommended 
+    practice is that you _fork_ the original repository to your GitHub account and develop the feature in your own 
+    branch (which will belong to your own repository). Later, you will make a Pull Request from that branch to the 
+    FIWARE Generic Enabler repository. See [branching model](http://nvie.com/posts/a-successful-git-branching-model).
 
 3.  The Pull Request **SHOULD** include not only the feature's source code but **unit or integration tests** together
     with relevant documentation.
@@ -65,4 +65,4 @@ ISSUE 345. POST Operation /entities. Part III Rendering Responses.
     auto-merge their contributions.
 
 9.  If later you discover that new code is breaking something _do not hesitate to back out the culprit code_. That's the
-    advantage of landing only one commit. Backing out code is as easy as `git revert <commit_hash>` .
+    advantage of landing only one commit. Backing out code is as easy as `git revert <commit_hash>`.
