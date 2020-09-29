@@ -141,7 +141,7 @@ in case an individual administrator is unavailable.
 
 The Documentation **title** on **Read the Docs** (i.e. the `site_name` within the `mkdocs.yml`) **MUST** reflect the 
 name of the enabler. The title **MAY** match the Stack Overflow tag or alternatively the `site_name` **MAY** consist 
-of the enabler name without the `fiware prefix.
+of the enabler name without the `fiware` prefix.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_basics">&#x24D2;</a>
 The basic format of the Developer Documentation **SHOULD** consist of the following sections in the following order:
