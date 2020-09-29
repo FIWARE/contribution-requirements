@@ -207,10 +207,9 @@ The **release notes** associated to each Release **SHOULD** include the **change
 of changes regarding the previous version, including (if possible) links to the **GitHub issues** related to each
 change.
 
-Last but not least, It is not needed to maintain the different branches corresponding to the existing releases once 
-that the corresponding tag for the release is created. Additionally, every time one branch is merged into another, 
-the branch that is merged in becomes stale, therefore it is a good approach deleting those branches to prevent clutting
-up your repository.
+It is not needed to maintain the different branches corresponding to the existing releases once that the corresponding 
+tag for the release is created. Additionally, every time one branch is merged into another, the branch that is merged 
+in becomes stale, therefore it is a good approach deleting those branches to prevent clutting up your repository.
 
 ## Binary Releases
 
