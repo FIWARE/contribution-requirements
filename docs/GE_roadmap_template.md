@@ -8,22 +8,22 @@ badges.
 GitHub repositories `README.md` **MUST** include the following badges at the very beginning of the document:
 
 -   [![.](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg)](#) - **FIWARE Chapter**
-    (Link to `https://www.fiware.org/developers/catalogue/` ) Example:
+    (Link to `https://www.fiware.org/developers/catalogue/` ). Example:
     `https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/iot-agents.svg` - the full link includes the
     logo.
 -   [![.](https://img.shields.io/github/license/telefonicaid/fiware-orion.svg)](#) - **License** - (Link to the OSS
-    License under the component is offered) Example:
+    License under the component is offered). Example:
     `https://img.shields.io/github/license/telefonicaid/fiware-orion.svg` Example:
     `https://img.shields.io/readthedocs/fiware-orion.svg`
--   [![.](https://bestpractices.coreinfrastructure.org/projects/24/badge)](#) - **CII Best Practices Badge**
+-   [![.](https://bestpractices.coreinfrastructure.org/projects/24/badge)](#) - **CII Best Practices Badge**.
 -   [![.](https://img.shields.io/docker/pulls/fiware/orion.svg)](#) - **Docker** (pointer to the Docker container at the
-    Docker Hub Repository) Example: `https://img.shields.io/docker/pulls/fiware/orion.svg`
--   Optional Support badges (e.g. Stack Overflow) - see below
--   A new line character `<br/>`
+    Docker Hub Repository). Example: `https://img.shields.io/docker/pulls/fiware/orion.svg`
+-   Optional Support badges (e.g. Stack Overflow) - see below.
+-   A new line character `<br/>`.
 -   [![.](https://img.shields.io/readthedocs/fiware-orion.svg)](#) - **Documentation** (pointer to the documentation on
-    readthedocs corresponding to the branch) Example: `https://img.shields.io/badge/support-askbot-yellowgreen.svg`
+    Read the Docs corresponding to the branch). Example: `https://img.shields.io/badge/support-askbot-yellowgreen.svg`
 -   [![.](https://nexus.lab.fiware.org/repository/raw/public/static/badges/statuses/keyrock.svg)](#) - **GE Status** -
-    to show active support for a repository Example: `https://nexus.lab.fiware.org/static/badges/statuses/orion.svg`
+    to show active support for a repository. Example: `https://nexus.lab.fiware.org/static/badges/statuses/orion.svg`
 
 GitHub repositories `README.md` **SHOULD** list either of the following support badges at the beginning of the document
 (where relevant):
@@ -54,7 +54,7 @@ second row of badges should ideally all be **GREEN** at all times.
 
 #### QA Requirements
 
--   a section within the `README` displaying the GE ratings defined as follows: ![](img/rating.png)
+A section within the `README.md` displaying the GE ratings defined as follows: ![](img/rating.png)
 
 ```markdown
 ## Orion
@@ -80,11 +80,11 @@ This project is part of [FIWARE](http://fiware.org/) and has been rated as follo
 
 #### Tutorial/Training Requirements
 
-GE's repository `README.md` file **MUST** include a list of relevant training courses:
+FIWARE Generic Enabler's repository `README.md` file **MUST** include a list of relevant training courses:
 
--   a section within the `README` displaying links to the relevant [Tutorial](learning_materials.md#tutorials)
+-   A section within the `README.md` displaying links to the relevant [Tutorial](learning_materials.md#tutorials).
     ![](img/tutorial.png)
--   a section within the `README` displaying links to the relevant [Academy Courses](learning_materials.md#academy)
+-   A section within the `README.md` displaying links to the relevant [Academy Courses](learning_materials.md#academy).
     ![](img/academy.png)
 
 As an example, **Keyrock** would display links to learning materials as shown:
@@ -142,9 +142,9 @@ the product planned for **{{date}}**:
 {{bullet list of features/tasks}} - this should be a simple list of features you plan to address in the given period.
 Try to be comprehensive as well as short in the description of each feature (**2 lines max**).
 
--   {{Feature 1}}
+-   {{Feature 1}}.
 
--   {{Feature n}}
+-   {{Feature n}}.
 
 {{If the description of a given feature will need more elaboration, please add
 the following text after end of the description}}:
@@ -154,8 +154,8 @@ to implementation of the feature: "(see issueX, issueY, ...)" providing the link
 
 ### {{Feature n}}
 
-subsections providing more details of selected features if needed - this section would be needed if you plan to add
-further details as explained above (and not do it through references to issues)
+Subsections providing more details of selected features if needed - this section would be needed if you plan to add
+further details as explained above (and not do it through references to issues).
 
 ## Medium term
 
@@ -168,7 +168,7 @@ release(s) generated in the next **9 months** after next planned release:
 
 The following list of features are proposals regarding the longer-term evolution of the product even though development
 of these features has not yet been scheduled for a release in the near future. Please feel free to contact us if you
-wish to get involved in the implementation or influence the roadmap
+wish to get involved in the implementation or influence the roadmap.
 
 {{Complete this section following the same structure as described for short term roadmap}}
 ```
