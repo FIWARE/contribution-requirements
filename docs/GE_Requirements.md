@@ -15,7 +15,9 @@ The source code of the product MUST be licensed under
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#license_location">&#x24D2;</a>
 The open source license under which source code of the product is licensed **MUST** be clearly mentioned in a
-first-level section of the `README.md` file included in the main GitHub repository. When using a copyleft open source
+first-level section of the `README.md` file included in the main GitHub repository.
+
+<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source
 license, the following paragraph **MUST** be added in the section where the open source license is mentioned:
 
 > Please note that software derived as a result of modifying the source code of the <name-of-product> software in order
