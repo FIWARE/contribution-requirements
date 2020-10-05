@@ -18,6 +18,7 @@
         "EditorConfig",
         "ESLint",
         "FIWARE",
+        ["NSGI", "NGSI"],
         "GitHub",
         "GraphQL",
         "iOS",
@@ -183,15 +184,20 @@
       "passive": false,
       "tooWordy": false,
       "weasel": false,
-      "so": false
+      "so": false,
+      "thereIs": false
     },
     "no-dead-link": {
        "ignoreRedirects": true,
        "ignore": [
           "mailto:*",
           "https://blog.github.com/2016-04-01-squash-your-commits/",
-          "https://www.fiware.org/foundation"
+          "https://www.fiware.org/foundation",
+          "https://github.com/*"
       ]
     }
+  },
+  "filters": {
+    "comments": true
   }
 }

@@ -11,15 +11,18 @@ extra_css: ["https://www.fiware.org/style/fiware_readthedocs.css", "https://www.
 google_analytics: ['UA-84866051-2', 'fiware-requirements.readthedocs.io']
 pages:
   - Home: index.md
-  - 'Checklist': GE_Checklist.md
-  - 'Requirements': GE_Requirements.md
-  - 'Analytics': analytics_readthedocs.md
-  - 'Development': development.md
-  - 'Docker': docker.md
-  - 'External Contributions': external_contributions.md
-  - 'Project Badges': project_badges.md
-  - 'Training Courses': learning_materials.md
-  - 'Webhook': repo_webhook.md
-  - 'Appendix A: Release Process': release.md
-  - 'Appendix B: Roadmap Template': GE_roadmap_template.md
+  - 'Membership Checklists': GE_Checklist.md
+  - 'General Requirements': GE_Requirements.md
+  - 'Development Requirements': development.md
+  - 'Docker Requirements': docker.md
+  - 'Badge & CSS Requirements': project_badges.md
+  - Appendices:
+    - 'Appendix A: External Contributions': external_contributions.md
+    - 'Appendix B: Training Courses': learning_materials.md
+    - 'Appendix C: Webhook': repo_webhook.md
+    - 'Appendix D: Release Process': release.md
+    - 'Appendix E: Development Lifecycle': lifecycle.md
+    - 'Appendix F: Templates': GE_roadmap_template.md
+    - 'Appendix G: Analytics': analytics_readthedocs.md
+
   
