@@ -59,11 +59,11 @@ tasks to be completed in order to publish a new GE.
 A `README.md` **MUST** be always present in the root folder of any repository associated to the Generic Enabler. The purpose of such
 a document associated to a Generic Enabler is to document: 
 
-- Generic Enabler overall description.
-- How to Deploy the Generic Enabler (basic/default installation procedure).
-- How to run tests.
-- A walkthrough guide on using the main APIs.
-- How to get access to the advanced API and Documentation topics.
+-   Generic Enabler overall description.
+-   How to Deploy the Generic Enabler (basic/default installation procedure).
+-   How to run tests.
+-   A walkthrough guide on using the main APIs.
+-   How to get access to the advanced API and Documentation topics.
 
 In general the structure of the `README.md` **SHOULD** follow a standard format such as
 [standard-readme](https://github.com/RichardLitt/standard-readme).
