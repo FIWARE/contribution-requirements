@@ -119,19 +119,16 @@ images and good practice should be followed:
 <span style="color:#233c68;">&#x24D5;</span> Dockerfiles **SHOULD** put the following static common
 [Open Container Initiative](https://opencontainers.org/) labels inside the Dockerfile:
 
--   `org.opencontainers.image.authors` - email addresses of responsible contacts e.g. `iot_support@tid.es`
--   `org.opencontainers.image.description` - description of the component e.g._"An Internet of Things Agent for the
-    Ultralight 2.0 protocol (with AMQP, HTTP and MQTT transports). This IoT Agent is designed to be a bridge between
-    Ultralight and the NGSI interface of a context broker."_
--   `org.opencontainers.image.documentation` - link to the documentation e.g. `https://fiware-iotagent-ul.rtfd.io/`
--   `org.opencontainers.image.licenses` - the license type e.g. _AGPL-3.0-only_
--   `org.opencontainers.image.revision` - the GitHash or branch the image was built from e.g.
-    `d0698fad9a0880edcbdf2cc23ba775d81c3f51c1`
--   `org.opencontainers.image.source` - where the source code can be found.
-    e.g.`https://github.com/telefonicaid/iotagent-ul`
--   `org.opencontainers.image.title` - the title of the image - e.g. _IoT Agent for the Ultralight 2.0 protocol_
--   `org.opencontainers.image.vendor` - the name of the caretaker organization. e.g. _Telefónica Investigación y
-    Desarrollo, S.A.U_
+| Name                                     | Description                                    | Example                                                                                                                                                                                                      |
+| ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `org.opencontainers.image.authors`       | Email addresses of responsible contacts        | `iot_support@tid.es`                                                                                                                                                                                         |
+| `org.opencontainers.image.description`   | Description of the component                   | _An Internet of Things Agent for the Ultralight 2.0 protocol (with AMQP, HTTP and MQTT transports). This IoT Agent is designed to be a bridge betweenUltralight and the NGSI interface of a context broker._ |
+| `org.opencontainers.image.documentation` | Link to the documentation                      | `https://fiware-iotagent-ul.rtfd.io/`                                                                                                                                                                        |
+| `org.opencontainers.image.licenses`      | The license type                               | _AGPL-3.0-only_                                                                                                                                                                                              |
+| `org.opencontainers.image.revision`      | The GitHash or branch the image was built from | `d0698fad9a0880edcbdf2cc23ba775d81c3f51c1`                                                                                                                                                                   |
+| `org.opencontainers.image.source`        | Location where the source code can be found.   | `https://github.com/telefonicaid/iotagent-ul`                                                                                                                                                                |
+| `org.opencontainers.image.title`         | The title of the image                         | _IoT Agent for the Ultralight 2.0 protocol_                                                                                                                                                                  |
+| `org.opencontainers.image.vendor`        | The name of the caretaker organization.        | _Telefónica Investigación y Desarrollo, S.A.U_                                                                                                                                                               |
 
 An example of Static Labels can be found in this
 [ `Dockerfile`](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/Dockerfile#L199-L207)
@@ -139,9 +136,10 @@ An example of Static Labels can be found in this
 <span style="color:#233c68;">&#x24D5;</span> Dockerfiles **SHOULD** also add the following dynamic labels inside the
 Dockerfile:
 
--   `org.opencontainers.image.created` - the date the image was built. e.g. `2020-10-20`
--
--   `org.opencontainers.image.version`: the SemVer release of the component `1.15.0`
+| Name                               | Description                         | Example      |
+| ---------------------------------- | ----------------------------------- | ------------ |
+| `org.opencontainers.image.created` | The date the image was built.       | `2020-10-20` |
+| `org.opencontainers.image.version` | The SemVer release of the component | `1.15.0`     |
 
 An example of Dynamic Labelling can be found in this
 [Build Hook](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/hooks/build#L23-L27)
@@ -149,10 +147,10 @@ An example of Dynamic Labelling can be found in this
 <span style="color:#233c68;">&#x24D5;</span> For the automation of security alerts, Dockerfiles **SHOULD** put the
 following additional FIWARE related labels inside the Dockerfile:
 
--   `org.fiware.contact.localpart` - comma separated
-    [partial email addresses](https://en.wikipedia.org/wiki/Email_address#Local-part) of responsible contacts
--   `org.fiware.contact.domain` - an [domain name](https://en.wikipedia.org/wiki/Email_address#Domain) of responsible
-    contacts
+| Name                           | Description                                                                                                                 | Example                    |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| `org.fiware.contact.localpart` | A comma separated [partial email addresses](https://en.wikipedia.org/wiki/Email_address#Local-part) of responsible contacts | `fernando.lopez,jason.fox` |
+| `org.fiware.contact.domain`    | An email server [domain name](https://en.wikipedia.org/wiki/Email_address#Domain) of responsible contacts                   | `fiware.org`               |
 
 Note that the Dockerfile `MAINTAINER` instruction is deprecated. The `LABEL` instruction is a much more flexible version
 of this and you should use it instead, as it enables setting any metadata you require, and can be viewed easily, for
