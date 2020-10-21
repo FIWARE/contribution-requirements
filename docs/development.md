@@ -85,7 +85,7 @@ proposal made. If you want to **create community** around your component you **S
 hand, code authored by external contributors **SHOULD** not break the basic design principles of your component. Be
 prepared for trade-offs.
 
-<span style="color:#233c68;">&#x24D5;</span> When someone makes a Pull Request, they **MUST** sign-up to the harmonized [Individual Contributor License Agreement](https://fiware.github.io/contribution-requirements/individual-cla.pdf)
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#dco">&#x24D2;</a> When someone makes a Pull Request, they **MUST** sign-up to the harmonized [Individual Contributor License Agreement](https://fiware.github.io/contribution-requirements/individual-cla.pdf)
 
 ## Code Quality
 

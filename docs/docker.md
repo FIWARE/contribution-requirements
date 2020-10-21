@@ -13,7 +13,7 @@ recommendations (see below) are provided. The Dockerfile can be at the root fold
 Repository or under a folder named `docker`. Additional Hacker-orientated Dockerfiles **MAY** be provided as well.
 
 <span style="color:#233c68;">&#x24D5;</span> Each Docker image **SHOULD** define the following tags (present at
-[Dockerhub](https://hub.docker.com/)):
+[DockerHub](https://hub.docker.com/)):
 
 -   `latest`: **On the FIWARE Generic Enabler owner's account** will correspond to the latest build (latest code
     snapshot) of the FIWARE Generic Enabler. It might not be stable.
@@ -130,8 +130,7 @@ images and good practice should be followed:
 | `org.opencontainers.image.title`         | The title of the image                         | _IoT Agent for the Ultralight 2.0 protocol_                                                                                                                                                                  |
 | `org.opencontainers.image.vendor`        | The name of the caretaker organization.        | _Telefónica Investigación y Desarrollo, S.A.U_                                                                                                                                                               |
 
-An example of Static Labels can be found in this
-[ `Dockerfile`](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/Dockerfile#L199-L207)
+An example of Static Labels can be found in [this `Dockerfile`](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/Dockerfile#L199-L207)
 
 <span style="color:#233c68;">&#x24D5;</span> Dockerfiles **SHOULD** also add the following dynamic labels inside the
 Dockerfile:
@@ -141,8 +140,7 @@ Dockerfile:
 | `org.opencontainers.image.created` | The date the image was built.       | `2020-10-20` |
 | `org.opencontainers.image.version` | The SemVer release of the component | `1.15.0`     |
 
-An example of Dynamic Labelling can be found in this
-[Build Hook](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/hooks/build#L23-L27)
+An example of Dynamic Labelling can be found in [this Build Hook](https://github.com/telefonicaid/iotagent-ul/blob/master/docker/hooks/build#L23-L27)
 
 <span style="color:#233c68;">&#x24D5;</span> For the automation of security alerts, Dockerfiles **SHOULD** put the
 following additional FIWARE related labels inside the Dockerfile:
