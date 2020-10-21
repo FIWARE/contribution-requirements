@@ -21,6 +21,8 @@ and accepted into an existing Chapter.
 <span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** show how it integrates within the overall
 FIWARE Architecture.
 
+<span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** sign-up to the harmonized [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
+
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a>
 The codebase **MUST** be available on [GitHub](https://github.com).
 
@@ -147,8 +149,8 @@ marked <span style="color:#233c68;">&#x24D5;</span> or <span style="color:red">&
 > quarantined and will be removed from the list of Enablers.
 
 -   A Stack Overflow tag for the component is registered (Ask FIWARE Foundation Staff)
--   Where it is suitable to provide a global instance of a service, a public instance may be deployed in the FIWARE 
-    Foundation infrastructure and maintained by the team in collaboration with the FIWARE Foundation team 
+-   Where it is suitable to provide a global instance of a service, a public instance may be deployed in the FIWARE
+    Foundation infrastructure and maintained by the team in collaboration with the FIWARE Foundation team
     (Ask FIWARE Foundation Staff).
 -   A tour guide entry is provided - see
     [fiwaretourguide.readthedocs.io](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/).

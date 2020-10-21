@@ -8,6 +8,8 @@ practices for its development.
 -   Every Generic Enabler must sign-up to the
     [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
 
+-   Every FIWARE Generic Enabler must sign-up to the harmonized [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
+
 -   All the [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements) are **MUST**
     requirements.
 
