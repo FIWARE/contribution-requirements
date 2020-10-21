@@ -28,7 +28,7 @@ license, the following paragraph **MUST** be added in the section where the open
 Every enabler **MUST** be open to third party contributions. All offered contributions **MUST** be reviewed within a
 "reasonable" timeframe.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#dco">&#x24D2;</a> There
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1?criteria_level=1#dco">&#x24D2;</a> There
 **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the terms under which the IPR of contributions to
 the source code of the product will be managed. Such document **MUST** be made accessible in (or map to) a first-level
 section of the `README.md` file included in the associated GitHub repositories.
@@ -57,7 +57,7 @@ tasks to be completed in order to publish a new GE.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#x24D2;</a>
 A `README.md` **MUST** be always present in the root folder of any repository associated to the Generic Enabler. The purpose of such
-a document associated to a Generic Enabler is to document: 
+a document associated to a Generic Enabler is to document:
 
 -   Generic Enabler overall description.
 -   How to Deploy the Generic Enabler (basic/default installation procedure).
@@ -138,7 +138,7 @@ standard-readme and include:
 -   List of links to **Advanced topics** (/doc folder):
     -   User & Programmers Manual (**MUST**).
     -   Installation & Administration Guide (**MUST**).
-    -   Other documents, for instance: high availability deployment, detailed architecture, advanced configuration 
+    -   Other documents, for instance: high availability deployment, detailed architecture, advanced configuration
         topics, advanced functionalities, ...
 
 ### Quality Assurance
@@ -168,7 +168,7 @@ Context Broker GE.
 ## Commitment to Quality
 
 <span style="color:#233c68;">&#x24D5;</span> The Community behind each FIWARE Generic Enabler (owner, other contributors)
-**SHOULD** bring support to requests submitted through standard 
+**SHOULD** bring support to requests submitted through standard
 [FIWARE Help Desk channel](mailto:fiware-tech-help@lists.fiware.org) and QA testings executed by QA Lab team.
 
 The following assessments will be conducted:
@@ -205,29 +205,29 @@ As an example see the following [release note](https://github.com/telefonicaid/f
 
 Periodically the FIWARE Foundation will annouce a catalogue release, every time there is a FIWARE Release:
 
-<span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enabler owners **MUST** tag the FIWARE Generic Enabler 
-release pertaining to such FIWARE Release with `FIWARE_<major>.<minor>`. Please note that this imply that certain 
-FIWARE Generic Enabler releases could be double tagged. The referred tag will be intended to mark clearly that such 
-FIWARE Generic Enabler Release is part of and compatible with the corresponding FIWARE Release. Docker images or other 
+<span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enabler owners **MUST** tag the FIWARE Generic Enabler
+release pertaining to such FIWARE Release with `FIWARE_<major>.<minor>`. Please note that this imply that certain
+FIWARE Generic Enabler releases could be double tagged. The referred tag will be intended to mark clearly that such
+FIWARE Generic Enabler Release is part of and compatible with the corresponding FIWARE Release. Docker images or other
 associated artefacts **MUST** also be properly tagged with the referred FIWARE tag.
 
-"Compatibility" with a release means compatibility with the FIWARE Context Broker in that release, i.e. the FIWARE 
-Generic Enabler owner commits to do the relevant functional and integration testing. This also implies that breaking 
-changes within the FIWARE Context Broker should be scheduled and announced beforehand (i.e. roadmapped) to give 
+"Compatibility" with a release means compatibility with the FIWARE Context Broker in that release, i.e. the FIWARE
+Generic Enabler owner commits to do the relevant functional and integration testing. This also implies that breaking
+changes within the FIWARE Context Broker should be scheduled and announced beforehand (i.e. roadmapped) to give
 FIWARE Generic Enablers a chance to catch up.
 
 A "FIWARE Release" shall contain versioned releases of all FIWARE Generic Enablers found within the
-[catalogue](https://www.fiware.org/developers/catalogue/). All FIWARE Generic Enablers pertaining to a FIWARE Release 
-must work seamlessly with the version of the [FIWARE Orion Context Broker](https://github.com/telefonicaid/fiware-orion) 
-corresponding to that FIWARE Release. In case of ETSI NGSI-LD support, these FIWARE Generic Enablers must work 
-seamlessly with the version of [FIWARE Scorpio](https://github.com/ScorpioBroker/ScorpioBroker), 
-[FIWARE Orion-LD](https://github.com/FIWARE/context.Orion-LD), and/or 
+[catalogue](https://www.fiware.org/developers/catalogue/). All FIWARE Generic Enablers pertaining to a FIWARE Release
+must work seamlessly with the version of the [FIWARE Orion Context Broker](https://github.com/telefonicaid/fiware-orion)
+corresponding to that FIWARE Release. In case of ETSI NGSI-LD support, these FIWARE Generic Enablers must work
+seamlessly with the version of [FIWARE Scorpio](https://github.com/ScorpioBroker/ScorpioBroker),
+[FIWARE Orion-LD](https://github.com/FIWARE/context.Orion-LD), and/or
 [FIWARE Incubated Stellio](https://github.com/stellio-hub/stellio-context-broker).
 
 
 The following rules apply for numbering FIWARE Releases:
 
--   Major release number: to be increased by decision at TSC level, typically linked with a major achievement 
+-   Major release number: to be increased by decision at TSC level, typically linked with a major achievement
     (e.g., support to NGSI-LD).
 -   Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be usually
     aligned with the celebration of FIWARE Summits. Additional releases can be added if strictly needed and agreed at
@@ -236,15 +236,15 @@ The following rules apply for numbering FIWARE Releases:
 ## Project Roadmap
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#documentation_roadmap">&#x24D2;</a>
-A FIWARE Generic Enabler **MUST** describe its planned roadmap. A link to the roadmap **MUST** be found in the 
+A FIWARE Generic Enabler **MUST** describe its planned roadmap. A link to the roadmap **MUST** be found in the
 `README.md`.
 
-<span style="color:#233c68;">&#x24D5;</span> For describing a FIWARE Generic Enabler roadmap the following template 
+<span style="color:#233c68;">&#x24D5;</span> For describing a FIWARE Generic Enabler roadmap the following template
 **MUST** be used: [GE_roadmap_template.md](GE_roadmap_template.md).
 
-<span style="color:#233c68;">&#x24D5;</span> Representatives of the FIWARE Generic Enabler community **MUST** attend 
-F2F roadmap meetings to take place at FIWARE Summits (not overlapping with agenda, day or day and a half before the 
+<span style="color:#233c68;">&#x24D5;</span> Representatives of the FIWARE Generic Enabler community **MUST** attend
+F2F roadmap meetings to take place at FIWARE Summits (not overlapping with agenda, day or day and a half before the
 Summit or after the Congress part).
 
-The page on the FIWARE site in which it is described the overall work is the 
+The page on the FIWARE site in which it is described the overall work is the
 [FIWARE Roadmap](https://github.com/FIWARE/catalogue/blob/master/roadmap.md).
