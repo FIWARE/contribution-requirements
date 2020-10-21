@@ -37,4 +37,5 @@ jspm_packages/
 .env
 .next
 push.sh
+.idea
 package-lock.json
