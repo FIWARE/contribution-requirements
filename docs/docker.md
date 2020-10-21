@@ -152,9 +152,10 @@ following additional FIWARE related labels inside the Dockerfile:
 | `org.fiware.contact.localpart` | A comma separated [partial email addresses](https://en.wikipedia.org/wiki/Email_address#Local-part) of responsible contacts | `fernando.lopez,jason.fox` |
 | `org.fiware.contact.domain`    | An email server [domain name](https://en.wikipedia.org/wiki/Email_address#Domain) of responsible contacts                   | `fiware.org`               |
 
-Note that the Dockerfile `MAINTAINER` instruction is deprecated. The `LABEL` instruction is a much more flexible version
-of this and you should use it instead, as it enables setting any metadata you require, and can be viewed easily, for
-example with `docker inspect`. See section [Label description content](#label-description-content) for more details.
+Note that the Dockerfile `MAINTAINER` instruction is deprecated. The `LABEL maintainer` instruction is a much more
+flexible version of this and you should use it instead, as it enables setting any metadata you require, and can be
+viewed easily, for example with `docker inspect`. See section [Label description content](#label-description-content)
+for more details.
 
 Note that Image labels can be read using the `docker inspect` command:
 
