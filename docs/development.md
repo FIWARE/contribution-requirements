@@ -12,7 +12,7 @@
     named `master`, and a certain number of additional branches/tags corresponding to releases.
 
 -   Every repository in GitHub **SHOULD** comply with the GitHub recommended community standards checklist - e.g.
-    `https://github.com/Fiware/developmentGuidelines/community`
+    `https://github.com/FIWARE/contribution-requirements/community`
 
 -   Every repository in GitHub **SHOULD** have a one line repository description - the description **SHOULD NOT** be
     left blank.
