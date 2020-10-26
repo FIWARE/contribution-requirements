@@ -1,7 +1,7 @@
 ## Training Course Guidelines
 
-As a FIWARE Generic Enabler matures, the documentation surrounding the component should also be fleshed out. The
-**Read the Docs** [User Guide](development.md#developer-oriented-documentation-readthedocs) and
+As a FIWARE Generic Enabler matures, the documentation surrounding the component should also be fleshed out. The **Read
+the Docs** [User Guide](development.md#developer-oriented-documentation-readthedocs) and
 [Installation Guide](development.md#developer-oriented-documentation-readthedocs) should not be over-expanded with too
 much extra material, instead additional supplementary documentation should be created and maintained to allow new users
 to become familiar with all aspects of the component.
@@ -11,9 +11,9 @@ to become familiar with all aspects of the component.
 -   For examples see
     [fiwaretourguide.readthedocs.io](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/).
 
-The Tour Guide entry for a FIWARE Generic Enabler is complementary to the quick start in the User Guide. It contains 
-essential background information and key concepts along with a few common HTTP calls illustrating how to use the 
-component. To avoid bloat, it does **not** include set-up material or `docker-compose` files, the assumption should be 
+The Tour Guide entry for a FIWARE Generic Enabler is complementary to the quick start in the User Guide. It contains
+essential background information and key concepts along with a few common HTTP calls illustrating how to use the
+component. To avoid bloat, it does **not** include set-up material or `docker-compose` files, the assumption should be
 that an installed component already exists and has been started.
 
 The Tour Guide entry is aimed at **decision makers** who are weighing up which context data-based framework they are
@@ -53,7 +53,7 @@ Academy courses consist of short (5-10 minute) videos and slide presentations (w
 suitable for developers who prefer to learn by watching and are very useful for an overview of GUI-based components.
 
 Typically video presentations should be hosted on `youtube.com` and slide presentations on `slideshare.net`. The
-downloadable sources for presentations with audio are currently found on the 
+downloadable sources for presentations with audio are currently found on the
 [FIWARE Academy](https://fiware-academy.readthedocs.io/en/latest/).
 
 In all cases links to each of the Academy courses should be listed and maintained in the `README.md` of the GitHub

@@ -17,8 +17,8 @@ The source code of the product MUST be licensed under
 The open source license under which source code of the product is licensed **MUST** be clearly mentioned in a
 first-level section of the `README.md` file included in the main GitHub repository.
 
-<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source
-license, the following paragraph **MUST** be added in the section where the open source license is mentioned:
+<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, the following paragraph **MUST**
+be added in the section where the open source license is mentioned:
 
 > Please note that software derived as a result of modifying the source code of the <name-of-product> software in order
 > to fix a bug or incorporate enhancements IS considered a derivative work of the product. Software that merely uses or
@@ -28,19 +28,22 @@ license, the following paragraph **MUST** be added in the section where the open
 Every enabler **MUST** be open to third party contributions. All offered contributions **MUST** be reviewed within a
 "reasonable" timeframe.
 
-<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1?criteria_level=1#dco">&#x24D2;</a> There
-**MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the terms under which the IPR of contributions to
-the source code of the product will be managed. Such document **MUST** be made accessible in (or map to) a first-level
-section of the `README.md` file included in the associated GitHub repositories.
+<a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1?criteria_level=1#dco">&#x24D2;</a>
+There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the terms under which the IPR of
+contributions to the source code of the product will be managed. Such document **MUST** be made accessible in (or map
+to) a first-level section of the `README.md` file included in the associated GitHub repositories.
 
-<span style="color:#233c68;">&#x24D5;</span> The `CONTRIBUTIONS` guidelines **MUST** include the template of the Contribution License Agreement for individuals and entities contributing code to the component.  As a reference for producing these templates, the following templates derived from the Harmony Agreements project are provided:
+<span style="color:#233c68;">&#x24D5;</span> The `CONTRIBUTIONS` guidelines **MUST** include the template of the
+Contribution License Agreement for individuals and entities contributing code to the component. As a reference for
+producing these templates, the following templates derived from the Harmony Agreements project are provided:
 
--  [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf)
--  [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
+-   [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf)
+-   [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
 
 In any case the provided templates **MUST** align with clauses 2.1, 2.2 and 2.3 of the recommended templates above.
 
-<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, IPR Management rules for contributions **MUST** include clauses as follows:
+<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, IPR Management rules for
+contributions **MUST** include clauses as follows:
 
 -   There should be at least one organization which can exercise IPRs on the whole software.
 -   There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software
@@ -63,8 +66,8 @@ tasks to be completed in order to publish a new GE.
 ## `README.md`
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#description_good">&#x24D2;</a>
-A `README.md` **MUST** be always present in the root folder of any repository associated to the Generic Enabler. The purpose of such
-a document associated to a Generic Enabler is to document:
+A `README.md` **MUST** be always present in the root folder of any repository associated to the Generic Enabler. The
+purpose of such a document associated to a Generic Enabler is to document:
 
 -   Generic Enabler overall description.
 -   How to Deploy the Generic Enabler (basic/default installation procedure).
@@ -169,25 +172,25 @@ As an example, in Markdown adding links to learning materials as shown:
 ## Functional Testing
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a> A
-FIWARE Generic Enabler **MUST** include a suite of functional tests that allow to verify the proper integration with the FIWARE
-Context Broker GE.
+FIWARE Generic Enabler **MUST** include a suite of functional tests that allow to verify the proper integration with the
+FIWARE Context Broker GE.
 
 ## Commitment to Quality
 
-<span style="color:#233c68;">&#x24D5;</span> The Community behind each FIWARE Generic Enabler (owner, other contributors)
-**SHOULD** bring support to requests submitted through standard
+<span style="color:#233c68;">&#x24D5;</span> The Community behind each FIWARE Generic Enabler (owner, other
+contributors) **SHOULD** bring support to requests submitted through standard
 [FIWARE Help Desk channel](mailto:fiware-tech-help@lists.fiware.org) and QA testings executed by QA Lab team.
 
 The following assessments will be conducted:
 
 -   Assessment on support, to be performed by automated monitoring tools defined by the FIWARE Foundation.
--   Assessment on functionality, (software and documentation), non-functional requirements, etc. to be performed by the FIWARE
-    QA Lab team.
+-   Assessment on functionality, (software and documentation), non-functional requirements, etc. to be performed by the
+    FIWARE QA Lab team.
 
 Results of these assessments lead to the assignment of a QA label based on
 [FIWARE QA labeling schema](https://www.fiware.org/wp-content/uploads/2016/10/QA_public_document.pdf). QA labels of a
-given FIWARE Generic Enabler will always be associated to a minor release of FIWARE. In the event of not meeting the minimal QA
-requirements:
+given FIWARE Generic Enabler will always be associated to a minor release of FIWARE. In the event of not meeting the
+minimal QA requirements:
 
 -   **Yellow card** reprimand will be issued when overall QA label is **B** or lower.
 -   **Red card** reprimand when overall QA label is **C** or lower or keeps being **B** in two consecutive minor
@@ -213,15 +216,15 @@ As an example see the following [release note](https://github.com/telefonicaid/f
 Periodically the FIWARE Foundation will annouce a catalogue release, every time there is a FIWARE Release:
 
 <span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enabler owners **MUST** tag the FIWARE Generic Enabler
-release pertaining to such FIWARE Release with `FIWARE_<major>.<minor>`. Please note that this imply that certain
-FIWARE Generic Enabler releases could be double tagged. The referred tag will be intended to mark clearly that such
-FIWARE Generic Enabler Release is part of and compatible with the corresponding FIWARE Release. Docker images or other
+release pertaining to such FIWARE Release with `FIWARE_<major>.<minor>`. Please note that this imply that certain FIWARE
+Generic Enabler releases could be double tagged. The referred tag will be intended to mark clearly that such FIWARE
+Generic Enabler Release is part of and compatible with the corresponding FIWARE Release. Docker images or other
 associated artefacts **MUST** also be properly tagged with the referred FIWARE tag.
 
 "Compatibility" with a release means compatibility with the FIWARE Context Broker in that release, i.e. the FIWARE
 Generic Enabler owner commits to do the relevant functional and integration testing. This also implies that breaking
-changes within the FIWARE Context Broker should be scheduled and announced beforehand (i.e. roadmapped) to give
-FIWARE Generic Enablers a chance to catch up.
+changes within the FIWARE Context Broker should be scheduled and announced beforehand (i.e. roadmapped) to give FIWARE
+Generic Enablers a chance to catch up.
 
 A "FIWARE Release" shall contain versioned releases of all FIWARE Generic Enablers found within the
 [catalogue](https://www.fiware.org/developers/catalogue/). All FIWARE Generic Enablers pertaining to a FIWARE Release
@@ -231,11 +234,10 @@ seamlessly with the version of [FIWARE Scorpio](https://github.com/ScorpioBroker
 [FIWARE Orion-LD](https://github.com/FIWARE/context.Orion-LD), and/or
 [FIWARE Incubated Stellio](https://github.com/stellio-hub/stellio-context-broker).
 
-
 The following rules apply for numbering FIWARE Releases:
 
--   Major release number: to be increased by decision at TSC level, typically linked with a major achievement
-    (e.g., support to NGSI-LD).
+-   Major release number: to be increased by decision at TSC level, typically linked with a major achievement (e.g.,
+    support to NGSI-LD).
 -   Minor release number: to be incremented with relevant milestones agreed at TSC level. Milestones will be usually
     aligned with the celebration of FIWARE Summits. Additional releases can be added if strictly needed and agreed at
     TSC level.
@@ -249,9 +251,9 @@ A FIWARE Generic Enabler **MUST** describe its planned roadmap. A link to the ro
 <span style="color:#233c68;">&#x24D5;</span> For describing a FIWARE Generic Enabler roadmap the following template
 **MUST** be used: [GE_roadmap_template.md](GE_roadmap_template.md).
 
-<span style="color:#233c68;">&#x24D5;</span> Representatives of the FIWARE Generic Enabler community **MUST** attend
-F2F roadmap meetings to take place at FIWARE Summits (not overlapping with agenda, day or day and a half before the
-Summit or after the Congress part).
+<span style="color:#233c68;">&#x24D5;</span> Representatives of the FIWARE Generic Enabler community **MUST** attend F2F
+roadmap meetings to take place at FIWARE Summits (not overlapping with agenda, day or day and a half before the Summit
+or after the Congress part).
 
 The page on the FIWARE site in which it is described the overall work is the
 [FIWARE Roadmap](https://github.com/FIWARE/catalogue/blob/master/roadmap.md).

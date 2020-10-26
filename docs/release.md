@@ -8,8 +8,8 @@ with roadmap milestones. Even at the most frequent, releases are not expected to
 
 ## Release Prerequisites
 
-Additional FIWARE Generic Enabler development for each release cycle should close by the beginning of the month - ideally this should mean
-that all code the development team wishes to include in the FIWARE release has been:
+Additional FIWARE Generic Enabler development for each release cycle should close by the beginning of the month -
+ideally this should mean that all code the development team wishes to include in the FIWARE release has been:
 
 -   Written.
 -   Tested (both functional and integration tests).
@@ -38,8 +38,8 @@ month.
     -   Where no tags are found, the latest hash will be proposed.
 -   On this basis all FIWARE Generic Enabler Owners should immediately either:
     -   Double tag their **existing** approved release version in their GitHub repository with `FIWARE_<major>.<minor>`.
-    -   Send an eMail to FIWARE Foundation staff requesting a time extension and propose a new version number for inclusion in the
-        release.
+    -   Send an eMail to FIWARE Foundation staff requesting a time extension and propose a new version number for
+        inclusion in the release.
 
 #### Week 2
 
@@ -53,8 +53,8 @@ month.
 Where any further adjustments have been requested, they must be completed within **three days** of the **second** TSC
 meeting of the month - i.e. **Day 11**. - for example:
 
--   For new entrants, the [Minimal Checklist](GE_Checklist.md#new-generic-enablers) for new FIWARE Generic Enablers 
-    to be completed.
+-   For new entrants, the [Minimal Checklist](GE_Checklist.md#new-generic-enablers) for new FIWARE Generic Enablers to
+    be completed.
 -   For all FIWARE Generic Enablers, any missing **GitHub** release tags a new version number added.
 -   Any other alterations to the codebase completed.
 

@@ -26,9 +26,9 @@ The development lifecycle of a FIWARE Generic Enabler **SHOULD** be as follows:
     prone to conflicts.
 
 2.  Once you have divided the work in parts, the implementation of each part **SHOULD** be done in a **different
-    branch** that you will use later to _Pull Request_ to the FIWARE Generic Enabler Repository. One recommended 
-    practice is that you _fork_ the original repository to your GitHub account and develop the feature in your own 
-    branch (which will belong to your own repository). Later, you will make a Pull Request from that branch to the 
+    branch** that you will use later to _Pull Request_ to the FIWARE Generic Enabler Repository. One recommended
+    practice is that you _fork_ the original repository to your GitHub account and develop the feature in your own
+    branch (which will belong to your own repository). Later, you will make a Pull Request from that branch to the
     FIWARE Generic Enabler repository. See [branching model](http://nvie.com/posts/a-successful-git-branching-model).
 
 3.  The Pull Request **SHOULD** include not only the feature's source code but **unit or integration tests** together

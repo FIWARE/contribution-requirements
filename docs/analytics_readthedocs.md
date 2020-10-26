@@ -62,8 +62,8 @@ used but we will use the Tracking ID directly. **Annotate the Tracking ID** beca
 
 From the property section, you simply should select **User Management** on the left menu. Once in the User Management
 section, you can add the `fiware.eu@gmail.com` filling the information as can be seen in the image below. Then simply
-click on **Add**. Ensure that the email address is correct, all permissions are provided and the option
-**Notify this user by email** is checked.
+click on **Add**. Ensure that the email address is correct, all permissions are provided and the option **Notify this
+user by email** is checked.
 
 ![](img/User_managment.png)
 
@@ -85,4 +85,4 @@ An example for the Tourguide should be:
 You can follow as example the docs.Tourguide configuration file
 (`https://github.com/Fiware/docs.TourGuide/blob/master/mkdocs.yml`)
 
-> **_NOTE:_**  You should push the changes to your repository in order to start tracking your documentation.
+> **_NOTE:_** You should push the changes to your repository in order to start tracking your documentation.

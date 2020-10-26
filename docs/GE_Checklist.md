@@ -21,7 +21,8 @@ and accepted into an existing Chapter.
 <span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** show how it integrates within the overall
 FIWARE Architecture.
 
-<span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** sign-up to the harmonized [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
+<span style="color:#233c68;">&#x24D5;</span> A New Generic Enabler **MUST** sign-up to the harmonized
+[Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#repo_public">&#x24D2;</a>
 The codebase **MUST** be available on [GitHub](https://github.com).
@@ -101,7 +102,8 @@ acceptance with the co-operation of the FIWARE Staff and the team behind the con
 -   New entry in the [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) under the corresponding Chapter
     agreed at TSC Level. See also
     [Working with the FIWARE catalogue](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue).
--   Mirroring GitHub Webhook properly configured. See [webhooks](repo_webhook.md) (Ask FIWARE Foundation to configure the mirroring).
+-   Mirroring GitHub Webhook properly configured. See [webhooks](repo_webhook.md) (Ask FIWARE Foundation to configure
+    the mirroring).
 -   **Read the Docs** project available and styled using the FIWARE CSS and Chapter CSS. See
     [fiware-orion.readthedocs.org](https://fiware-orion.readthedocs.io) as an example.
 -   Automatic documentation generation **MUST** be configured. See
@@ -150,8 +152,8 @@ marked <span style="color:#233c68;">&#x24D5;</span> or <span style="color:red">&
 
 -   A Stack Overflow tag for the component is registered (Ask FIWARE Foundation Staff)
 -   Where it is suitable to provide a global instance of a service, a public instance may be deployed in the FIWARE
-    Foundation infrastructure and maintained by the team in collaboration with the FIWARE Foundation team
-    (Ask FIWARE Foundation Staff).
+    Foundation infrastructure and maintained by the team in collaboration with the FIWARE Foundation team (Ask FIWARE
+    Foundation Staff).
 -   A tour guide entry is provided - see
     [fiwaretourguide.readthedocs.io](https://fiwaretourguide.readthedocs.io/en/latest/iot-agents/introduction/).
 -   A tutorial is provided (See some examples at
