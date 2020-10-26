@@ -30,21 +30,16 @@ of the many tutorials available on the internet.
 
 ## Summary of MUST Requirements
 
--   Every FIWARE Generic Enabler must sign-up to the
+-   Every Generic Enabler **MUST** comply with the [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
+
+-   Every Generic Enabler **MUST** comply with all requirements under [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
+
+-   Every Generic Enabler must sign-up to the
     [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
-
--   Every FIWARE Generic Enabler must sign-up to the harmonized
-    [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
-
--   All the [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements) are **MUST**
-    requirements.
-
--   The steps described by the
-    [Generic Enabler Checklist](https://fiware-requirements.readthedocs.io/en/latest/GE_Checklist) **MUST** be followed.
 
 -   GitHub and GitHub Issue tracking **MUST** be used.
 
--   Accurate, current Documentation **MUST** be available on `Read the Docs` and as GitHub content:
+-   Accurate, current Documentation **MUST** be available on Read the Docs and as GitHub content.
 
     -   To guarantee that documentation is of high quality, development related **documents** MUST be **peer-reviewed
         and QA verified**. See

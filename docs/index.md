@@ -5,26 +5,32 @@
 This guide is describes the requirements to be fulfilled by any FIWARE Generic Enabler (GE) as well as the recommended
 practices for its development.
 
+## Summary of MUST Requirements
+
+<span/>
+
 -   Every Generic Enabler must sign-up to the
     [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
 
--   Every FIWARE Generic Enabler must sign-up to the harmonized
-    [Entity Contributor License Agreement](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
+-   Every Generic Enabler **MUST** comply with the [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
 
--   All the [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements) are **MUST**
-    requirements.
-
--   The steps described by the
-    [Generic Enabler Checklist](https://fiware-requirements.readthedocs.io/en/latest/GE_Checklist) **MUST** be followed.
+-   Every Generic Enabler **MUST** comply with all requirements under [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
 
 -   GitHub and GitHub Issue tracking **MUST** be used.
 
 -   Accurate, current Documentation **MUST** be available on Read the Docs and as GitHub content.
 
-The requirements are divided into General, Development, Docker and Badging/CSS Requirements. All requirements from the
-FIWARE Foundation are marked <span style="color:#233c68;">&#x24D5;</span>. CII Best Practice Requirements are marked
+## Checklist Structure
+
+The FIWARE Contribution requirements are divided into:
+
+-   [License and IPR requirement](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management) which **MUST** be fulfilled
+-   [General requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements), which **MUST** be fulfilled.
+-   [Badging/CSS Requirements](https://fiware-requirements.readthedocs.io/en/latest/project_badges) which **MUST** be fulfilled (displaying relevant badges),
+-   [Development requirements](https://fiware-requirements.readthedocs.io/en/latest/development), including **MUST**, **SHOULD** and **MAY** requirements,
+-   [Docker requirements](https://fiware-requirements.readthedocs.io/en/latest/docker), including **MUST**, **SHOULD** and **MAY** requirements
+
+All requirements from the FIWARE Foundation are marked <span style="color:#233c68;">&#x24D5;</span>. CII Best Practice Requirements are marked
 <span style="color:red">&#x24D2;</span>. A series of Appendices hold more details where necessary.
 
-The
-[Summary of Must Requirements](https://github.com/fiware/contribution-requirements/blob/master/README.md#summary-of-must-requirements)
-provides further information.
+A checkpoint list summarizing all **MUST** requirements is provided by convenience, to ease identification of requirements to be fulfilled by Incubated FIWARE Generic Enablers to become graduated FIWARE Generic Enablers.
