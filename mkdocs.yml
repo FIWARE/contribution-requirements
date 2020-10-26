@@ -11,11 +11,12 @@ extra_css: ["https://www.fiware.org/style/fiware_readthedocs.css", "https://www.
 google_analytics: ['UA-84866051-2', 'fiware-requirements.readthedocs.io']
 pages:
   - Home: index.md
-  - 'Membership Checklists': GE_Checklist.md
-  - 'General Requirements': GE_Requirements.md
-  - 'Development Requirements': development.md
-  - 'Docker Requirements': docker.md
-  - 'Badge & CSS Requirements': project_badges.md
+  - 'Membership Levels': GE_Checklist.md
+  - Requirement Checklists:
+    - 'General Requirements': GE_Requirements.md
+    - 'Development Requirements': development.md
+    - 'Docker Requirements': docker.md
+    - 'Badge & CSS Requirements': project_badges.md
   - Appendices:
     - 'Appendix A: External Contributions': external_contributions.md
     - 'Appendix B: Training Courses': learning_materials.md
