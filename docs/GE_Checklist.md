@@ -1,7 +1,9 @@
 ## Membership Level Checklists
 
 This section defines how to apply to become a FIWARE Generic Enabler, the role of Incubated Generic Enablers and how to
-transition to full membership as a FIWARE GE.
+transition to full membership as a FIWARE Generic Enabler.
+
+A checkpoint list summarizing all **MUST** requirements at each level is provided by convenience, to ease identification of the necessary minimum requirements to be fulfilled by Incubated FIWARE Generic Enablers to graduate to full member status.
 
 ### New Generic Enabler
 

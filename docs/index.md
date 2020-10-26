@@ -32,5 +32,3 @@ The FIWARE Contribution requirements are divided into:
 
 All requirements from the FIWARE Foundation are marked <span style="color:#233c68;">&#x24D5;</span>. CII Best Practice Requirements are marked
 <span style="color:red">&#x24D2;</span>. A series of Appendices hold more details where necessary.
-
-A checkpoint list summarizing all **MUST** requirements is provided by convenience, to ease identification of requirements to be fulfilled by Incubated FIWARE Generic Enablers to become graduated FIWARE Generic Enablers.
