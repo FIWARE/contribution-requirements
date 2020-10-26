@@ -1,4 +1,4 @@
-## Requirements Checklist
+## Membership Checklists
 
 This section defines how to apply to become a FIWARE Generic Enabler, the role of Incubated Generic Enablers and how to
 transition to full membership as a FIWARE GE.
@@ -33,17 +33,19 @@ The GitHub repository **MUST** include an appropriate Open Source License - see
 
 <span style="color:#233c68;">&#x24D5;</span> For functional readiness at a minimum, a new incubated enabler **MUST** be
 able to be instantiated directly in a running state by any competent developer without the need to refer to other
-dependent technologies - for example:
+dependent technologies
 
--   [Keyrock](https://fiware-idm.readthedocs.io/en/latest/) relies on MySQL, but a working MySQL can be easily
-    instantiated by Docker and minimal data is seeded by Keyrock - the database volume can be persisted. Knowledge of
-    SQL is unnecessary for use.
--   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a dependency on MongoDB - the volumes are exposed
-    so that the data will be persisted if the Docker container goes down. Alternatively an IoT Agent can be memory
-    based, but all configuration can be set up using a config file or Docker params and then data injected by HTTP
-    requests. An understanding of MongoDB is unnecessary to get it to work.
--   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana and Crate-DB - appropriate set-up and docker
-    compose are available in the Quick Start. Quantum Leap can be used without in depth knowledge of Crate-DB.
+> For example:
+>
+> -   [Keyrock](https://fiware-idm.readthedocs.io/en/latest/) relies on MySQL, but a working MySQL can be easily
+>    instantiated by Docker and minimal data is seeded by Keyrock - the database volume can be persisted. Knowledge of
+>    SQL is unnecessary for use.
+> -   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a dependency on MongoDB - the volumes are exposed
+>    so that the data will be persisted if the Docker container goes down. Alternatively an IoT Agent can be memory
+>    based, but all configuration can be set up using a config file or Docker params and then data injected by HTTP
+>    requests. An understanding of MongoDB is unnecessary to get it to work.
+> -   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana and Crate-DB - appropriate set-up and docker
+>    compose are available in the Quick Start. Quantum Leap can be used without in depth knowledge of Crate-DB.
 
 <span style="color:#233c68;">&#x24D5;</span> For all webservice components, a
 [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be available within the code-base.
@@ -65,7 +67,7 @@ instantiations, additional manual set-up **MUST** not be required.
 <span style="color:#233c68;">&#x24D5;</span> There **MUST** be a commitment that the team behind the product will follow
 through with completing the remaining Incubated requirements within a reasonable time frame.
 
-#### Submission Checklist
+<h4>Submission Checklist</h4>
 
 > **Note:** A formal application must be made using the attached
 > [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)
@@ -141,7 +143,7 @@ progress on issues will eventually result in the enabler being quarantined or be
 the FIWARE ecosystem, and statistics showing a credible level of adoption and community support **MUST** be presented to
 the TSC.
 
-#### Ongoing Commitment
+<h4>Ongoing Commitment</h4>
 
 Having achieved full membership, this is the expected standard for membership going onward. All the requirements for
 marked <span style="color:#233c68;">&#x24D5;</span> or <span style="color:red">&#x24D2;</span> **MUST** be met.
