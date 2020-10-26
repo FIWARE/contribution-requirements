@@ -94,7 +94,7 @@ The public **backlog organization** for _Welcome Contributions_ **SHOULD** be as
         the task.
 
 *   Repositories which are open to contributions GitHub **SHOULD** comply with the GitHub recommended community
-    standards checklist by having a `CONTRIBUTING.MD` - see the associated
+    standards checklist by having a `CONTRIBUTING.md` - see the associated
     [Git Hub Article](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
 
 *   Repositories which are open to contributions GitHub **MAY** require a pull request template - see associated

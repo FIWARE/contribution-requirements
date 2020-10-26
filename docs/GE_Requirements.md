@@ -29,11 +29,11 @@ Every enabler **MUST** be open to third party contributions. All offered contrib
 "reasonable" timeframe.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1?criteria_level=1#dco">&#x24D2;</a>
-There **MUST** be a document (`CONTRIBUTIONS` guidelines) clearly describing the terms under which the IPR of
+There **MUST** be a document (`CONTRIBUTING.md` guidelines) clearly describing the terms under which the IPR of
 contributions to the source code of the product will be managed. Such document **MUST** be made accessible in (or map
 to) a first-level section of the `README.md` file included in the associated GitHub repositories.
 
-<span style="color:#233c68;">&#x24D5;</span> The `CONTRIBUTIONS` guidelines **MUST** include the template of the
+<span style="color:#233c68;">&#x24D5;</span> The `CONTRIBUTING.md` guidelines **MUST** include the template of the
 Contribution License Agreement for individuals and entities contributing code to the component. As a reference for
 producing these templates, the following templates derived from the Harmony Agreements project are provided:
 
