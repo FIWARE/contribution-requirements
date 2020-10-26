@@ -33,14 +33,14 @@ Every enabler **MUST** be open to third party contributions. All offered contrib
 the source code of the product will be managed. Such document **MUST** be made accessible in (or map to) a first-level
 section of the `README.md` file included in the associated GitHub repositories.
 
-The `CONTRIBUTIONS` guidelines **MUST** include the template of the Contribution License Agreement for individuals and entities contributing code to the component.  As a reference for producing these templates, the following templates derived from the Harmony Agreements project are provided:
+<span style="color:#233c68;">&#x24D5;</span> The `CONTRIBUTIONS` guidelines **MUST** include the template of the Contribution License Agreement for individuals and entities contributing code to the component.  As a reference for producing these templates, the following templates derived from the Harmony Agreements project are provided:
 
 -  [Individual CLA](https://fiware.github.io/contribution-requirements/individual-cla.pdf)
 -  [Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf)
 
 In any case the provided templates **MUST** align with clauses 2.1, 2.2 and 2.3 of the recommended templates above.
 
-When using a copyleft open source license, IPR Management rules for contributions **MUST** include clauses as follows:
+<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, IPR Management rules for contributions **MUST** include clauses as follows:
 
 -   There should be at least one organization which can exercise IPRs on the whole software.
 -   There is a commitment to transfer to the FIWARE Foundation the IPRs on the whole software in case that the software
