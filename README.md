@@ -23,7 +23,7 @@ There are three kinds of requirements included:
 -   **MAY** requirements. They are currently nice to have, but are expected to be a sign of further good development
     process as the tools around them mature in the future.
 
-The Guide assumes that the reader knows the basics of [GitHub](https://github.com), [Travis](https://travis-ci.org/),
+The Guide assumes that the reader knows the basics of [GitHub](https://github.com), [GitHub Actions](https://github.com/features/actions),
 [test driven development](https://en.wikipedia.org/wiki/Test-driven_development) and
 [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration). If that is not the case please read one
 of the many tutorials available on the internet.
