@@ -12,7 +12,7 @@ The following requirements govern the development lifecycle:
     reviewer, and after a reasonable time for feedback no further comments have been received, the approved Pull Request
     should be landed as-is.
 -   Pull Request approval **MUST** be issued by a third party. Nobody can auto-merge their contributions.
--   Before merging an open Pull Request Travis status **MUST** be green.
+-   Before merging an open Pull Request CI status **MUST** be green.
 
 ## Development Lifecycle
 
