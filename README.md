@@ -1,4 +1,4 @@
-# FIWARE Platform Contribution Requirements
+# Platform Contribution Requirements<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left"> 
 
 [![FIWARE Documentation](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/documentation.svg)](https://fiware-requirements.readthedocs.io)
 [![License: CC-BY-4.0](https://img.shields.io/github/license/fiware/developmentGuidelines.svg)](https://creativecommons.org/licenses/by/4.0/)
