@@ -26,7 +26,7 @@ opinion **MUST** be added in the section where the open source license is mentio
 
 The legal opinion paragraph above is aimed at giving users confidence they can use FIWARE components even if they have been licensed 
 under a copyleft license without this requiring that their applications have to be released as open source. Incorporation of this
-paragraph is valid for this purpose as per the report produced by Across Legal/Id law partners (see 
+paragraph is valid for this purpose as per the report produced by Across Legal/ID law partners (see 
 [summary report](https://fiware.github.io/contribution-requirements/opinion-summary.pdf)). 
 
 <span style="color:#233c68;">&#x24D5;</span> The legal opinion paragraph above **SHOULD** be accompanying the text describing the 
