@@ -17,12 +17,20 @@ The source code of the product MUST be licensed under
 The open source license under which source code of the product is licensed **MUST** be clearly mentioned in a
 first-level section of the `README.md` file included in the main GitHub repository.
 
-<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, the following paragraph **MUST**
-be added in the section where the open source license is mentioned:
+<span style="color:#233c68;">&#x24D5;</span> When using a copyleft open source license, the following explanatory paragraph of legal 
+opinion **MUST** be added in the section where the open source license is mentioned:
 
 > Please note that software derived as a result of modifying the source code of the <name-of-product> software in order
 > to fix a bug or incorporate enhancements IS considered a derivative work of the product. Software that merely uses or
 > aggregates (i.e. links to) an otherwise unmodified version of existing software IS NOT considered a derivative work.
+
+The legal opinion paragraph above is aimed at giving users confidence they can use FIWARE components even if they have been licensed 
+under a copyleft license without this requiring that their applications have to be released as open source. Incorporation of this
+paragraph is valid for this purpose as per the report produced by Across Legal/Id law partners (see 
+[summary report](https://fiware.github.io/contribution-requirements/opinion-summary.pdf)). 
+
+<span style="color:#233c68;">&#x24D5;</span> The legal opinion paragraph above **SHOULD** be accompanying the text describing the 
+adopted open source license in the headers of all source code files for the product. 
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#enhancement_responses">&#x24D2;</a>
 Every enabler **MUST** be open to third party contributions. All offered contributions **MUST** be reviewed within a
