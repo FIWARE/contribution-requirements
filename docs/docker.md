@@ -60,7 +60,7 @@ This is good practice to reduce the size of the layers. Although the names of th
 - `init` - Gather Sources
 - `builder` - Build Sources
 - `distroless` - “Distroless” Build  (where supported)
-- `node-slim`  etc. - where a build stage aligns to a Docker [offical Image](https://docs.docker.com/docker-hub/official_images/) use that as the name of the stage.
+- `node-slim`  etc. - where a build stage aligns to a Docker [official Image](https://docs.docker.com/docker-hub/official_images/) use that as the name of the stage.
 
 Note that the main supported distro build must be the last one in the file as it will be the default.
 
