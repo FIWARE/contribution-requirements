@@ -84,7 +84,7 @@ The following names for build arguments are recommended and **MAY** be used:
 -  `PACKAGE_MANAGER` - name of package manager to use `yum`, `apt`, `apk` etc.
 -  `<NODE>_VERSION` - Supported Version ( plus equivalents for Python, Java etc.)
 - `GITHUB_ACCOUNT` - GE Owner account on GitHub
-- `GITHUB_REPOSITORY` - Repo on GitHub
+- `GITHUB_REPOSITORY` - Name of the source code repository on GitHub
 - `DOWNLOAD` - e.g. by GitHash or tag version
 - `SOURCE_BRANCH` - e.g. `master`
 
