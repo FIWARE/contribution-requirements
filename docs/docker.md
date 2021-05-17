@@ -3,7 +3,7 @@
 This page summarizes Requirements for providing Docker Containers for FIWARE Generic Enablers.
 [Click here](https://docs.docker.com/engine/understanding-docker/) for an introduction to Docker.
 
-## General Requirements
+### General Requirements
 
 <span style="color:#233c68;">&#x24D5;</span> At least one Dockerfile (hereby named as 'reference Dockerfile'), intended
 to FIWARE Generic Enabler users, **MUST** be provided.
@@ -31,18 +31,68 @@ folder of the GE repository.
 etc.) you **MUST** provide a `docker-compose.yml` file that will allow to instantiate the GE together with its
 dependencies.
 
-<span style="color:#233c68;">&#x24D5;</span> There **MUST** be a docker-hub specific README for the docker image
+<span style="color:#233c68;">&#x24D5;</span> The GitHub repository `README.md` **MUST** have a Docker reference - this
+is a link on the mandatory Docker Pulls `README.md` badge.
+
+<span style="color:#233c68;">&#x24D5;</span> The **Read the Docs** Installation Documentation **MUST** include
+references to the Docker Hub image, and how to configure it
+
+### Building Docker Images
+
+<span style="color:#233c68;">&#x24D5;</span> There **MUST** be a Docker Hub specific `README` for the docker image
 documentation. This lies in the same directory as the `Dockerfile` and **SHOULD not** be a copy of the root GitHub
 `README.md` since the required information is not the same.
-
-<span style="color:#233c68;">&#x24D5;</span> The Docker `README.md` **MUST** give complete instructions about how to
-work with the corresponding Docker container. Please bear in mind that such a `README.md` will also be included as part
-of the Dockerhub documentation.
 
 <span style="color:#233c68;">&#x24D5;</span> The Docker `README.md` **MUST** list or link to the documentation holding
 all available `ENV` variables that can be supplied to the Docker Image and a reasonable definition of each of them.
 
-<span style="color:#233c68;">&#x24D5;</span> If the Docker file hides sensitive information (e.g. passwords) using
+<span style="color:#233c68;">&#x24D5;</span> The Docker `README.md` **MUST** give complete instructions about how to
+work with the corresponding Docker container. Please bear in mind that a copy of this `README.md` should also be included documentation directly on Dockerhub .
+
+<span style="color:#233c68;">&#x24D5;</span> Where configuration occurs via a `config` file, and the image cannot be
+driven by `ENV` variables, a sample `config` file **SHOULD** be supplied and injected as part of the Docker build.
+Reference Dockerfiles **SHOULD NOT** `COPY .` default configuration directly from GitHub.
+
+<span style="color:#233c68;">&#x24D5;</span> The reference Dockerfile **SHOULD** be split into Multiple Stages:
+
+This is good practice to reduce the size of the layers. Although the names of the stages are not that important it is easier to align with a common naming convention. The following common names for build stages are recommended and **MAY** be used:
+
+- `init` - Gather Sources
+- `builder` - Build Sources
+- `distroless` - “Distroless” Build  (where supported)
+- `node-slim`  etc. - where a build stage aligns to a Docker [official Image](https://docs.docker.com/docker-hub/official_images/) use that as the name of the stage.
+
+Note that the main supported distro build must be the last one in the file as it will be the default.
+
+<span style="color:#233c68;">&#x24D5;</span> Flexible base images **SHOULD** be supported using [build-args](https://vsupalov.com/docker-arg-env-variable-guide/), an example can be seen below:
+
+```bash
+docker build -t rhel-build  \
+  --build-arg DISTRO=registry.access.redhat.com/ubi7/nodejs-12 \
+  --build-arg NODE_VERSION=12 \
+  --build-arg BUILDER=registry.access.redhat.com/ubi7/ubi \
+  --build-arg PACKAGE_MANAGER=yum \
+  --no-cache \
+  .
+```
+
+The following names for build arguments are recommended and **MAY** be used:
+
+-  `BUILDER` -  baseline Docker image for creating sources
+-  `DISTRO` - baseline Docker image for default build
+-  `DISTROLESS` - baseline Docker image for “distroless” build
+-  `PACKAGE_MANAGER` - name of package manager to use `yum`, `apt`, `apk` etc.
+-  `<NODE>_VERSION` - Supported Version ( plus equivalents for Python, Java etc.)
+- `GITHUB_ACCOUNT` - GE Owner account on GitHub
+- `GITHUB_REPOSITORY` - Name of the source code repository on GitHub
+- `DOWNLOAD` - e.g. by GitHash or tag version
+- `SOURCE_BRANCH` - e.g. `master`
+
+<span style="color:#233c68;">&#x24D5;</span> Where flexible base images are available, the `README` **MUST** state how to build them and which build options are officially supported by the GE Owner.
+
+### Running Docker Images
+
+<span style="color:#233c68;">&#x24D5;</span> If the reference Dockerfile hides sensitive information (e.g. passwords) using
 Docker Secrets, the `README.md` **MUST** list all available `ENV` variables which have an equivalent `_FILE` that can be
 supplied by secrets.
 
@@ -55,17 +105,7 @@ alone.
 entirely through - `ENV` variables. Where this is not possible, the `README.md` **SHOULD** explain how to mount a volume
 to set the configuration.
 
-<span style="color:#233c68;">&#x24D5;</span> Where configuration occurs via a `config` file, and the image cannot be
-driven by `ENV` variables, a sample `config` file **SHOULD** be supplied and injected as part of the Docker build.
-Dockerfiles **SHOULD NOT** copy default configuration directly from GitHub.
-
-<span style="color:#233c68;">&#x24D5;</span> The GitHub repository `README.md` **MUST** have a Docker reference - this
-is a link on the mandatory Docker Pulls `README.md` badge.
-
-<span style="color:#233c68;">&#x24D5;</span> The **Read the Docs** Installation Documentation **MUST** include
-references to the Docker Hub image, and how to configure it.
-
-## Publication Requirements
+### Publication Requirements
 
 <span style="color:#233c68;">&#x24D5;</span> The FIWARE Generic Enabler owner will be responsible for Docker publication
 and maintenance operations. Docker builds **SHOULD** be automated. FIWARE Generic Enabler Owner's build should be
@@ -86,13 +126,13 @@ whenever a release version is tagged.
 [SemVer](https://semver.org/) release on the source code will be required in order to complete the release. This will
 kick off the FIWARE build. Obviously, it is essential that such a build passes the mandatory integration tests.
 
-## Recommended best practices
+### Recommended best practices
 
 <span style="color:#233c68;">&#x24D5;</span> Dockerfiles **SHOULD** follow best practices as described
 [here](https://docs.docker.com/articles/dockerfile_best-practices/)
 
 <span style="color:#233c68;">&#x24D5;</span> Dockerfiles **SHOULD** be based on the latest LTS (Long Term Support)
-release of the base image - e.g. `ubuntu:20.04`, `node:carbon`, etc.
+release of the base image - e.g. `ubuntu:20.04`, `node:14`, etc.
 
 <span style="color:#233c68;">&#x24D5;</span> Although default values **SHOULD** be defined, exposed ports **MUST NOT**
 be fixed, and **MUST** be configurable using `ENV` variables.
