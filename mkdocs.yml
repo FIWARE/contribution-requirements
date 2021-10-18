@@ -25,5 +25,6 @@ pages:
     - 'Appendix E: Development Lifecycle': lifecycle.md
     - 'Appendix F: Templates': GE_roadmap_template.md
     - 'Appendix G: Analytics': analytics_readthedocs.md
+    - 'Appendix H: Containerization': docker_templates.md
 
   
