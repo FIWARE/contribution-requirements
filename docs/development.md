@@ -44,17 +44,17 @@ Before landing new code, the continuous integration system **MAY** be run in a t
 Request and the destination branch. Nonetheless, in the event of continuous integration **errors** the (offending) code
 **MUST** be **backed out** or a fix **SHOULD** be provided urgently. Use git revert for the former.
 
-[GitHub Actions](https://github.com/features/actions) **MAY** be your **continuous integration system** as it is super-easy to integrate
-it with GitHub. Jenkins is another popular tool which has the advantage of being able to run on different Operating
-Systems.
+[GitHub Actions](https://github.com/features/actions) **MAY** be your **continuous integration system** as it is
+super-easy to integrate it with GitHub. Jenkins is another popular tool which has the advantage of being able to run on
+different Operating Systems.
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_most">&#x24D2;</a>
 Unit tests coverage **MAY** be provided using open source tools like [coveralls](https://coveralls.io/). See an example
 in [Wirecloud](https://github.com/Wirecloud/wirecloud)
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test">&#x24D2;</a> You
-**MUST** include **GitHub Action CI badges** (or other **CI** badges) in your `README.md` file. CI badges can be used to report the
-current status of your build, (it **SHOULD** be green!).
+**MUST** include **GitHub Action CI badges** (or other **CI** badges) in your `README.md` file. CI badges can be used to
+report the current status of your build, (it **SHOULD** be green!).
 
 <a style="color:red!important" href="https://bestpractices.coreinfrastructure.org/en/projects/1#test_policy">&#x24D2;</a>
 As new functionality is added to the software, tests of that functionality **MUST** be added.

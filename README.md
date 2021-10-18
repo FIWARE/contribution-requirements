@@ -1,4 +1,4 @@
-# Platform Contribution Requirements<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left"> 
+# Platform Contribution Requirements<img src="https://fiware.github.io//catalogue/img/fiware-black.png" width="145" align="left">
 
 [![FIWARE Documentation](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/documentation.svg)](https://fiware-requirements.readthedocs.io)
 [![License: CC-BY-4.0](https://img.shields.io/github/license/fiware/developmentGuidelines.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -12,7 +12,6 @@ as well as the recommended practices for its development.
 | :inbox_tray: &nbsp; [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1) | <img src="https://www.fiware.org/wp-content/uploads/2017/11/favicon-1.png" height="20px" width="20px"/> [FIWARE Catalogue](https://www.fiware.org/developers/catalogue/) | :octocat: [GitHub Repository](https://github.com/FIWARE/catalogue) | :books: [Documentation](https://fiware-requirements.readthedocs.io) | :handshake: &nbsp;[Entity CLA](https://fiware.github.io/contribution-requirements/entity-cla.pdf) |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
-
 There are three kinds of requirements included:
 
 -   **MUST** requirements. They are mandatory and your GE project must conform to that.
@@ -23,16 +22,19 @@ There are three kinds of requirements included:
 -   **MAY** requirements. They are currently nice to have, but are expected to be a sign of further good development
     process as the tools around them mature in the future.
 
-The Guide assumes that the reader knows the basics of [GitHub](https://github.com), [GitHub Actions](https://github.com/features/actions),
+The Guide assumes that the reader knows the basics of [GitHub](https://github.com),
+[GitHub Actions](https://github.com/features/actions),
 [test driven development](https://en.wikipedia.org/wiki/Test-driven_development) and
 [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration). If that is not the case please read one
 of the many tutorials available on the internet.
 
 ## Summary of MUST Requirements
 
--   Every Generic Enabler **MUST** comply with the [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
+-   Every Generic Enabler **MUST** comply with the
+    [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
 
--   Every Generic Enabler **MUST** comply with all requirements under [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
+-   Every Generic Enabler **MUST** comply with all requirements under
+    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
 
 -   Every Generic Enabler must sign-up to the
     [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.

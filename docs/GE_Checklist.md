@@ -3,7 +3,9 @@
 This section defines how to apply to become a FIWARE Generic Enabler, the role of Incubated Generic Enablers and how to
 transition to full membership as a FIWARE Generic Enabler.
 
-A checkpoint list summarizing all **MUST** requirements at each level is provided by convenience, to ease identification of the necessary minimum requirements to be fulfilled by Incubated FIWARE Generic Enablers to graduate to full member status.
+A checkpoint list summarizing all **MUST** requirements at each level is provided by convenience, to ease identification
+of the necessary minimum requirements to be fulfilled by Incubated FIWARE Generic Enablers to graduate to full member
+status.
 
 ### New Generic Enabler
 
@@ -40,14 +42,14 @@ dependent technologies
 > For example:
 >
 > -   [Keyrock](https://fiware-idm.readthedocs.io/en/latest/) relies on MySQL, but a working MySQL can be easily
->    instantiated by Docker and minimal data is seeded by Keyrock - the database volume can be persisted. Knowledge of
->    SQL is unnecessary for use.
-> -   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a dependency on MongoDB - the volumes are exposed
->    so that the data will be persisted if the Docker container goes down. Alternatively an IoT Agent can be memory
->    based, but all configuration can be set up using a config file or Docker params and then data injected by HTTP
->    requests. An understanding of MongoDB is unnecessary to get it to work.
+>     instantiated by Docker and minimal data is seeded by Keyrock - the database volume can be persisted. Knowledge of
+>     SQL is unnecessary for use.
+> -   An [IoT Agent](https://iotagent-node-lib.readthedocs.io/) can have a dependency on MongoDB - the volumes are
+>     exposed so that the data will be persisted if the Docker container goes down. Alternatively an IoT Agent can be
+>     memory based, but all configuration can be set up using a config file or Docker params and then data injected by
+>     HTTP requests. An understanding of MongoDB is unnecessary to get it to work.
 > -   [QuantumLeap](https://quantumleap.readthedocs.io/) works with Grafana and Crate-DB - appropriate set-up and docker
->    compose are available in the Quick Start. Quantum Leap can be used without in depth knowledge of Crate-DB.
+>     compose are available in the Quick Start. Quantum Leap can be used without in depth knowledge of Crate-DB.
 
 <span style="color:#233c68;">&#x24D5;</span> For all webservice components, a
 [Dockerfile](https://docs.docker.com/engine/reference/builder/) **MUST** be available within the code-base.
