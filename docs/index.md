@@ -10,7 +10,7 @@ practices for its development.
 <span/>
 
 -   Every Generic Enabler must sign-up to the
-    [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
+    [OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
 
 -   Every Generic Enabler **MUST** comply with the
     [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
