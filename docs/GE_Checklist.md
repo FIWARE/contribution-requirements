@@ -140,7 +140,7 @@ progress on issues will eventually result in the enabler being quarantined or be
 <span style="color:#233c68;">&#x24D5;</span> All of the FIWARE "**MUST**" requirements (marked
 <span style="color:#233c68;">&#x24D5;</span> ) **MUST** be fulfilled before the incubation period is complete.
 
-<span style="color:red">&#x24D2;</span> The CII Best Practices Badge **MUST** be displayed
+<span style="color:red">&#x24D2;</span> The OpenSSF Best Practices Badge **MUST** be displayed
 [![.](https://bestpractices.coreinfrastructure.org/projects/24/badge)](#) and passing.
 
 <span style="color:#233c68;">&#x24D5;</span> The enabler should have demonstrated that it fulfills a real need within

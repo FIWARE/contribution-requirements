@@ -3,7 +3,7 @@
 <span style="color:#233c68;">&#x24D5;</span> GitHub repositories `README.md` **MUST** include the following badges at
 the very beginning of the document:
 
--   FIWARE Chapter, FLOSS License, CII Best Practices Badge, Documentation, FIWARE Generic Enabler Status.
+-   FIWARE Chapter, FLOSS License, OpenSSF Best Practices Badge, Documentation, FIWARE Generic Enabler Status.
 -   Docker Pulls (where applicable).
 
 <span style="color:#233c68;">&#x24D5;</span> GitHub repositories `README.md` **SHOULD** list either of the following

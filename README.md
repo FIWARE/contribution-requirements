@@ -37,7 +37,7 @@ of the many tutorials available on the internet.
     [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
 
 -   Every Generic Enabler must sign-up to the
-    [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
+    [OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
 
 -   GitHub and GitHub Issue tracking **MUST** be used.
 
