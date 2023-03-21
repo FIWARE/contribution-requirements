@@ -13,10 +13,10 @@ practices for its development.
     [OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
 
 -   Every Generic Enabler **MUST** comply with the
-    [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
+    [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html#licensing-and-ipr-management)
 
 -   Every Generic Enabler **MUST** comply with all requirements under
-    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
+    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html).
 
 -   GitHub and GitHub Issue tracking **MUST** be used.
 
@@ -26,15 +26,15 @@ practices for its development.
 
 The FIWARE Contribution requirements are divided into:
 
--   [License and IPR requirement](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
+-   [License and IPR requirement](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html#licensing-and-ipr-management)
     which **MUST** be fulfilled
--   [General requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements), which **MUST** be
+-   [General requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html), which **MUST** be
     fulfilled.
--   [Badging/CSS Requirements](https://fiware-requirements.readthedocs.io/en/latest/project_badges) which **MUST** be
+-   [Badging/CSS Requirements](https://fiware-requirements.readthedocs.io/en/latest/project_badges.html) which **MUST** be
     fulfilled (displaying relevant badges),
--   [Development requirements](https://fiware-requirements.readthedocs.io/en/latest/development), including **MUST**,
+-   [Development requirements](https://fiware-requirements.readthedocs.io/en/latest/development.html), including **MUST**,
     **SHOULD** and **MAY** requirements,
--   [Docker requirements](https://fiware-requirements.readthedocs.io/en/latest/docker), including **MUST**, **SHOULD**
+-   [Docker requirements](https://fiware-requirements.readthedocs.io/en/latest/docker.html), including **MUST**, **SHOULD**
     and **MAY** requirements
 
 All requirements from the FIWARE Foundation are marked <span style="color:#233c68;">&#x24D5;</span>. CII Best Practice
