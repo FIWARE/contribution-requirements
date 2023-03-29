@@ -31,10 +31,10 @@ of the many tutorials available on the internet.
 ## Summary of MUST Requirements
 
 -   Every Generic Enabler **MUST** comply with the
-    [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements/#licensing-and-ipr-management)
+    [Licensing and IPR Management requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html#licensing-and-ipr-management)
 
 -   Every Generic Enabler **MUST** comply with all requirements under
-    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements).
+    [General Requirements](https://fiware-requirements.readthedocs.io/en/latest/GE_Requirements.html).
 
 -   Every Generic Enabler must sign-up to the
     [OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en/signup) and display the badge.
@@ -45,7 +45,7 @@ of the many tutorials available on the internet.
 
     -   To guarantee that documentation is of high quality, development related **documents** MUST be **peer-reviewed
         and QA verified**. See
-        [Documentation Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development/index.html#documentation)
+        [Documentation Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development.html#documentation)
         for the best documentation practices.
 
     -   Should you want to benefit from automatic documentation generation systems, namely,
