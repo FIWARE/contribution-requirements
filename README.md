@@ -61,11 +61,11 @@ of the many tutorials available on the internet.
 
 ## Development Requirements
 
-See [Development Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development).
+See [Development Guidelines](https://fiware-requirements.readthedocs.io/en/latest/development.html).
 
 ## External Contributions
 
-See [External Contributions Guidelines](https://fiware-requirements.readthedocs.io/en/latest/external_contributions).
+See [External Contributions Guidelines](https://fiware-requirements.readthedocs.io/en/latest/external_contributions.html).
 
 ## Support
 
