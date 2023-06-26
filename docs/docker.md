@@ -137,7 +137,7 @@ immediately.
 <span style="color:#233c68;">&#x24D5;</span> Maintenance and release of interim point releases **MUST** be done using
 the FIWARE Generic Enabler Owner own contributor account.
 
-<span style="color:#233c68;">&#x24D5;</span> A bash script **MUST** be added so that under `.github/fiware/image=clone.sh` so that the FIWARE Infrastructure is informed
+<span style="color:#233c68;">&#x24D5;</span> A bash script **MUST** be added so that under `.github/fiware/image-clone.sh` so that the FIWARE Infrastructure is informed
 whenever a release version is tagged.
 
 ```
