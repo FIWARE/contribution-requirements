@@ -138,8 +138,8 @@ Code, this implies:
 
 ### Developer Oriented Documentation (**Read the Docs**)
 
-The name of the **project** on **Read the Docs** **SHOULD** match the Stack Overflow tag and Docker image name, e.g.
-`fiware-orion` => `https://hub.docker.com/r/fiware/orion` => `https://fiware-orion.rtfd.io`.
+The name of the **project** on **Read the Docs** **SHOULD** match the Stack Overflow tag and container image name, e.g.
+`fiware-orion` => `https://quay.io/repository/fiware/orion` => `https://fiware-orion.rtfd.io`.
 
 Admin access to each **Read the Docs** documentation project **MUST** be granted to multiple accounts. This **SHOULD**
 include the current owner of the enabler, and **MAY** also be granted the `fiware` user account - this avoids lock-out
@@ -181,7 +181,7 @@ Docs** sidebar.
 
 <span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enablers **SHOULD** be configurable through a `config` file.
 
-<span style="color:#233c68;">&#x24D5;</span> Docker images for the FIWARE Generic Enablers **SHOULD** be configurable
+<span style="color:#233c68;">&#x24D5;</span> Container images for the FIWARE Generic Enablers **SHOULD** be configurable
 through `ENV` variables. Where this is not possible or desirable, the `README.md` **MUST** explain how to mount a volume
 to set the configuration.
 
@@ -219,7 +219,7 @@ becomes stale, therefore it is a good approach deleting those branches to preven
 
 ## Binary Releases
 
-<span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enablers **MUST** provide Docker containers according to
+<span style="color:#233c68;">&#x24D5;</span> FIWARE Generic Enablers **MUST** provide  container images according to
 [Docker Guidelines](docker.md).
 
 ## Additional Repository Content
