@@ -74,7 +74,7 @@ through with completing the remaining Incubated requirements within a reasonable
 <h4>Submission Checklist</h4>
 
 > **Note:** A formal application must be made using the attached
-> [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSdp_QkAG8p5XJK-WDB1xPNY9e4VCvNEJyxwugBvMI6uSPe3fA/viewform?c=0&w=1)
+> [Application Form](https://www.fiware.org/catalogue/submit-your-software/)
 
 The following information **MUST** be submitted to FF Staff:
 
