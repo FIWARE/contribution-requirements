@@ -7,7 +7,8 @@ site_dir: html
 markdown_extensions: [toc,fenced_code]
 use_directory_urls: false
 theme: readthedocs
-extra_css: ["https://www.fiware.org/style/fiware_readthedocs.css", "https://www.fiware.org/style/fiware_readthedocs_neutral.css"]
+# extra_css: ["https://www.fiware.org/style/fiware_readthedocs.css", "https://www.fiware.org/style/fiware_readthedocs_neutral.css"]
+extra_css: ["https://fiware.github.io/catalogue/style/fiware_readthedocs.css", "https://fiware.github.io/catalogue/style/fiware_readthedocs_neutral.css"]
 google_analytics: ['UA-84866051-2', 'fiware-requirements.readthedocs.io']
 nav:
   - Home: index.md
